@@ -29,9 +29,9 @@ NICHT geprueft:
 
 ## Offene Punkte
 - Adressen der acht Halter/Beguenstigten sind nicht festgelegt; Multisig empfohlen, Adressen werden nicht erfunden.
-- Sperren gemaess Beschluss: sieben Kategorien je in einer OperatorVesting-Instanz (Betreiber 1.200.000 SKELO: Cliff 12, linear 48 Monate). Die Vertraege sind getestet (40 EVM-Schritte, lokale Generalprobe), aber nicht deployed und nicht auditiert.
+- Sperren gemaess Beschluss: acht Kategorien je in einer OperatorVesting-Instanz (Betreiber 1.200.000 SKELO: Cliff 12, linear 48 Monate). Die Vertraege sind getestet (40 EVM-Schritte, lokale Generalprobe), aber nicht deployed und nicht auditiert.
 - EIP-2612 (permit) ist nicht enthalten; die Entscheidung ist offen. Da der Token unveraenderlich ist, kann es spaeter nicht nachgeruestet werden.
 - Es gibt keine Rettungsfunktion fuer versehentlich gesendete Token. Verteilungsadressen werden daher vor dem Deployment mehrfach geprueft und in einem Testnet-Probelauf erprobt (geplant).
 
 ## Ausblick DEX (nur geplant)
-Eine spaetere Anbindung an eine dezentrale Boerse (DEX) ist geplant, nicht beschlossen und nicht umgesetzt. Voraussetzungen sind unter anderem eine Mainnet-Freigabe, ein externes Audit, die rechtliche Klaerung und eine Entscheidung ueber die Liquiditaetsreserve (1.240.000 SKELO, zurueckgehalten, kein Pool ohne Freigabe). Derzeit gibt es keinen Handelspool und keine Handelbarkeit.
+Eine spaetere Anbindung an eine dezentrale Boerse (DEX) ist geplant, nicht beschlossen und nicht umgesetzt. Voraussetzungen sind unter anderem eine Mainnet-Freigabe, ein externes Audit, die rechtliche Klaerung und eine Entscheidung ueber die Liquiditaetsreserve (50.000 SKELO, zurueckgehalten, kein Pool ohne Freigabe). Derzeit gibt es keinen Handelspool und keine Handelbarkeit.

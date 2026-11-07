@@ -15,7 +15,7 @@
 <li>Keine Ausgabe, kein Verkauf, keine Handelbarkeit (kein DEX-Pool, keine Börsenlistung).</li>
 </ul>
 <h2>Beschlossene Verteilung</h2>
-<p>Die Verteilung ist beschlossen (Buergermeister Skello, <code>docs/TOKENOMICS_BESCHLUSS.md</code>, <code>deploy/distribution.json</code>): Betreiber 1.200.000, Stadtkasse 2.000.000, Marketing 500.000, Weiterentwicklung 1.500.000, KI-Agenten/Praemien 800.000, Reserve 2.000.000, Community/Inselwirtschaft 760.000, Liquiditaetsreserve 1.240.000 (zurueckgehalten, kein Pool) (Summe exakt 10.000.000). Sieben Kategorien sind je in einer OperatorVesting-Instanz gesperrt vorgesehen, die Liquiditaetsreserve ist im Vertrag ungesperrt.</p>
+<p>Die Verteilung ist beschlossen und mit dem Presale-Modell neu bewertet (Buergermeister Skello auf Vorschlag von David, <code>docs/TOKENOMICS_BESCHLUSS.md</code>, <code>docs/PRESALE_MODELL.md</code>, <code>deploy/distribution.json</code>): Betreiberanteil 1.200.000, Stadtkasse 2.000.000, Marketing 500.000, Weiterentwicklung 1.500.000, KI-Agenten und Leistungspraemien 800.000, Langfristige Reserve 3.183.450, Community und Inselwirtschaft 760.000, Liquiditaetsreserve 50.000, Zuteilung an Grundstueckskaeufer (Presale-Modell, vorgeschlagen) 6.550 (Summe exakt 10.000.000). Acht Kategorien sind je in einer OperatorVesting-Instanz gesperrt vorgesehen; nur die Zuteilung an Grundstueckskaeufer liegt (bis zu einem noch zu bauenden Anspruchsvertrag) in einem Halter ohne Sperre.</p>
 <h2>Geplant / Offen (nicht umgesetzt)</h2>
 <p>Diese Punkte sind offene Entscheidungen des Betreibers:</p>
 <p>1. <b>Verteilungsadressen</b> (8 Halter/Beguenstigte) sind nicht festgelegt. Fuer alle ist eine Multisig vorgesehen; sie werden nicht erfunden.</p>
@@ -96,9 +96,34 @@
 <h2>Offene Punkte</h2>
 <ul>
 <li>Adressen der acht Halter/Beguenstigten sind nicht festgelegt; Multisig empfohlen, Adressen werden nicht erfunden.</li>
-<li>Sperren gemaess Beschluss: sieben Kategorien je in einer OperatorVesting-Instanz (Betreiber 1.200.000 SKELO: Cliff 12, linear 48 Monate). Die Vertraege sind getestet (40 EVM-Schritte, lokale Generalprobe), aber nicht deployed und nicht auditiert.</li>
+<li>Sperren gemaess Beschluss: acht Kategorien je in einer OperatorVesting-Instanz (Betreiber 1.200.000 SKELO: Cliff 12, linear 48 Monate). Die Vertraege sind getestet (40 EVM-Schritte, lokale Generalprobe), aber nicht deployed und nicht auditiert.</li>
 <li>EIP-2612 (permit) ist nicht enthalten; die Entscheidung ist offen. Da der Token unveraenderlich ist, kann es spaeter nicht nachgeruestet werden.</li>
 <li>Es gibt keine Rettungsfunktion fuer versehentlich gesendete Token. Verteilungsadressen werden daher vor dem Deployment mehrfach geprueft und in einem Testnet-Probelauf erprobt (geplant).</li>
 </ul>
 <h2>Ausblick DEX (nur geplant)</h2>
-<p>Eine spaetere Anbindung an eine dezentrale Boerse (DEX) ist geplant, nicht beschlossen und nicht umgesetzt. Voraussetzungen sind unter anderem eine Mainnet-Freigabe, ein externes Audit, die rechtliche Klaerung und eine Entscheidung ueber die Liquiditaetsreserve (1.240.000 SKELO, zurueckgehalten, kein Pool ohne Freigabe). Derzeit gibt es keinen Handelspool und keine Handelbarkeit.</p><h2>Entwicklungsstand (aus den Werkzeugberichten)</h2><table><tr><th>Pruefung</th><th>Ergebnis</th></tr><tr><td>Compiler</td><td>solc 0.8.28, reproduzierbarer Build</td></tr><tr><td>SkeloToken Bytecode SHA-256</td><td><code>be4134ecfa6dbe204a273d9745abc895183540cdf13a905ecbfd5cf038075047</code></td></tr><tr><td>OperatorVesting Bytecode SHA-256</td><td><code>93f57ec3c34713410ef2f32fcf44a3fbcdc2c25193ba52d5195288a08295fe1c</code></td></tr><tr><td>EVM-Tests SkeloToken</td><td>25 von 25 Schritten bestanden</td></tr><tr><td>EVM-Tests Vesting-Entwurf</td><td>40 von 40 Schritten bestanden</td></tr><tr><td>Statische Mustersuche</td><td>0 offene Befunde (kein Audit)</td></tr><tr><td>Unabhaengiges Audit</td><td>nicht durchgefuehrt</td></tr><tr><td>Mainnet</td><td>nicht erfolgt, gesperrt</td></tr></table><h2>Testnet-Adressen</h2><p>Noch kein Testnet-Deployment. Sobald eines erfolgt, stehen die Adressen hier und sind in einem Block-Explorer pruefbar.</p><h2>Quellcode</h2><p>Quelltext: <code>https://github.com/artavares79-hash/skelo-token</code></p><h2>Offen</h2><ul><li>Verteilungsadressen (Multisig), Vesting-Parameter, Entscheidung zu EIP-2612 permit</li><li>Unabhaengiges Audit</li><li>Rechtliche Klaerung (MiCA, Steuer)</li><li>Spaetere DEX-Anbindung nur nach Freigabe und Pruefung</li></ul><p style="color:var(--mut)">Automatisch aus den Berichten von SKELO Blockchain Labs erzeugt.</p></main></body></html>
+<p>Eine spaetere Anbindung an eine dezentrale Boerse (DEX) ist geplant, nicht beschlossen und nicht umgesetzt. Voraussetzungen sind unter anderem eine Mainnet-Freigabe, ein externes Audit, die rechtliche Klaerung und eine Entscheidung ueber die Liquiditaetsreserve (50.000 SKELO, zurueckgehalten, kein Pool ohne Freigabe). Derzeit gibt es keinen Handelspool und keine Handelbarkeit.</p>
+<h2>Grundstueckskauf und SKELO-Zuteilung (vorgeschlagenes Modell)</h2>
+<p><b>Stand: Vorschlag. Es gibt keinen Verkauf, keine Zuteilung und keine Handelbarkeit. Nichts davon ist freigegeben; die rechtliche Pruefung steht aus.</b></p>
+<h2>Idee</h2>
+<ul>
+<li>Grundstueck bzw. Haus (digitales Nutzungsrecht, Bezahlung in USDC auf Base) und eine moegliche SKELO-Zuteilung sind zwei verschiedene Leistungen.</li>
+<li>Die Zuteilung richtet sich nach dem USDC-Kaufpreis und dem Referenzpreis der jeweiligen Phase. In spaeteren Phasen steigt der Referenzpreis; fuer denselben Kaufpreis gibt es dann weniger SKELO.</li>
+<li>Der Referenzpreis ist ein Zuteilungsmassstab, kein Marktpreis und keine Zusicherung eines spaeteren Kurses. Die Zuteilung ist kein garantierter Geldwert.</li>
+</ul>
+<h2>Phasen (Vorschlag)</h2>
+<p>| Phase | Referenzpreis | Kontingent (SKELO) | Bonus (% des Kaufpreises) |</p>
+<p>|---|---:|---:|---:|</p>
+<p>| Phase 1 Fruehkaeufer | 0.020 USDC | 4.000 | 20 % |</p>
+<p>| Phase 2 | 0.030 USDC | 2.000 | 15 % |</p>
+<p>| Phase 3 | 0.045 USDC | 450 | 10 % |</p>
+<p>| Phase 4 Abschluss | 0.065 USDC | 100 | 5 % |</p>
+<p>Grenze je Wallet: 1.000 SKELO. Freigabe der Zuteilung erst nach dem Tokenstart und gemaess Vesting je Phase (<code>docs/PRESALE_MODELL.md</code>).</p>
+<h2>Einnahmen und Liquiditaet</h2>
+<ul>
+<li>Erwartete Verkaeufe gelten nicht als vorhandenes Kapital. Nur bestaetigte echte Einnahmen zaehlen.</li>
+<li>Ein Teil bestaetigter Einnahmen kann fuer eine spaetere Liquiditaet vorgemerkt werden; ein Pool braucht echte Mittel und ist nicht beschlossen.</li>
+</ul>
+<h2>Nicht umgesetzt</h2>
+<ul>
+<li>Kein Kauf ist freigegeben, keine Tokens wurden zugeteilt, kein Pool besteht. Noch offen sind vor einem echten Start die Freigaben des Betreibers, die rechtliche Pruefung (MiCA, Verbraucherschutz, Steuer), ein Audit und die Mainnet-Entscheidung.</li>
+</ul><h2>Entwicklungsstand (aus den Werkzeugberichten)</h2><table><tr><th>Pruefung</th><th>Ergebnis</th></tr><tr><td>Compiler</td><td>solc 0.8.28, reproduzierbarer Build</td></tr><tr><td>SkeloToken Bytecode SHA-256</td><td><code>be4134ecfa6dbe204a273d9745abc895183540cdf13a905ecbfd5cf038075047</code></td></tr><tr><td>OperatorVesting Bytecode SHA-256</td><td><code>93f57ec3c34713410ef2f32fcf44a3fbcdc2c25193ba52d5195288a08295fe1c</code></td></tr><tr><td>EVM-Tests SkeloToken</td><td>25 von 25 Schritten bestanden</td></tr><tr><td>EVM-Tests Vesting-Entwurf</td><td>40 von 40 Schritten bestanden</td></tr><tr><td>Statische Mustersuche</td><td>0 offene Befunde (kein Audit)</td></tr><tr><td>Unabhaengiges Audit</td><td>nicht durchgefuehrt</td></tr><tr><td>Mainnet</td><td>nicht erfolgt, gesperrt</td></tr></table><h2>Testnet-Adressen</h2><p>Noch kein Testnet-Deployment. Sobald eines erfolgt, stehen die Adressen hier und sind in einem Block-Explorer pruefbar.</p><h2>Quellcode</h2><p>Quelltext: <code>https://github.com/artavares79-hash/skelo-token</code></p><h2>Offen</h2><ul><li>Verteilungsadressen (Multisig), Vesting-Parameter, Entscheidung zu EIP-2612 permit</li><li>Unabhaengiges Audit</li><li>Rechtliche Klaerung (MiCA, Steuer)</li><li>Spaetere DEX-Anbindung nur nach Freigabe und Pruefung</li></ul><p style="color:var(--mut)">Automatisch aus den Berichten von SKELO Blockchain Labs erzeugt.</p></main></body></html>

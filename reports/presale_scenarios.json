@@ -1,0 +1,185 @@
+{
+ "je_kaufpreis": [
+  {
+   "kaufpreis_usdc": 12.17,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kauf": 121.7,
+     "kaeufe_bis_ausverkauft": 33,
+     "usdc_bis_ausverkauft": 401.61
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kauf": 60.85,
+     "kaeufe_bis_ausverkauft": 33,
+     "usdc_bis_ausverkauft": 401.61
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kauf": 27.044444444444444,
+     "kaeufe_bis_ausverkauft": 17,
+     "usdc_bis_ausverkauft": 206.89
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kauf": 9.361538461538462,
+     "kaeufe_bis_ausverkauft": 11,
+     "usdc_bis_ausverkauft": 133.87
+    }
+   ],
+   "kaeufe_gesamt": 94,
+   "usdc_gesamt": 1143.98
+  },
+  {
+   "kaufpreis_usdc": 18.82,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kauf": 188.2,
+     "kaeufe_bis_ausverkauft": 22,
+     "usdc_bis_ausverkauft": 414.04
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kauf": 94.1,
+     "kaeufe_bis_ausverkauft": 22,
+     "usdc_bis_ausverkauft": 414.04
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kauf": 41.82222222222222,
+     "kaeufe_bis_ausverkauft": 11,
+     "usdc_bis_ausverkauft": 207.02
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kauf": 14.476923076923077,
+     "kaeufe_bis_ausverkauft": 7,
+     "usdc_bis_ausverkauft": 131.74
+    }
+   ],
+   "kaeufe_gesamt": 62,
+   "usdc_gesamt": 1166.84
+  },
+  {
+   "kaufpreis_usdc": 50,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kauf": 500.0,
+     "kaeufe_bis_ausverkauft": 8,
+     "usdc_bis_ausverkauft": 400.0
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kauf": 250.0,
+     "kaeufe_bis_ausverkauft": 8,
+     "usdc_bis_ausverkauft": 400.0
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kauf": 111.11111111111111,
+     "kaeufe_bis_ausverkauft": 5,
+     "usdc_bis_ausverkauft": 250.0
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kauf": 38.46153846153846,
+     "kaeufe_bis_ausverkauft": 3,
+     "usdc_bis_ausverkauft": 150.0
+    }
+   ],
+   "kaeufe_gesamt": 24,
+   "usdc_gesamt": 1200.0
+  },
+  {
+   "kaufpreis_usdc": 100,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kauf": 1000.0,
+     "kaeufe_bis_ausverkauft": 4,
+     "usdc_bis_ausverkauft": 400.0
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kauf": 500.0,
+     "kaeufe_bis_ausverkauft": 4,
+     "usdc_bis_ausverkauft": 400.0
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kauf": 222.22222222222223,
+     "kaeufe_bis_ausverkauft": 3,
+     "usdc_bis_ausverkauft": 300.0
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kauf": 76.92307692307692,
+     "kaeufe_bis_ausverkauft": 2,
+     "usdc_bis_ausverkauft": 200.0
+    }
+   ],
+   "kaeufe_gesamt": 13,
+   "usdc_gesamt": 1300.0
+  },
+  {
+   "kaufpreis_usdc": 500,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kauf": 5000.0,
+     "kaeufe_bis_ausverkauft": 1,
+     "usdc_bis_ausverkauft": 500.0
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kauf": 2500.0,
+     "kaeufe_bis_ausverkauft": 1,
+     "usdc_bis_ausverkauft": 500.0
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kauf": 1111.111111111111,
+     "kaeufe_bis_ausverkauft": 1,
+     "usdc_bis_ausverkauft": 500.0
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kauf": 384.61538461538464,
+     "kaeufe_bis_ausverkauft": 1,
+     "usdc_bis_ausverkauft": 500.0
+    }
+   ],
+   "kaeufe_gesamt": 4,
+   "usdc_gesamt": 2000.0
+  }
+ ],
+ "reales_inventar": {
+  "verkaufbares_inventar_usdc": 374.8,
+  "phasen_bei_vollstaendigem_verkauf_in_reihenfolge": [
+   {
+    "phase": "p1",
+    "usdc_noetig_fuer_ausverkauf": 400.0,
+    "skelo_ausgeschoepft_prozent": 93.7
+   },
+   {
+    "phase": "p2",
+    "usdc_noetig_fuer_ausverkauf": 400.0,
+    "skelo_ausgeschoepft_prozent": 0.0
+   },
+   {
+    "phase": "p3",
+    "usdc_noetig_fuer_ausverkauf": 202.5,
+    "skelo_ausgeschoepft_prozent": 0.0
+   },
+   {
+    "phase": "p4",
+    "usdc_noetig_fuer_ausverkauf": 130.0,
+    "skelo_ausgeschoepft_prozent": 0.0
+   }
+  ],
+  "hinweis": "Alle freien Grundstuecke zum Listenpreis in Phase 1 begonnen, danach Phase 2 usw. Ist das Inventar kleiner als der USDC-Bedarf der Phase, bleibt Kontingent ungenutzt."
+ }
+}

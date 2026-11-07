@@ -19,7 +19,7 @@ Erstellt von Clara Mendes (Blockchain Architect) aus dem Quelltext und der kompi
 - [x] Verteilung laut Stadtregister summiert sich zur Gesamtmenge - 10.000.000 von 10.000.000
 
 ## Offene Architekturentscheidungen
-- Verteilungsadressen (7 Konten) sind NICHT festgelegt; die Stadtkasse sollte eine Multisig sein.
-- Vesting: gemaess Beschluss je gesperrter Kategorie eine OperatorVesting-Instanz (Betreiber 1.200.000 SKELO); Begünstigte (Multisig) sind nicht festgelegt.
+- Verteilungsadressen (alle Halter/Beguenstigten) sind NICHT festgelegt und werden nicht erfunden; Multisig empfohlen.
+- Vesting: je gesperrter Kategorie eine OperatorVesting-Instanz (Beschluss); Beguenstigte (Multisig) nicht festgelegt.
 - Kein EIP-2612 (permit): Entscheidung offen, nicht Teil der Spezifikation.
 - Basis-Chain-Parameter (Mainnet 8453) sind nur dokumentiert; es wurde nichts deployed.

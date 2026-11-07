@@ -79,8 +79,8 @@
   }
  ],
  "open_decisions": [
-  "Verteilungsadressen (7 Konten) sind NICHT festgelegt; die Stadtkasse sollte eine Multisig sein.",
-  "Vesting: je gesperrter Kategorie eine OperatorVesting-Instanz (Beschluss); Begünstigte (Multisig) nicht festgelegt.",
+  "Verteilungsadressen (alle Halter/Beguenstigten) sind NICHT festgelegt und werden nicht erfunden; Multisig empfohlen.",
+  "Vesting: je gesperrter Kategorie eine OperatorVesting-Instanz (Beschluss); Beguenstigte (Multisig) nicht festgelegt.",
   "Kein EIP-2612 (permit): Entscheidung offen, nicht Teil der Spezifikation.",
   "Basis-Chain-Parameter (Mainnet 8453) sind nur dokumentiert; es wurde nichts deployed."
  ]

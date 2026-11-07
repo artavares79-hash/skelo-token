@@ -12,31 +12,38 @@
   },
   "marketing": {
    "type": "linear",
-   "cliff_months": 0,
+   "cliff_months": 3,
    "duration_months": 24
   },
   "entwicklung": {
    "type": "linear",
-   "cliff_months": 3,
-   "duration_months": 24
-  },
-  "agenten_praemien": {
-   "type": "linear",
    "cliff_months": 6,
    "duration_months": 36
   },
+  "agenten_praemien": {
+   "type": "linear",
+   "cliff_months": 0,
+   "duration_months": 24
+  },
   "reserve": {
    "type": "linear",
-   "cliff_months": 24,
-   "duration_months": 60
+   "cliff_months": 12,
+   "duration_months": 48
   },
   "community_insel": {
    "type": "linear",
-   "cliff_months": 0,
-   "duration_months": 12
+   "cliff_months": 3,
+   "duration_months": 24
   },
   "dex_liquiditaet": {
-   "type": "none"
+   "type": "linear",
+   "cliff_months": 0,
+   "duration_months": 6
+  },
+  "presale_kaeufer": {
+   "type": "linear",
+   "cliff_months": 0,
+   "duration_months": 1
   }
  },
  "_hinweis": "VORLAGE: Adressen sind bewusst Platzhalter. Nicht deployen, bevor der Betreiber echte Adressen eintraegt.",
@@ -48,7 +55,8 @@
   "<ADRESSE agenten_praemien>",
   "<ADRESSE reserve>",
   "<ADRESSE community_insel>",
-  "<ADRESSE dex_liquiditaet>"
+  "<ADRESSE dex_liquiditaet>",
+  "<ADRESSE presale_kaeufer>"
  ],
  "wholeAmounts": [
   1200000,
@@ -56,9 +64,10 @@
   500000,
   1500000,
   800000,
-  2000000,
+  3183450,
   760000,
-  1240000
+  50000,
+  6550
  ],
  "sum": 10000000
 }

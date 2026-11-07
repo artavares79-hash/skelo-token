@@ -23,12 +23,13 @@ Gesamtmenge **10.000.000 SKELO**, beschlossen vom Buergermeister der Insel (Begr
 |---|---:|---:|---|
 | Betreiberanteil | 1.200.000 | 12.0 % | linear, Cliff 12 Mon., Dauer 48 Mon. |
 | Stadtkasse | 2.000.000 | 20.0 % | linear, Cliff 6 Mon., Dauer 36 Mon. |
-| Marketing | 500.000 | 5.0 % | linear, Cliff 0 Mon., Dauer 24 Mon. |
-| Weiterentwicklung | 1.500.000 | 15.0 % | linear, Cliff 3 Mon., Dauer 24 Mon. |
-| KI-Agenten und Leistungspraemien | 800.000 | 8.0 % | linear, Cliff 6 Mon., Dauer 36 Mon. |
-| Langfristige Reserve | 2.000.000 | 20.0 % | linear, Cliff 24 Mon., Dauer 60 Mon. |
-| Community und Inselwirtschaft | 760.000 | 7.6 % | linear, Cliff 0 Mon., Dauer 12 Mon. |
-| DEX-Liquiditaet | 1.240.000 | 12.4 % | keine im Vertrag |
+| Marketing | 500.000 | 5.0 % | linear, Cliff 3 Mon., Dauer 24 Mon. |
+| Weiterentwicklung | 1.500.000 | 15.0 % | linear, Cliff 6 Mon., Dauer 36 Mon. |
+| KI-Agenten und Leistungspraemien | 800.000 | 8.0 % | linear, Cliff 0 Mon., Dauer 24 Mon. |
+| Langfristige Reserve | 3.183.450 | 31.8 % | linear, Cliff 12 Mon., Dauer 48 Mon. |
+| Community und Inselwirtschaft | 760.000 | 7.6 % | linear, Cliff 3 Mon., Dauer 24 Mon. |
+| DEX-Liquiditaet | 50.000 | 0.5 % | linear, Cliff 0 Mon., Dauer 6 Mon. |
+| Presale-Zuteilung an Kaeufer | 6.550 | 0.1 % | linear, Cliff 0 Mon., Dauer 1 Mon. |
 
 Die Halter- und Beguenstigten-Adressen fuer ein spaeteres Mainnet sind **nicht festgelegt** und werden nicht erfunden (Multisig-Adressen des Betreibers noetig). Auf dem Testnet kommen gekennzeichnete Testadressen zum Einsatz.
 

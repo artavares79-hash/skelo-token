@@ -1,6 +1,6 @@
 {
- "decided_by": "Skello (Buergermeister), Modell claude-sonnet-5-5",
- "decided_at": 1794084232,
+ "decided_by": "Skello (Buergermeister) auf Grundlage des Vorschlags von David, Modell claude-sonnet-5-5",
+ "decided_at": 1794093264,
  "total_supply_whole": 10000000,
  "allocations": [
   {
@@ -13,7 +13,7 @@
     "cliff_months": 12,
     "duration_months": 48
    },
-   "begruendung": "12 % (1.200.000 SKELO). Elena: es gibt keine realisierten Einnahmen und keinen Marktpreis, daher ist dies Beteiligung am Aufbau, kein Gewinn. Vesting 12 Monate Cliff und 48 Monate linear, damit der Betreiber nichts sofort verkaufen kann. Risiken fürs Vertrauen: Der Betreiber ist zugleich Auftraggeber, Multisig-Festleger und Freigeber des DEX-Pools, also die größte Einzelinstanz. Der Vertrag hat keinen Widerruf (David), eine Fehlentscheidung ist nicht korrigierbar. Die Bewohner (20, davon 12 Gründer) müssen dem Betreiber vertrauen. Der Anteil ist bewusst der kleinste unter den großen Blöcken."
+   "begruendung": "Unveraendert zu v1. Der Betreiber traegt das Betreiberrisiko, 12 Monate Cliff und 48 Monate linear binden ihn an den langfristigen Erfolg der Stadt und verhindern frueheres Abstossen."
   },
   {
    "id": "stadtkasse",
@@ -25,7 +25,7 @@
     "cliff_months": 6,
     "duration_months": 36
    },
-   "begruendung": "20 % (2.000.000 SKELO). Elena: verfügbares USDC der Stadtkasse 0,00, die Einzahlung von 11,99 USDC ist vollständig zurückgezahlt. Geplante, noch nicht geöffnete Einnahmen: 26 freie Grundstücke (12,17 bis 18,82 USDC, Summe 374,80 USDC), Werbeflächen (0,50 und 0,75 USDC/Tag), 5 % Stadtgebühr, 3 % Vermittlung. Die Kasse braucht eine Grundausstattung für den Betrieb, aber 6 Monate Cliff und 36 Monate linear verhindern, dass sie vor realen Einnahmen ausgeschüttet wird."
+   "begruendung": "Unveraendert zu v1. Langfristiger Haushalt der Stadt in SKELO. Die Kasse hat 0 USDC, deshalb sind die Token kein Bargeld. 6 Monate Cliff und 36 Monate linear vermeiden Marktdruck."
   },
   {
    "id": "marketing",
@@ -34,10 +34,10 @@
    "share_pct": 5.0,
    "vesting": {
     "type": "linear",
-    "cliff_months": 0,
+    "cliff_months": 3,
     "duration_months": 24
    },
-   "begruendung": "5 % (500.000 SKELO). Basis sind die zwei Werbeflächen (ad_hafen 0,50 und ad_dorfplatz 0,75 USDC/Tag) und die 26 unverkauften Grundstücke, die Sichtbarkeit brauchen. Es gibt keine realisierten Einnahmen, deshalb ein kleiner Block. Linear über 24 Monate ohne Cliff erlaubt fortlaufende Kampagnen, ohne alles auf einmal freizugeben."
+   "begruendung": "Unveraendert zu v1. Mittel fuer Bekanntheit und Aktionen, gestreckt ueber 24 Monate nach 3 Monaten Cliff, damit Ausgaben an echte Ergebnisse gekoppelt bleiben."
   },
   {
    "id": "entwicklung",
@@ -46,10 +46,10 @@
    "share_pct": 15.0,
    "vesting": {
     "type": "linear",
-    "cliff_months": 3,
-    "duration_months": 24
+    "cliff_months": 6,
+    "duration_months": 36
    },
-   "begruendung": "15 % (1.500.000 SKELO). Elena: Gas, Hosting und ein unabhängiges Audit sind nicht budgetiert. David: Mainnet-Deployment kostet je nach Haltern rund 476.980 Gas bei 8 Haltern plus Vesting-Instanzen (1.477 Bytes Vesting-Code). Der Token ist unveränderlich, daher ist ein Audit vor dem Mainnet zwingend. 3 Monate Cliff und 24 Monate linear decken Audit, Betrieb und Weiterentwicklung."
+   "begruendung": "Unveraendert zu v1. Finanziert die technische Weiterentwicklung der Insel ueber drei Jahre. Der Cliff von 6 Monaten sichert Kontinuitaet und verhindert, dass Entwicklungsanteile frueh verkauft werden."
   },
   {
    "id": "agenten_praemien",
@@ -58,22 +58,22 @@
    "share_pct": 8.0,
    "vesting": {
     "type": "linear",
-    "cliff_months": 6,
-    "duration_months": 36
+    "cliff_months": 0,
+    "duration_months": 24
    },
-   "begruendung": "8 % (800.000 SKELO). Elena: bisher 12 Modellaufrufe mit 52.106 Eingabe- und 12.855 Ausgabe-Token, Testkosten 0,206561 USD; der KI-Aufwand ist klein und durch das Abo gedeckt. Daher kein großer Block. Meilensteinabhängiges Vesting ist laut David nicht möglich, deshalb 6 Monate Cliff und 36 Monate linear. Prämien sollen erst bei nachweisbarer Leistung vergeben werden, nicht automatisch."
+   "begruendung": "Unveraendert zu v1. Praemien fuer die Agenten der Stadt fliessen sofort linear ueber 24 Monate, damit laufende Leistung belohnt wird, ohne dass auf einmal grosse Mengen frei werden."
   },
   {
    "id": "reserve",
    "name": "Langfristige Reserve",
-   "amount_whole": 2000000,
-   "share_pct": 20.0,
+   "amount_whole": 3183450,
+   "share_pct": 31.8345,
    "vesting": {
     "type": "linear",
-    "cliff_months": 24,
-    "duration_months": 60
+    "cliff_months": 12,
+    "duration_months": 48
    },
-   "begruendung": "20 % (2.000.000 SKELO). Elena: Es gibt keine Einnahmen, keinen Marktpreis und offene Kosten (Audit, Gas). Die Reserve federt Unvorhergesehenes ab. David: Umverteilung nach Deployment ist unmöglich, daher lange Sperre: 24 Monate Cliff, 60 Monate linear. Sie ist der größte Block, damit Fehlplanungen nicht durch Neuprägung korrigiert werden müssten, die der Vertrag ausschließt."
+   "begruendung": "Erhoeht von 2.000.000 auf 3.183.450, weil der DEX-Anteil sinkt und P3/P4 verkleinert wurden. Lange Sperre (12/48) puffert Liquiditaetsbedarf und schuetzt Bewohner vor Ueberhang. Ausgabe nur per Multisig."
   },
   {
    "id": "community_insel",
@@ -82,20 +82,34 @@
    "share_pct": 7.6,
    "vesting": {
     "type": "linear",
-    "cliff_months": 0,
-    "duration_months": 12
+    "cliff_months": 3,
+    "duration_months": 24
    },
-   "begruendung": "7,6 % (760.000 SKELO), hergeleitet aus 20 Bewohnern x 25.000 = 500.000 Startausstattung plus 26 freien Grundstücken x 10.000 = 260.000 für die Inselwirtschaft. Bewohner: 12 Gründer und 8 Blockchain-Labs-Mitarbeiter. Linear über 12 Monate ohne Cliff, damit die Teilnahme sofort beginnt, aber nicht sofort abgestoßen wird. Der Wert ist offen, es gibt keinen Marktpreis."
+   "begruendung": "Unveraendert zu v1. Anteil fuer die Bewohner und Community-Aktionen. 3 Monate Cliff und 24 Monate linear sorgen fuer faire, planbare Verteilung statt einmaliger Ausschuettung."
   },
   {
    "id": "dex_liquiditaet",
    "name": "DEX-Liquiditaet",
-   "amount_whole": 1240000,
-   "share_pct": 12.4,
+   "amount_whole": 50000,
+   "share_pct": 0.5,
    "vesting": {
-    "type": "none"
+    "type": "linear",
+    "cliff_months": 0,
+    "duration_months": 6
    },
-   "begruendung": "12,4 % (1.240.000 SKELO), der Rest nach den sieben anderen Kategorien (8.760.000). David: Keine Handelssperre im Token, ein Pool entsteht nur durch bewusste Betreiber-/Multisig-Handlung mit Freigabe. Vesting ist hier nicht erforderlich. Elena: Es gibt keinen Preis, keine Liquidität und kein Quote-Kapital (Stadtkasse 0 USDC). Der Block ist nur eine Möglichkeit, kein Versprechen für einen Pool."
+   "begruendung": "Von 1.240.000 auf 50.000 gesenkt. Ein Pool kann nur so gross werden wie die echten, bestaetigten USDC (wenige hundert). 10.000 SKELO fuer den Start, Rest als Nachschuss. Vesting 6 Monate gegen Ueberhang."
+  },
+  {
+   "id": "presale_kaeufer",
+   "name": "Presale-Zuteilung an Grundstuecks- und Hauskaeufer",
+   "amount_whole": 6550,
+   "share_pct": 0.0655,
+   "vesting": {
+    "type": "linear",
+    "cliff_months": 0,
+    "duration_months": 1
+   },
+   "begruendung": "Summe der Phasenkontingente 4000+2000+450+100. Das phasenspezifische Vesting je Kaeufer ist on-chain mit OperatorVesting nicht abbildbar und braucht einen Presale-/Claim-Mechanismus. Nicht vergebene Menge wird nicht neu verteilt."
   }
  ],
  "months_seconds": 2592000,
@@ -139,7 +153,12 @@
   {
    "id": "dex_liquiditaet",
    "name": "DEX-Liquiditaet",
-   "braucht": "Multisig-Adresse als Halter (vom Betreiber festzulegen, NICHT erfunden)"
+   "braucht": "Vesting-Instanz mit Multisig als Beguenstigtem (vom Betreiber festzulegen, NICHT erfunden)"
+  },
+  {
+   "id": "presale_kaeufer",
+   "name": "Presale-Zuteilung an Grundstuecks- und Hauskaeufer",
+   "braucht": "Vesting-Instanz mit Multisig als Beguenstigtem (vom Betreiber festzulegen, NICHT erfunden)"
   }
  ]
 }

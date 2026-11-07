@@ -1,0 +1,68 @@
+{
+ "modell": "Bonus-Presale 4 Phasen, realistisch gedeckelt, Pool nur aus echten USDC",
+ "phases": [
+  {
+   "id": "p1",
+   "name": "Phase 1 Fruehkaeufer",
+   "price_micro_usdc": 20000,
+   "quota_skelo_whole": 4000,
+   "bonus_bps": 2000,
+   "vesting": {
+    "tge_bps": 2000,
+    "cliff_months": 3,
+    "duration_months": 12
+   },
+   "begruendung": "Referenzpreis 0,02 USDC. 4000 SKELO bei 20 % Bonus decken 400 USDC Kaufpreis. Hoechster Bonus fuer fruehes Risiko, laengstes Vesting gegen schnellen Verkauf. Die gesicherten 374,8 USDC fuellen sie zu 93,7 %. Kein Geldwertversprechen."
+  },
+  {
+   "id": "p2",
+   "name": "Phase 2",
+   "price_micro_usdc": 30000,
+   "quota_skelo_whole": 2000,
+   "bonus_bps": 1500,
+   "vesting": {
+    "tge_bps": 3000,
+    "cliff_months": 2,
+    "duration_months": 9
+   },
+   "begruendung": "Referenzpreis 0,03 USDC. 2000 SKELO bei 15 % Bonus decken 400 USDC. Braucht Hausverkaeufe, weil Grundstuecke allein nicht reichen. Bonus sinkt, Vesting wird kuerzer."
+  },
+  {
+   "id": "p3",
+   "name": "Phase 3",
+   "price_micro_usdc": 45000,
+   "quota_skelo_whole": 450,
+   "bonus_bps": 1000,
+   "vesting": {
+    "tge_bps": 5000,
+    "cliff_months": 1,
+    "duration_months": 6
+   },
+   "begruendung": "Referenzpreis 0,045 USDC. 450 SKELO bei 10 % Bonus decken 202,5 USDC. Quote halbiert, weil die Deckung durch Hausverkaeufe unbestaetigt ist. Nicht verkaufte Menge bliebe sonst gesperrt."
+  },
+  {
+   "id": "p4",
+   "name": "Phase 4 Abschluss",
+   "price_micro_usdc": 65000,
+   "quota_skelo_whole": 100,
+   "bonus_bps": 500,
+   "vesting": {
+    "tge_bps": 10000,
+    "cliff_months": 0,
+    "duration_months": 1
+   },
+   "begruendung": "Referenzpreis 0,065 USDC. 100 SKELO bei 5 % Bonus decken 130 USDC. Kleine Abschlussphase mit minimalem Bonus, Auslieferung sofort, da kaum Anreiz zum Kurzfrist-Verkauf."
+  }
+ ],
+ "max_skelo_per_wallet_whole": 1000,
+ "liquidity": {
+  "reserve_bps": 4000,
+  "ops_bps": 4000,
+  "tax_bps": 2000,
+  "lp_skelo_whole": 10000
+ },
+ "end_bedingung": "Presale endet, wenn alle Phasenkontingente vergeben sind oder keine verkaufbaren Grundstuecke/Haeuser mehr verfuegbar sind. Nicht vergebene Kontingente werden nicht neu verteilt, es gibt keine Neupraegung. Ein Pool entsteht nur nach Multisig-Freigabe und nur mit bestaetigten echten USDC-Erloesen, SKELO-Menge hoechstens lp_skelo_whole.",
+ "decided_by": "Skello (Buergermeister) auf Grundlage des Vorschlags von David, Modell claude-sonnet-5-5",
+ "einheit_preis": "micro-USDC je 1 ganzem SKELO (1 USDC = 1000000)",
+ "status": "VORGESCHLAGENES MODELL - kein Verkauf, keine Zuteilung, keine rechtliche Freigabe"
+}

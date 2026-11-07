@@ -18,12 +18,13 @@
 | marketing | 500.000 | 5.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 | entwicklung | 1.500.000 | 15.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 | agenten_praemien | 800.000 | 8.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| reserve | 2.000.000 | 20.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| reserve | 3.183.450 | 31.8 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 | community_insel | 760.000 | 7.6 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| dex_liquiditaet | 1.240.000 | 12.4 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| dex_liquiditaet | 50.000 | 0.5 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| presale_kaeufer | 6.550 | 0.1 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 
 ## Fehlende Parameter und Rechte (blockieren ein echtes Deployment)
-- Adressen aller 8 Verteilungskonten (Betreiber; alle als Multisig)
+- Adressen aller 9 Verteilungskonten (Betreiber; alle als Multisig)
 - Beguenstigte (Multisig) der Vesting-Instanzen gemaess Beschluss; Parameter sind festgelegt
 - Testnet-Deployer-Schluessel (frisch, nur Testnet; NIE die Insel-Wallet)
 - Verifizierungs-Zugang (BaseScan-API-Key) fuer die Veroeffentlichung des Quelltexts
@@ -32,4 +33,4 @@
 
 ## Rechte nach Deployment
 - Kein privilegiertes Recht im Vertrag (kein Owner): nach dem Deployment kann niemand mehr minten, pausieren oder sperren.
-- Praktische Rechte liegen bei den Inhabern der 8 Verteilungsadressen; deren Schluesselverwaltung ist die eigentliche Sicherheitsfrage.
+- Praktische Rechte liegen bei den Inhabern der 9 Verteilungsadressen; deren Schluesselverwaltung ist die eigentliche Sicherheitsfrage.
