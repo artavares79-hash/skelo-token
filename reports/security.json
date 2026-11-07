@@ -1,0 +1,42 @@
+[
+ {
+  "id": "SEC-TIMESTAMP:OperatorVesting.sol:81",
+  "rule": "SEC-TIMESTAMP",
+  "severity": "low",
+  "file": "OperatorVesting.sol",
+  "line": 81,
+  "text": "block.timestamp als Logik-Eingabe",
+  "rule_source": "wshobson_skill_solidity_security",
+  "accepted": true,
+  "accepted_by": "autor",
+  "accepted_reason": "Vesting-Zeitplan ist fachlich an block.timestamp gebunden; Validator-Drift von Sekunden ist irrelevant."
+ },
+ {
+  "id": "SEC-LOOP:SkeloToken.sol",
+  "rule": "SEC-LOOP",
+  "severity": "info",
+  "file": "SkeloToken.sol",
+  "text": "Schleife ueber Array-Laenge (hier nur im Konstruktor mit Eingabe des Deployers; kein unbegrenztes Wachstum im Betrieb)",
+  "rule_source": "agency_engineering_solidity_smart_contract_engineer",
+  "accepted": true,
+  "accepted_reason": "Nur Konstruktor, Eingabe kontrolliert der Deployer"
+ },
+ {
+  "id": "SEC-OPCODE-CALL:OperatorVesting.json",
+  "rule": "SEC-OPCODE",
+  "severity": "info",
+  "text": "Runtime-Bytecode von OperatorVesting enthaelt CALL (1x) - Zweck pruefen",
+  "rule_source": "Bytecode-Scan",
+  "accepted": true,
+  "accepted_reason": "Hinweis (Zweck manuell pruefen)"
+ },
+ {
+  "id": "SEC-DEP-OZ",
+  "rule": "SEC-DEP",
+  "severity": "info",
+  "text": "OpenZeppelin Contracts 5.1.0 gepinnt; bekannte Advisories wurden OFFLINE nicht geprueft (Netz ist fuer das Werkzeug gesperrt)",
+  "rule_source": "voltagent_security_auditor",
+  "accepted": true,
+  "accepted_reason": "Hinweis"
+ }
+]

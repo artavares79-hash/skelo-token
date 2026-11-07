@@ -1,0 +1,381 @@
+{
+ "name": "SKELO ERC-20 (generiert aus ABI + Spezifikation von Ines Lindqvist, QA)",
+ "accounts": {
+  "deployer": "0x00000000000000000000000000000000000d0001",
+  "alice": "0x00000000000000000000000000000000000a0001",
+  "bob": "0x00000000000000000000000000000000000b0001",
+  "carol": "0x00000000000000000000000000000000000c0001",
+  "spender": "0x00000000000000000000000000000000000e0001"
+ },
+ "steps": [
+  {
+   "title": "Deploy mit 3 Haltern (60/30/10 Mio.)",
+   "deploy": "SkeloToken",
+   "args": [
+    [
+     "@alice",
+     "@bob",
+     "@carol"
+    ],
+    [
+     60000000,
+     30000000,
+     10000000
+    ]
+   ],
+   "expect": {
+    "success": true
+   }
+  },
+  {
+   "title": "name",
+   "call": "SkeloToken",
+   "fn": "name",
+   "args": [],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "SKELO"
+    ]
+   }
+  },
+  {
+   "title": "symbol",
+   "call": "SkeloToken",
+   "fn": "symbol",
+   "args": [],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "SKELO"
+    ]
+   }
+  },
+  {
+   "title": "decimals",
+   "call": "SkeloToken",
+   "fn": "decimals",
+   "args": [],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     18
+    ]
+   }
+  },
+  {
+   "title": "Gesamtmenge = 100 Mio. SKELO",
+   "call": "SkeloToken",
+   "fn": "totalSupply",
+   "args": [],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "100000000000000000000000000"
+    ]
+   }
+  },
+  {
+   "title": "TOTAL_SUPPLY_WHOLE",
+   "call": "SkeloToken",
+   "fn": "TOTAL_SUPPLY_WHOLE",
+   "args": [],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "100000000"
+    ]
+   }
+  },
+  {
+   "title": "Anfangsbestand alice",
+   "call": "SkeloToken",
+   "fn": "balanceOf",
+   "args": [
+    "@alice"
+   ],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "60000000000000000000000000"
+    ]
+   }
+  },
+  {
+   "title": "Anfangsbestand carol",
+   "call": "SkeloToken",
+   "fn": "balanceOf",
+   "args": [
+    "@carol"
+   ],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "10000000000000000000000000"
+    ]
+   }
+  },
+  {
+   "title": "Transfer sendet Event",
+   "call": "SkeloToken",
+   "fn": "transfer",
+   "args": [
+    "@bob",
+    "1000"
+   ],
+   "from": "alice",
+   "expect": {
+    "events": [
+     {
+      "name": "Transfer",
+      "args": [
+       "@alice",
+       "@bob",
+       "1000"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Bestand bob nach Transfer",
+   "call": "SkeloToken",
+   "fn": "balanceOf",
+   "args": [
+    "@bob"
+   ],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "30000000000000000000001000"
+    ]
+   }
+  },
+  {
+   "title": "Transfer ueber Guthaben schlaegt fehl",
+   "call": "SkeloToken",
+   "fn": "transfer",
+   "args": [
+    "@bob",
+    "1000000000000000000000000000000"
+   ],
+   "from": "carol",
+   "expect": {
+    "revert": "ERC20InsufficientBalance"
+   }
+  },
+  {
+   "title": "Transfer an Nulladresse schlaegt fehl",
+   "call": "SkeloToken",
+   "fn": "transfer",
+   "args": [
+    "0x0000000000000000000000000000000000000000",
+    "1"
+   ],
+   "from": "alice",
+   "expect": {
+    "revert": "ERC20InvalidReceiver"
+   }
+  },
+  {
+   "title": "Approve sendet Event",
+   "call": "SkeloToken",
+   "fn": "approve",
+   "args": [
+    "@spender",
+    "500"
+   ],
+   "from": "alice",
+   "expect": {
+    "events": [
+     {
+      "name": "Approval",
+      "args": [
+       "@alice",
+       "@spender",
+       "500"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "allowance",
+   "call": "SkeloToken",
+   "fn": "allowance",
+   "args": [
+    "@alice",
+    "@spender"
+   ],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "500"
+    ]
+   }
+  },
+  {
+   "title": "transferFrom im Rahmen der Freigabe",
+   "call": "SkeloToken",
+   "fn": "transferFrom",
+   "args": [
+    "@alice",
+    "@bob",
+    "200"
+   ],
+   "from": "spender",
+   "expect": {
+    "events": [
+     {
+      "name": "Transfer",
+      "args": [
+       "@alice",
+       "@bob",
+       "200"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Freigabe sinkt nach transferFrom",
+   "call": "SkeloToken",
+   "fn": "allowance",
+   "args": [
+    "@alice",
+    "@spender"
+   ],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "300"
+    ]
+   }
+  },
+  {
+   "title": "transferFrom ueber Freigabe schlaegt fehl",
+   "call": "SkeloToken",
+   "fn": "transferFrom",
+   "args": [
+    "@alice",
+    "@bob",
+    "301"
+   ],
+   "from": "spender",
+   "expect": {
+    "revert": "ERC20InsufficientAllowance"
+   }
+  },
+  {
+   "title": "Unbegrenzte Freigabe setzen",
+   "call": "SkeloToken",
+   "fn": "approve",
+   "args": [
+    "@spender",
+    "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+   ],
+   "from": "alice",
+   "expect": {
+    "success": true
+   }
+  },
+  {
+   "title": "transferFrom mit unbegrenzter Freigabe",
+   "call": "SkeloToken",
+   "fn": "transferFrom",
+   "args": [
+    "@alice",
+    "@bob",
+    "5"
+   ],
+   "from": "spender",
+   "expect": {
+    "success": true
+   }
+  },
+  {
+   "title": "Unbegrenzte Freigabe bleibt unbegrenzt",
+   "call": "SkeloToken",
+   "fn": "allowance",
+   "args": [
+    "@alice",
+    "@spender"
+   ],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+    ]
+   }
+  },
+  {
+   "title": "Gesamtmenge nach allen Transfers unveraendert",
+   "call": "SkeloToken",
+   "fn": "totalSupply",
+   "args": [],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "100000000000000000000000000"
+    ]
+   }
+  },
+  {
+   "title": "Konstruktor: falsche Summe -> Revert",
+   "deploy": "SkeloToken",
+   "args": [
+    [
+     "@alice"
+    ],
+    [
+     5
+    ]
+   ],
+   "expect": {
+    "revert": "summe"
+   }
+  },
+  {
+   "title": "Konstruktor: Laengen verschieden -> Revert",
+   "deploy": "SkeloToken",
+   "args": [
+    [
+     "@alice",
+     "@bob"
+    ],
+    [
+     100000000
+    ]
+   ],
+   "expect": {
+    "revert": "laenge"
+   }
+  },
+  {
+   "title": "Konstruktor: Nulladresse als Halter -> Revert",
+   "deploy": "SkeloToken",
+   "args": [
+    [
+     "0x0000000000000000000000000000000000000000"
+    ],
+    [
+     100000000
+    ]
+   ],
+   "expect": {
+    "revert": "holder=0"
+   }
+  },
+  {
+   "title": "Konstruktor: leere Liste -> Revert",
+   "deploy": "SkeloToken",
+   "args": [
+    [],
+    []
+   ],
+   "expect": {
+    "revert": "laenge"
+   }
+  }
+ ]
+}

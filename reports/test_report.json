@@ -1,0 +1,175 @@
+{
+ "ok": true,
+ "evm": "ethereumjs/vm cancun",
+ "specs": [
+  {
+   "file": "skelo_erc20.json",
+   "name": "SKELO ERC-20 (generiert aus ABI + Spezifikation von Ines Lindqvist, QA)",
+   "steps": [
+    {
+     "step": 1,
+     "title": "Deploy mit 3 Haltern (60/30/10 Mio.)",
+     "pass": true,
+     "gas": 502330,
+     "address": "0x24f41a7903c3f68ecac69be0310ba42078523642"
+    },
+    {
+     "step": 2,
+     "title": "name",
+     "pass": true,
+     "gas": 1086
+    },
+    {
+     "step": 3,
+     "title": "symbol",
+     "pass": true,
+     "gas": 1129
+    },
+    {
+     "step": 4,
+     "title": "decimals",
+     "pass": true,
+     "gas": 265
+    },
+    {
+     "step": 5,
+     "title": "Gesamtmenge = 100 Mio. SKELO",
+     "pass": true,
+     "gas": 325
+    },
+    {
+     "step": 6,
+     "title": "TOTAL_SUPPLY_WHOLE",
+     "pass": true,
+     "gas": 216
+    },
+    {
+     "step": 7,
+     "title": "Anfangsbestand alice",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 8,
+     "title": "Anfangsbestand carol",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 9,
+     "title": "Transfer sendet Event",
+     "pass": true,
+     "gas": 8881
+    },
+    {
+     "step": 10,
+     "title": "Bestand bob nach Transfer",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 11,
+     "title": "Transfer ueber Guthaben schlaegt fehl",
+     "pass": true,
+     "gas": 892,
+     "revert": "ERC20InsufficientBalance"
+    },
+    {
+     "step": 12,
+     "title": "Transfer an Nulladresse schlaegt fehl",
+     "pass": true,
+     "gas": 554,
+     "revert": "ERC20InvalidReceiver"
+    },
+    {
+     "step": 13,
+     "title": "Approve sendet Event",
+     "pass": true,
+     "gas": 24734
+    },
+    {
+     "step": 14,
+     "title": "allowance",
+     "pass": true,
+     "gas": 810
+    },
+    {
+     "step": 15,
+     "title": "transferFrom im Rahmen der Freigabe",
+     "pass": true,
+     "gas": 12554
+    },
+    {
+     "step": 16,
+     "title": "Freigabe sinkt nach transferFrom",
+     "pass": true,
+     "gas": 810
+    },
+    {
+     "step": 17,
+     "title": "transferFrom ueber Freigabe schlaegt fehl",
+     "pass": true,
+     "gas": 956,
+     "revert": "ERC20InsufficientAllowance"
+    },
+    {
+     "step": 18,
+     "title": "Unbegrenzte Freigabe setzen",
+     "pass": true,
+     "gas": 5534
+    },
+    {
+     "step": 19,
+     "title": "transferFrom mit unbegrenzter Freigabe",
+     "pass": true,
+     "gas": 9317
+    },
+    {
+     "step": 20,
+     "title": "Unbegrenzte Freigabe bleibt unbegrenzt",
+     "pass": true,
+     "gas": 810
+    },
+    {
+     "step": 21,
+     "title": "Gesamtmenge nach allen Transfers unveraendert",
+     "pass": true,
+     "gas": 325
+    },
+    {
+     "step": 22,
+     "title": "Konstruktor: falsche Summe -> Revert",
+     "pass": true,
+     "gas": 93947,
+     "revert": "summe"
+    },
+    {
+     "step": 23,
+     "title": "Konstruktor: Laengen verschieden -> Revert",
+     "pass": true,
+     "gas": 46690,
+     "revert": "laenge"
+    },
+    {
+     "step": 24,
+     "title": "Konstruktor: Nulladresse als Halter -> Revert",
+     "pass": true,
+     "gas": 46728,
+     "revert": "holder=0"
+    },
+    {
+     "step": 25,
+     "title": "Konstruktor: leere Liste -> Revert",
+     "pass": true,
+     "gas": 46374,
+     "revert": "laenge"
+    }
+   ],
+   "passed": 25,
+   "failed": 0
+  }
+ ],
+ "total": 25,
+ "passed": 25,
+ "failed": 0
+}

@@ -1,0 +1,102 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SKELO Token - Projektseite</title><style>:root{--bg:#0f1720;--fg:#e9eef5;--mut:#9fb0c3;--ac:#4fe0d0;--warn:#f2c76a}@media (prefers-color-scheme:light){:root{--bg:#f6f8fa;--fg:#14202e;--mut:#4b5d70;--ac:#0b7d72;--warn:#8a5a00}}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,Segoe UI,Arial,sans-serif}main{max-width:780px;margin:0 auto;padding:24px 16px 64px}h1{font-size:1.7rem}h2{margin-top:2rem;font-size:1.2rem;color:var(--ac)}.note{border-left:4px solid var(--warn);padding:.6rem 1rem;background:rgba(242,199,106,.12)}code{font-size:.85em;word-break:break-all}table{border-collapse:collapse;width:100%}td,th{padding:.35rem .5rem;border-bottom:1px solid rgba(128,128,128,.3);text-align:left;vertical-align:top}</style></head><body><main><h1>SKELO Token - Projektseite</h1><p class="note"><b>Wichtig:</b> SKELO ist (noch) kein ausgegebener Token. Es gibt kein Mainnet-Deployment, keinen Verkauf, keinen Liquiditaetspool und keine Handelbarkeit. Die Angaben beschreiben den technischen Entwicklungsstand von SKELO Blockchain Labs (SKELO ISLAND), keine Anlageempfehlung und kein Angebot.</p><h2>Was ist SKELO – Stand und offene Punkte</h2>
+<h2>Stand in einem Satz</h2>
+<p>SKELO ist <b>nicht ausgegeben</b>. Es ist <b>nichts deployed</b> und <b>nichts auditiert</b> (weder Testnet, Mainnet noch externes Audit). Es existiert ein Vertragsentwurf, der lokal kompiliert und in einer EVM getestet wurde.</p>
+<h2>Was belegt ist</h2>
+<ul>
+<li>Token-Entwurf: ERC-20, OpenZeppelin 5.1.0, Solidity 0.8.28.</li>
+<li>Feste Gesamtmenge: 100.000.000 SKELO, einmalig im Konstruktor verteilt; die Summe wird geprüft.</li>
+<li>Keine Mint-Funktion, kein Owner, keine Pausierung, keine Sperrliste, keine Gebühr, kein Upgrade (laut Architekturprüfung des ABI).</li>
+<li>Tests: 25 von 25 EVM-Schritten bestanden. Offene Befunde: 0.</li>
+</ul>
+<h2>Was nicht belegt ist</h2>
+<ul>
+<li>Kein Audit durch Dritte.</li>
+<li>Kein Testnet-Deployment und kein Mainnet-Deployment.</li>
+<li>Keine Ausgabe, kein Verkauf, keine Handelbarkeit (kein DEX-Pool, keine Börsenlistung).</li>
+</ul>
+<h2>Geplant / Offen (nicht umgesetzt)</h2>
+<p>Diese vier Punkte sind offene Entscheidungen des Betreibers:</p>
+<p>1. <b>Verteilungsadressen</b> (7 Konten) sind nicht festgelegt. Für die Stadtkasse ist eine Multisig vorgesehen.</p>
+<p>2. <b>Vesting</b> des Betreiberanteils (5 Mio. SKELO) ist im Token-Vertrag nicht abgebildet; es wäre ein separater Vesting-Vertrag nötig.</p>
+<p>3. <b>EIP-2612 (permit)</b> ist nicht enthalten; die Entscheidung ist offen.</p>
+<p>4. <b>Chain-Parameter</b> Base Mainnet (8453) sind nur dokumentiert; nichts wurde deployed.</p>
+<p>Zusätzlich vor einem öffentlichen Angebot offen: rechtliche Klärung (MiCA, Steuer).</p>
+<h2>Verwendung von SKELO in der Insel</h2>
+<p><b>Stand: 2026-11-07. Alle Aussagen dieser Seite beschreiben die GEPLANTE Verwendung. Es gibt derzeit keinen ausgegebenen SKELO-Token.</b></p>
+<h2>Ist-Zustand</h2>
+<ul>
+<li>SKELO ist derzeit als isoliertes Hauptbuch im gekennzeichneten Testzustand umgesetzt. Die Betriebsart im Live-Betrieb ist "inaktiv": keine SKELO-Funktion, keine Bestaende.</li>
+<li>Der Token-Vertrag (ERC-20, OpenZeppelin 5.1.0, solc 0.8.28) ist im Entwurf vorhanden und in einer EVM getestet (65 von 65 Schritte bestanden). Er ist NICHT auditiert, NICHT auf Testnet oder Mainnet deployed.</li>
+<li>Ein Tokenverkauf, ein DEX-Pool und eine Verteilung sind gesperrt.</li>
+</ul>
+<h2>Geplante Verwendung in der Insel</h2>
+<h3>Dienste und Auftraege (geplant)</h3>
+<ul>
+<li>Arbeitsbelohnungen und oeffentliche Auftraege werden aus der Arbeitsreserve (res:arbeit) bezahlt. Geplante Obergrenzen: Einzelbudget je Auftrag bis 1.000 SKELO, je Agent und Tag bis 2.000, je Stadt und Tag bis 10.000.</li>
+<li>Einnahmen der operativen SKELO STADTKASSE sollen aus Gebuehren, Skill-Shop und Vermittlung stammen.</li>
+<li>Auftraege werden nur aus gedeckten Guthaben oder dem begrenzten Stadtbudget bezahlt. Ohne Deckung entsteht kein Auftrag.</li>
+<li>Jede Buchung ist als Ganzes oder gar nicht geplant; Treuhandkonten entsprechen den offenen Auftraegen.</li>
+</ul>
+<h3>Stadtgebuehr (geplant, 5 %)</h3>
+<ul>
+<li>Konfigurierbarer Startwert: 500 Basispunkte (5 %). Die Gebuehr wird im Angebot und im Auftrag vorab ausgewiesen und mit dem Auftrag festgeschrieben; spaetere Aenderungen wirken nicht rueckwirkend.</li>
+<li>Abzug erst nach Lieferung, Abnahme und Zahlung: 95 % an den Anbieter, 5 % an die Stadtkasse.</li>
+<li>Keine Gebuehr bei fehlgeschlagenen oder abgebrochenen Auftraegen (voller Betrag zurueck), bei staedtischen Eigenauftraegen und bei verbundenen Parteien (gleicher Wallet-Eigentuemer).</li>
+<li>Es handelt sich um eine Plattformgebuehr, keine Steuer.</li>
+</ul>
+<h3>Grundstuecke und Weiterverkauf (geplant)</h3>
+<ul>
+<li>Beim Weiterverkauf von Grundstuecken ist eine Vermittlungsgebuehr von 3 % geplant (Startwert 300 Basispunkte), im Angebot offengelegt.</li>
+<li>Grundstueck, Haus, Erweiterungen und Nutzungsrecht sollen atomar gemeinsam wechseln.</li>
+</ul>
+<h2>Offene Punkte</h2>
+<ul>
+<li>Die Verteilungsadressen der 7 Konten sind NICHT festgelegt. Fuer die Stadtkasse ist eine Multisig vorgesehen, aber nicht entschieden.</li>
+<li>Der Betreiberanteil (5 Mio. SKELO) ist im Token-Vertrag nicht gesperrt. Ein separater Vesting-Vertrag ist geplant, nicht umgesetzt.</li>
+<li>Die rechtliche Klaerung (u. a. MiCA, Steuer) steht vor jedem oeffentlichen Angebot aus.</li>
+<li>Die Gebuehrensaetze sind Startwerte und koennen vor dem Live-Betrieb geaendert werden.</li>
+</ul>
+<h2>Nicht Teil dieser Seite</h2>
+<ul>
+<li>Kein Handel, keine Boerse, kein Verkauf von SKELO.</li>
+<li>Keine Aussage ueber Wertentwicklung oder Nutzen in Geld.</li>
+</ul>
+<h2>SKELO: Architektur und Sicherheit (Stand der Prüfung)</h2>
+<p>Stand: 2026-11-07. Es gibt keinen ausgegebenen SKELO-Token. Beschrieben ist der Entwurfsstand.</p>
+<h2>Blockchain</h2>
+<ul>
+<li>Vorgesehenes Testnetz: Base Sepolia (Chain-ID 84532). Nichts ist dort deployed.</li>
+<li>Vorgesehenes Produktionsnetz: Base Mainnet (Chain-ID 8453), gesperrt bis zur Betreiberfreigabe. Nichts ist auf Mainnet deployed.</li>
+</ul>
+<h2>Technische Architektur</h2>
+<ul>
+<li>Token-Entwurf: ERC-20 auf Basis von OpenZeppelin Contracts 5.1.0, Solidity 0.8.28.</li>
+<li>Feste Gesamtmenge 100.000.000 SKELO, 18 Dezimalstellen. Die Verteilung erfolgt einmalig im Konstruktor; die Summe wird geprueft.</li>
+<li>Nicht enthalten: Mint-Funktion, Owner, Pausierung, Sperrliste, Gebuehren, Upgrade-Mechanik.</li>
+</ul>
+<h2>Interner Pruefstand</h2>
+<p>Durchgefuehrt:</p>
+<ul>
+<li>solc-Build mit Version 0.8.28.</li>
+<li>65 von 65 EVM-Schritten bestanden (JSON-Tests, mit warp).</li>
+<li>Statische Mustersuche und Bytecode-Opcode-Scan.</li>
+<li>Automatische Auswertung der ABI gegen die Spezifikation.</li>
+<li>Versionierung mit git.</li>
+</ul>
+<p>Ergebnis: 0 offene Befunde im internen Pruefstand. Dies ist kein Sicherheitsnachweis durch Dritte.</p>
+<p>NICHT geprueft:</p>
+<ul>
+<li>Kein externes Audit.</li>
+<li>Kein Testnet-Deployment.</li>
+<li>Kein Mainnet-Deployment.</li>
+<li>Keine rechtliche Pruefung (MiCA, Steuer).</li>
+</ul>
+<h2>Offene Punkte</h2>
+<ul>
+<li>Verteilungsadressen der 7 Konten sind nicht festgelegt. Eine Multisig fuer die Stadtkasse ist empfohlen.</li>
+<li>Der Betreiberanteil (5 Mio. SKELO) ist im Token nicht gesperrt. Ein Vesting-Vertrag ist geplant; ein Entwurf existiert, ist nicht deployed und nicht auditiert.</li>
+<li>EIP-2612 (permit) ist nicht enthalten; die Entscheidung ist offen. Da der Token unveraenderlich ist, kann es spaeter nicht nachgeruestet werden.</li>
+<li>Es gibt keine Rettungsfunktion fuer versehentlich gesendete Token. Verteilungsadressen werden daher vor dem Deployment mehrfach geprueft und in einem Testnet-Probelauf erprobt (geplant).</li>
+</ul>
+<h2>Ausblick DEX (nur geplant)</h2>
+<p>Eine spaetere Anbindung an eine dezentrale Boerse (DEX) ist geplant, nicht beschlossen und nicht umgesetzt. Voraussetzungen sind unter anderem eine Mainnet-Freigabe, ein externes Audit, die rechtliche Klaerung und eine Entscheidung ueber die Liquiditaetsreserve (10 Mio. SKELO, zurueckgehalten, kein Pool ohne Freigabe). Derzeit gibt es keinen Handelspool und keine Handelbarkeit.</p><h2>Entwicklungsstand (aus den Werkzeugberichten)</h2><table><tr><th>Pruefung</th><th>Ergebnis</th></tr><tr><td>Compiler</td><td>solc 0.8.28, reproduzierbarer Build</td></tr><tr><td>SkeloToken Bytecode SHA-256</td><td><code>9dfd125e10a0854622f2da5bb628b1e2501a0a487e38220a542111a198fe310d</code></td></tr><tr><td>OperatorVesting Bytecode SHA-256</td><td><code>93f57ec3c34713410ef2f32fcf44a3fbcdc2c25193ba52d5195288a08295fe1c</code></td></tr><tr><td>EVM-Tests SkeloToken</td><td>25 von 25 Schritten bestanden</td></tr><tr><td>EVM-Tests Vesting-Entwurf</td><td>40 von 40 Schritten bestanden</td></tr><tr><td>Statische Mustersuche</td><td>0 offene Befunde (kein Audit)</td></tr><tr><td>Unabhaengiges Audit</td><td>nicht durchgefuehrt</td></tr><tr><td>Mainnet</td><td>nicht erfolgt, gesperrt</td></tr></table><h2>Testnet-Adressen</h2><p>Noch kein Testnet-Deployment. Sobald eines erfolgt, stehen die Adressen hier und sind in einem Block-Explorer pruefbar.</p><h2>Quellcode</h2><p>Quelltext: <code>https://github.com/artavares79-hash/skelo-token</code></p><h2>Offen</h2><ul><li>Verteilungsadressen (Multisig), Vesting-Parameter, Entscheidung zu EIP-2612 permit</li><li>Unabhaengiges Audit</li><li>Rechtliche Klaerung (MiCA, Steuer)</li><li>Spaetere DEX-Anbindung nur nach Freigabe und Pruefung</li></ul><p style="color:var(--mut)">Automatisch aus den Berichten von SKELO Blockchain Labs erzeugt.</p></main></body></html>

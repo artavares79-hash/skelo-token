@@ -1,0 +1,258 @@
+{
+ "ok": true,
+ "evm": "ethereumjs/vm cancun",
+ "specs": [
+  {
+   "file": "operatorvesting.json",
+   "name": "OperatorVesting-Lineare-Freigabe",
+   "steps": [
+    {
+     "step": 1,
+     "title": "warp 1700000000",
+     "pass": true
+    },
+    {
+     "step": 2,
+     "title": "SkeloToken",
+     "pass": true,
+     "gas": 451150,
+     "address": "0x24f41a7903c3f68ecac69be0310ba42078523642"
+    },
+    {
+     "step": 3,
+     "title": "OperatorVesting",
+     "pass": true,
+     "gas": 318776,
+     "address": "0xbce782277ccc5ddf86c1d858472c17746e60205b"
+    },
+    {
+     "step": 4,
+     "title": "transfer",
+     "pass": true,
+     "gas": 27981
+    },
+    {
+     "step": 5,
+     "title": "releasable",
+     "pass": true,
+     "gas": 2475
+    },
+    {
+     "step": 6,
+     "title": "balanceOf",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 7,
+     "title": "warp 1731535999",
+     "pass": true
+    },
+    {
+     "step": 8,
+     "title": "releasable",
+     "pass": true,
+     "gas": 475
+    },
+    {
+     "step": 9,
+     "title": "release",
+     "pass": true,
+     "gas": 3664
+    },
+    {
+     "step": 10,
+     "title": "balanceOf",
+     "pass": true,
+     "gas": 2537
+    },
+    {
+     "step": 11,
+     "title": "warp 1731536000",
+     "pass": true
+    },
+    {
+     "step": 12,
+     "title": "releasable",
+     "pass": true,
+     "gas": 1980
+    },
+    {
+     "step": 13,
+     "title": "release",
+     "pass": true,
+     "gas": 52892
+    },
+    {
+     "step": 14,
+     "title": "balanceOf",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 15,
+     "title": "warp 1763072000",
+     "pass": true
+    },
+    {
+     "step": 16,
+     "title": "release",
+     "pass": true,
+     "gas": 18692
+    },
+    {
+     "step": 17,
+     "title": "balanceOf",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 18,
+     "title": "release",
+     "pass": true,
+     "gas": 5010
+    },
+    {
+     "step": 19,
+     "title": "balanceOf",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 20,
+     "title": "transfer",
+     "pass": true,
+     "gas": 8881
+    },
+    {
+     "step": 21,
+     "title": "releasable",
+     "pass": true,
+     "gas": 1980
+    },
+    {
+     "step": 22,
+     "title": "release",
+     "pass": true,
+     "gas": 18692
+    },
+    {
+     "step": 23,
+     "title": "warp 1794608000",
+     "pass": true
+    },
+    {
+     "step": 24,
+     "title": "releasable",
+     "pass": true,
+     "gas": 1980
+    },
+    {
+     "step": 25,
+     "title": "release",
+     "pass": true,
+     "gas": 18692
+    },
+    {
+     "step": 26,
+     "title": "warp 1826144000",
+     "pass": true
+    },
+    {
+     "step": 27,
+     "title": "releasable",
+     "pass": true,
+     "gas": 1749
+    },
+    {
+     "step": 28,
+     "title": "release",
+     "pass": true,
+     "gas": 18461
+    },
+    {
+     "step": 29,
+     "title": "balanceOf",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 30,
+     "title": "balanceOf",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 31,
+     "title": "released",
+     "pass": true,
+     "gas": 280
+    },
+    {
+     "step": 32,
+     "title": "OperatorVesting",
+     "pass": true,
+     "gas": 318776,
+     "address": "0x9169579744a06bc48d1eb78905cd20fde8bad386"
+    },
+    {
+     "step": 33,
+     "title": "transfer",
+     "pass": true,
+     "gas": 27981
+    },
+    {
+     "step": 34,
+     "title": "release",
+     "pass": true,
+     "gas": 56661
+    },
+    {
+     "step": 35,
+     "title": "balanceOf",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 36,
+     "title": "balanceOf",
+     "pass": true,
+     "gas": 537
+    },
+    {
+     "step": 37,
+     "title": "OperatorVesting",
+     "pass": true,
+     "gas": 22681,
+     "revert": "ZeroAddress"
+    },
+    {
+     "step": 38,
+     "title": "OperatorVesting",
+     "pass": true,
+     "gas": 22655,
+     "revert": "ZeroAddress"
+    },
+    {
+     "step": 39,
+     "title": "OperatorVesting",
+     "pass": true,
+     "gas": 22703,
+     "revert": "InvalidDuration"
+    },
+    {
+     "step": 40,
+     "title": "OperatorVesting",
+     "pass": true,
+     "gas": 22729,
+     "revert": "CliffExceedsDuration"
+    }
+   ],
+   "passed": 40,
+   "failed": 0
+  }
+ ],
+ "total": 40,
+ "passed": 40,
+ "failed": 0
+}

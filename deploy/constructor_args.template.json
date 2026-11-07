@@ -1,0 +1,22 @@
+{
+ "_hinweis": "VORLAGE: Adressen sind bewusst Platzhalter. Nicht deployen, bevor der Betreiber echte Adressen eintraegt.",
+ "holders": [
+  "<ADRESSE res:stadtkasse>",
+  "<ADRESSE res:entwicklung>",
+  "<ADRESSE res:arbeit>",
+  "<ADRESSE res:bonus>",
+  "<ADRESSE res:liquiditaet>",
+  "<ADRESSE res:betreiber>",
+  "<ADRESSE res:oekosystem>"
+ ],
+ "wholeAmounts": [
+  30000000,
+  15000000,
+  20000000,
+  5000000,
+  10000000,
+  5000000,
+  15000000
+ ],
+ "sum": 100000000
+}

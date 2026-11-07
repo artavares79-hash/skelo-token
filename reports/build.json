@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "solc": "0.8.28+commit.7893614a.Emscripten.clang",
+ "sources": {
+  "contracts/OperatorVesting.sol": "39447efbf17aaaf0b7abc8ac4ac3c0f2cdf7949fbb2cd47e605c61f47f048a6e",
+  "contracts/SkeloToken.sol": "7b09d7aaf0f6b3b85beef2dc241adb7b0796ed525ed2011621799256e0d988d5"
+ },
+ "errors": [],
+ "warnings": [],
+ "contracts": {
+  "OperatorVesting": {
+   "source": "contracts/OperatorVesting.sol",
+   "bytecodeBytes": 1967,
+   "deployedBytes": 1477,
+   "bytecodeSha256": "93f57ec3c34713410ef2f32fcf44a3fbcdc2c25193ba52d5195288a08295fe1c",
+   "reproducible": true,
+   "functions": [
+    "beneficiary()",
+    "cliff()",
+    "end()",
+    "releasable()",
+    "release()",
+    "released()",
+    "start()",
+    "token()",
+    "vestedAmount(uint256)"
+   ]
+  },
+  "SkeloToken": {
+   "source": "contracts/SkeloToken.sol",
+   "bytecodeBytes": 3742,
+   "deployedBytes": 1785,
+   "bytecodeSha256": "9dfd125e10a0854622f2da5bb628b1e2501a0a487e38220a542111a198fe310d",
+   "reproducible": true,
+   "functions": [
+    "TOTAL_SUPPLY_WHOLE()",
+    "allowance(address,address)",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "decimals()",
+    "name()",
+    "symbol()",
+    "totalSupply()",
+    "transfer(address,uint256)",
+    "transferFrom(address,address,uint256)"
+   ]
+  }
+ }
+}
