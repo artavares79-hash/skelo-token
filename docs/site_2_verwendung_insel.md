@@ -26,8 +26,8 @@
 - Grundstueck, Haus, Erweiterungen und Nutzungsrecht sollen atomar gemeinsam wechseln.
 
 ## Offene Punkte
-- Die Verteilungsadressen der 7 Konten sind NICHT festgelegt. Fuer die Stadtkasse ist eine Multisig vorgesehen, aber nicht entschieden.
-- Der Betreiberanteil (5 Mio. SKELO) ist im Token-Vertrag nicht gesperrt. Ein separater Vesting-Vertrag ist geplant, nicht umgesetzt.
+- Die Adressen der acht Halter/Beguenstigten sind NICHT festgelegt (Multisig vorgesehen, nicht entschieden, nicht erfunden).
+- Der Betreiberanteil (1.200.000 SKELO, 12 %) soll gemaess Beschluss in einer OperatorVesting-Instanz liegen (Cliff 12 Monate, 48 Monate linear). Der Vertrag ist getestet, aber nicht deployed und nicht auditiert.
 - Die rechtliche Klaerung (u. a. MiCA, Steuer) steht vor jedem oeffentlichen Angebot aus.
 - Die Gebuehrensaetze sind Startwerte und koennen vor dem Live-Betrieb geaendert werden.
 

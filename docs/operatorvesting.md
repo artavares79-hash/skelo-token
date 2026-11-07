@@ -3,7 +3,7 @@
 Erstellt von Nadia Petrova (Dokumentation) aus ABI, Auftrag und Testbericht. **Nicht deployed, nicht auditiert.**
 
 ## Auftrag (David)
-- Linearer Vesting-Vertrag mit Cliff fuer den Betreiberanteil (5 Mio. SKELO)
+- Linearer Vesting-Vertrag mit Cliff fuer den gesperrte Verteilungskategorien (Betreiberanteil 1.200.000 SKELO; Beschluss in `TOKENOMICS_BESCHLUSS.md`)
 - Ein kleiner, eigenstaendiger, unveraenderlicher Vesting-Vertrag haelt SKELO-Token fuer einen festen Beguenstigten und gibt sie nach Cliff linear bis zum Vesting-Ende frei. Der Token-Vertrag bleibt unveraendert. Testbar in einer EVM ohne Netz (JSON-Tests mit warp). Kein Deployment, keine Echtgeldtransaktion.
 
 ## Anforderungen

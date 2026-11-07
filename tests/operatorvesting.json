@@ -1,1 +1,448 @@
-{"name":"OperatorVesting-Lineare-Freigabe","accounts":{"deployer":"0x00000000000000000000000000000000000d0001","alice":"0x00000000000000000000000000000000000a0001","bob":"0x00000000000000000000000000000000000b0001","carol":"0x00000000000000000000000000000000000c0001"},"steps":[{"warp":1700000000},{"deploy":"SkeloToken","args":[["@alice"],["100000000"]],"from":"deployer","as":"token","expect":{"success":true}},{"deploy":"OperatorVesting","args":["@token","@bob","1700000000","31536000","126144000"],"from":"deployer","as":"vest","expect":{"success":true}},{"call":"token","fn":"transfer","args":["@vest","5000000000000000000000000"],"from":"alice","expect":{"returns":["true"]}},{"call":"vest","fn":"releasable","expect":{"returns":["0"]}},{"call":"token","fn":"balanceOf","args":["@vest"],"expect":{"returns":["5000000000000000000000000"]}},{"warp":1731535999},{"call":"vest","fn":"releasable","expect":{"returns":["0"]}},{"call":"vest","fn":"release","from":"carol","expect":{"success":true}},{"call":"token","fn":"balanceOf","args":["@bob"],"expect":{"returns":["0"]}},{"warp":1731536000},{"call":"vest","fn":"releasable","expect":{"returns":["1250000000000000000000000"]}},{"call":"vest","fn":"release","from":"carol","expect":{"success":true,"events":[{"name":"Released","args":["1250000000000000000000000"]}]}},{"call":"token","fn":"balanceOf","args":["@bob"],"expect":{"returns":["1250000000000000000000000"]}},{"warp":1763072000},{"call":"vest","fn":"release","from":"alice","expect":{"success":true,"events":[{"name":"Released","args":["1250000000000000000000000"]}]}},{"call":"token","fn":"balanceOf","args":["@bob"],"expect":{"returns":["2500000000000000000000000"]}},{"call":"vest","fn":"release","from":"bob","expect":{"success":true}},{"call":"token","fn":"balanceOf","args":["@bob"],"expect":{"returns":["2500000000000000000000000"]}},{"call":"token","fn":"transfer","args":["@vest","1000000000000000000000"],"from":"alice","expect":{"returns":["true"]}},{"call":"vest","fn":"releasable","expect":{"returns":["500000000000000000000"]}},{"call":"vest","fn":"release","from":"carol","expect":{"success":true,"events":[{"name":"Released","args":["500000000000000000000"]}]}},{"warp":1794608000},{"call":"vest","fn":"releasable","expect":{"returns":["1250250000000000000000000"]}},{"call":"vest","fn":"release","from":"carol","expect":{"success":true,"events":[{"name":"Released","args":["1250250000000000000000000"]}]}},{"warp":1826144000},{"call":"vest","fn":"releasable","expect":{"returns":["1250250000000000000000000"]}},{"call":"vest","fn":"release","from":"carol","expect":{"success":true}},{"call":"token","fn":"balanceOf","args":["@bob"],"expect":{"returns":["5001000000000000000000000"]}},{"call":"token","fn":"balanceOf","args":["@vest"],"expect":{"returns":["0"]}},{"call":"vest","fn":"released","expect":{"returns":["5001000000000000000000000"]}},{"deploy":"OperatorVesting","args":["@token","@carol","1700000000","31536000","126144000"],"from":"deployer","as":"vest2","expect":{"success":true}},{"call":"token","fn":"transfer","args":["@vest2","5000000000000000000000000"],"from":"alice","expect":{"returns":["true"]}},{"call":"vest2","fn":"release","from":"alice","expect":{"success":true,"events":[{"name":"Released","args":["5000000000000000000000000"]}]}},{"call":"token","fn":"balanceOf","args":["@carol"],"expect":{"returns":["5000000000000000000000000"]}},{"call":"token","fn":"balanceOf","args":["@vest2"],"expect":{"returns":["0"]}},{"deploy":"OperatorVesting","args":["@token","0x0000000000000000000000000000000000000000","1700000000","31536000","126144000"],"from":"deployer","expect":{"revert":"ZeroAddress"}},{"deploy":"OperatorVesting","args":["0x0000000000000000000000000000000000000000","@bob","1700000000","31536000","126144000"],"from":"deployer","expect":{"revert":"ZeroAddress"}},{"deploy":"OperatorVesting","args":["@token","@bob","1700000000","0","0"],"from":"deployer","expect":{"revert":"InvalidDuration"}},{"deploy":"OperatorVesting","args":["@token","@bob","1700000000","200000000","126144000"],"from":"deployer","expect":{"revert":"CliffExceedsDuration"}}]}
+{
+ "name": "OperatorVesting-Lineare-Freigabe",
+ "accounts": {
+  "deployer": "0x00000000000000000000000000000000000d0001",
+  "alice": "0x00000000000000000000000000000000000a0001",
+  "bob": "0x00000000000000000000000000000000000b0001",
+  "carol": "0x00000000000000000000000000000000000c0001"
+ },
+ "steps": [
+  {
+   "warp": 1700000000
+  },
+  {
+   "deploy": "SkeloToken",
+   "args": [
+    [
+     "@alice"
+    ],
+    [
+     "10000000"
+    ]
+   ],
+   "from": "deployer",
+   "as": "token",
+   "expect": {
+    "success": true
+   }
+  },
+  {
+   "deploy": "OperatorVesting",
+   "args": [
+    "@token",
+    "@bob",
+    "1700000000",
+    "31536000",
+    "126144000"
+   ],
+   "from": "deployer",
+   "as": "vest",
+   "expect": {
+    "success": true
+   }
+  },
+  {
+   "call": "token",
+   "fn": "transfer",
+   "args": [
+    "@vest",
+    "5000000000000000000000000"
+   ],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "true"
+    ]
+   }
+  },
+  {
+   "call": "vest",
+   "fn": "releasable",
+   "expect": {
+    "returns": [
+     "0"
+    ]
+   }
+  },
+  {
+   "call": "token",
+   "fn": "balanceOf",
+   "args": [
+    "@vest"
+   ],
+   "expect": {
+    "returns": [
+     "5000000000000000000000000"
+    ]
+   }
+  },
+  {
+   "warp": 1731535999
+  },
+  {
+   "call": "vest",
+   "fn": "releasable",
+   "expect": {
+    "returns": [
+     "0"
+    ]
+   }
+  },
+  {
+   "call": "vest",
+   "fn": "release",
+   "from": "carol",
+   "expect": {
+    "success": true
+   }
+  },
+  {
+   "call": "token",
+   "fn": "balanceOf",
+   "args": [
+    "@bob"
+   ],
+   "expect": {
+    "returns": [
+     "0"
+    ]
+   }
+  },
+  {
+   "warp": 1731536000
+  },
+  {
+   "call": "vest",
+   "fn": "releasable",
+   "expect": {
+    "returns": [
+     "1250000000000000000000000"
+    ]
+   }
+  },
+  {
+   "call": "vest",
+   "fn": "release",
+   "from": "carol",
+   "expect": {
+    "success": true,
+    "events": [
+     {
+      "name": "Released",
+      "args": [
+       "1250000000000000000000000"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "call": "token",
+   "fn": "balanceOf",
+   "args": [
+    "@bob"
+   ],
+   "expect": {
+    "returns": [
+     "1250000000000000000000000"
+    ]
+   }
+  },
+  {
+   "warp": 1763072000
+  },
+  {
+   "call": "vest",
+   "fn": "release",
+   "from": "alice",
+   "expect": {
+    "success": true,
+    "events": [
+     {
+      "name": "Released",
+      "args": [
+       "1250000000000000000000000"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "call": "token",
+   "fn": "balanceOf",
+   "args": [
+    "@bob"
+   ],
+   "expect": {
+    "returns": [
+     "2500000000000000000000000"
+    ]
+   }
+  },
+  {
+   "call": "vest",
+   "fn": "release",
+   "from": "bob",
+   "expect": {
+    "success": true
+   }
+  },
+  {
+   "call": "token",
+   "fn": "balanceOf",
+   "args": [
+    "@bob"
+   ],
+   "expect": {
+    "returns": [
+     "2500000000000000000000000"
+    ]
+   }
+  },
+  {
+   "call": "token",
+   "fn": "transfer",
+   "args": [
+    "@vest",
+    "1000000000000000000000"
+   ],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "true"
+    ]
+   }
+  },
+  {
+   "call": "vest",
+   "fn": "releasable",
+   "expect": {
+    "returns": [
+     "500000000000000000000"
+    ]
+   }
+  },
+  {
+   "call": "vest",
+   "fn": "release",
+   "from": "carol",
+   "expect": {
+    "success": true,
+    "events": [
+     {
+      "name": "Released",
+      "args": [
+       "500000000000000000000"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "warp": 1794608000
+  },
+  {
+   "call": "vest",
+   "fn": "releasable",
+   "expect": {
+    "returns": [
+     "1250250000000000000000000"
+    ]
+   }
+  },
+  {
+   "call": "vest",
+   "fn": "release",
+   "from": "carol",
+   "expect": {
+    "success": true,
+    "events": [
+     {
+      "name": "Released",
+      "args": [
+       "1250250000000000000000000"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "warp": 1826144000
+  },
+  {
+   "call": "vest",
+   "fn": "releasable",
+   "expect": {
+    "returns": [
+     "1250250000000000000000000"
+    ]
+   }
+  },
+  {
+   "call": "vest",
+   "fn": "release",
+   "from": "carol",
+   "expect": {
+    "success": true
+   }
+  },
+  {
+   "call": "token",
+   "fn": "balanceOf",
+   "args": [
+    "@bob"
+   ],
+   "expect": {
+    "returns": [
+     "5001000000000000000000000"
+    ]
+   }
+  },
+  {
+   "call": "token",
+   "fn": "balanceOf",
+   "args": [
+    "@vest"
+   ],
+   "expect": {
+    "returns": [
+     "0"
+    ]
+   }
+  },
+  {
+   "call": "vest",
+   "fn": "released",
+   "expect": {
+    "returns": [
+     "5001000000000000000000000"
+    ]
+   }
+  },
+  {
+   "deploy": "OperatorVesting",
+   "args": [
+    "@token",
+    "@carol",
+    "1700000000",
+    "31536000",
+    "126144000"
+   ],
+   "from": "deployer",
+   "as": "vest2",
+   "expect": {
+    "success": true
+   }
+  },
+  {
+   "call": "token",
+   "fn": "transfer",
+   "args": [
+    "@vest2",
+    "4000000000000000000000000"
+   ],
+   "from": "alice",
+   "expect": {
+    "returns": [
+     "true"
+    ]
+   }
+  },
+  {
+   "call": "vest2",
+   "fn": "release",
+   "from": "alice",
+   "expect": {
+    "success": true,
+    "events": [
+     {
+      "name": "Released",
+      "args": [
+       "4000000000000000000000000"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "call": "token",
+   "fn": "balanceOf",
+   "args": [
+    "@carol"
+   ],
+   "expect": {
+    "returns": [
+     "4000000000000000000000000"
+    ]
+   }
+  },
+  {
+   "call": "token",
+   "fn": "balanceOf",
+   "args": [
+    "@vest2"
+   ],
+   "expect": {
+    "returns": [
+     "0"
+    ]
+   }
+  },
+  {
+   "deploy": "OperatorVesting",
+   "args": [
+    "@token",
+    "0x0000000000000000000000000000000000000000",
+    "1700000000",
+    "31536000",
+    "126144000"
+   ],
+   "from": "deployer",
+   "expect": {
+    "revert": "ZeroAddress"
+   }
+  },
+  {
+   "deploy": "OperatorVesting",
+   "args": [
+    "0x0000000000000000000000000000000000000000",
+    "@bob",
+    "1700000000",
+    "31536000",
+    "126144000"
+   ],
+   "from": "deployer",
+   "expect": {
+    "revert": "ZeroAddress"
+   }
+  },
+  {
+   "deploy": "OperatorVesting",
+   "args": [
+    "@token",
+    "@bob",
+    "1700000000",
+    "0",
+    "0"
+   ],
+   "from": "deployer",
+   "expect": {
+    "revert": "InvalidDuration"
+   }
+  },
+  {
+   "deploy": "OperatorVesting",
+   "args": [
+    "@token",
+    "@bob",
+    "1700000000",
+    "200000000",
+    "126144000"
+   ],
+   "from": "deployer",
+   "expect": {
+    "revert": "CliffExceedsDuration"
+   }
+  }
+ ]
+}

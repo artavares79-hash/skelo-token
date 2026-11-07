@@ -1,22 +1,64 @@
 {
+ "_vesting": {
+  "operator": {
+   "type": "linear",
+   "cliff_months": 12,
+   "duration_months": 48
+  },
+  "stadtkasse": {
+   "type": "linear",
+   "cliff_months": 6,
+   "duration_months": 36
+  },
+  "marketing": {
+   "type": "linear",
+   "cliff_months": 0,
+   "duration_months": 24
+  },
+  "entwicklung": {
+   "type": "linear",
+   "cliff_months": 3,
+   "duration_months": 24
+  },
+  "agenten_praemien": {
+   "type": "linear",
+   "cliff_months": 6,
+   "duration_months": 36
+  },
+  "reserve": {
+   "type": "linear",
+   "cliff_months": 24,
+   "duration_months": 60
+  },
+  "community_insel": {
+   "type": "linear",
+   "cliff_months": 0,
+   "duration_months": 12
+  },
+  "dex_liquiditaet": {
+   "type": "none"
+  }
+ },
  "_hinweis": "VORLAGE: Adressen sind bewusst Platzhalter. Nicht deployen, bevor der Betreiber echte Adressen eintraegt.",
  "holders": [
-  "<ADRESSE res:stadtkasse>",
-  "<ADRESSE res:entwicklung>",
-  "<ADRESSE res:arbeit>",
-  "<ADRESSE res:bonus>",
-  "<ADRESSE res:liquiditaet>",
-  "<ADRESSE res:betreiber>",
-  "<ADRESSE res:oekosystem>"
+  "<ADRESSE operator>",
+  "<ADRESSE stadtkasse>",
+  "<ADRESSE marketing>",
+  "<ADRESSE entwicklung>",
+  "<ADRESSE agenten_praemien>",
+  "<ADRESSE reserve>",
+  "<ADRESSE community_insel>",
+  "<ADRESSE dex_liquiditaet>"
  ],
  "wholeAmounts": [
-  30000000,
-  15000000,
-  20000000,
-  5000000,
-  10000000,
-  5000000,
-  15000000
+  1200000,
+  2000000,
+  500000,
+  1500000,
+  800000,
+  2000000,
+  760000,
+  1240000
  ],
- "sum": 100000000
+ "sum": 10000000
 }

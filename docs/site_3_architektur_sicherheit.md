@@ -8,7 +8,7 @@ Stand: 2026-11-07. Es gibt keinen ausgegebenen SKELO-Token. Beschrieben ist der 
 
 ## Technische Architektur
 - Token-Entwurf: ERC-20 auf Basis von OpenZeppelin Contracts 5.1.0, Solidity 0.8.28.
-- Feste Gesamtmenge 100.000.000 SKELO, 18 Dezimalstellen. Die Verteilung erfolgt einmalig im Konstruktor; die Summe wird geprueft.
+- Feste Gesamtmenge 10.000.000 SKELO, 18 Dezimalstellen. Die Verteilung erfolgt einmalig im Konstruktor; die Summe wird geprueft.
 - Nicht enthalten: Mint-Funktion, Owner, Pausierung, Sperrliste, Gebuehren, Upgrade-Mechanik.
 
 ## Interner Pruefstand
@@ -28,10 +28,10 @@ NICHT geprueft:
 - Keine rechtliche Pruefung (MiCA, Steuer).
 
 ## Offene Punkte
-- Verteilungsadressen der 7 Konten sind nicht festgelegt. Eine Multisig fuer die Stadtkasse ist empfohlen.
-- Der Betreiberanteil (5 Mio. SKELO) ist im Token nicht gesperrt. Ein Vesting-Vertrag ist geplant; ein Entwurf existiert, ist nicht deployed und nicht auditiert.
+- Adressen der acht Halter/Beguenstigten sind nicht festgelegt; Multisig empfohlen, Adressen werden nicht erfunden.
+- Sperren gemaess Beschluss: sieben Kategorien je in einer OperatorVesting-Instanz (Betreiber 1.200.000 SKELO: Cliff 12, linear 48 Monate). Die Vertraege sind getestet (40 EVM-Schritte, lokale Generalprobe), aber nicht deployed und nicht auditiert.
 - EIP-2612 (permit) ist nicht enthalten; die Entscheidung ist offen. Da der Token unveraenderlich ist, kann es spaeter nicht nachgeruestet werden.
 - Es gibt keine Rettungsfunktion fuer versehentlich gesendete Token. Verteilungsadressen werden daher vor dem Deployment mehrfach geprueft und in einem Testnet-Probelauf erprobt (geplant).
 
 ## Ausblick DEX (nur geplant)
-Eine spaetere Anbindung an eine dezentrale Boerse (DEX) ist geplant, nicht beschlossen und nicht umgesetzt. Voraussetzungen sind unter anderem eine Mainnet-Freigabe, ein externes Audit, die rechtliche Klaerung und eine Entscheidung ueber die Liquiditaetsreserve (10 Mio. SKELO, zurueckgehalten, kein Pool ohne Freigabe). Derzeit gibt es keinen Handelspool und keine Handelbarkeit.
+Eine spaetere Anbindung an eine dezentrale Boerse (DEX) ist geplant, nicht beschlossen und nicht umgesetzt. Voraussetzungen sind unter anderem eine Mainnet-Freigabe, ein externes Audit, die rechtliche Klaerung und eine Entscheidung ueber die Liquiditaetsreserve (1.240.000 SKELO, zurueckgehalten, kein Pool ohne Freigabe). Derzeit gibt es keinen Handelspool und keine Handelbarkeit.

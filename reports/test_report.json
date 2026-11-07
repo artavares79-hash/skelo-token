@@ -8,9 +8,9 @@
    "steps": [
     {
      "step": 1,
-     "title": "Deploy mit 3 Haltern (60/30/10 Mio.)",
+     "title": "Deploy mit 3 Haltern (60/30/10 Prozent der Gesamtmenge)",
      "pass": true,
-     "gas": 502330,
+     "gas": 502130,
      "address": "0x24f41a7903c3f68ecac69be0310ba42078523642"
     },
     {
@@ -33,7 +33,7 @@
     },
     {
      "step": 5,
-     "title": "Gesamtmenge = 100 Mio. SKELO",
+     "title": "Gesamtmenge = 10.000.000 SKELO",
      "pass": true,
      "gas": 325
     },

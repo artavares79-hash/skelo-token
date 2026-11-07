@@ -5,7 +5,7 @@ SKELO ist **nicht ausgegeben**. Es ist **nichts deployed** und **nichts auditier
 
 ## Was belegt ist
 - Token-Entwurf: ERC-20, OpenZeppelin 5.1.0, Solidity 0.8.28.
-- Feste Gesamtmenge: 100.000.000 SKELO, einmalig im Konstruktor verteilt; die Summe wird geprüft.
+- Feste Gesamtmenge: 10.000.000 SKELO (Beschluss des Buergermeisters), einmalig im Konstruktor verteilt; die Summe wird geprüft.
 - Keine Mint-Funktion, kein Owner, keine Pausierung, keine Sperrliste, keine Gebühr, kein Upgrade (laut Architekturprüfung des ABI).
 - Tests: 25 von 25 EVM-Schritten bestanden. Offene Befunde: 0.
 
@@ -14,10 +14,13 @@ SKELO ist **nicht ausgegeben**. Es ist **nichts deployed** und **nichts auditier
 - Kein Testnet-Deployment und kein Mainnet-Deployment.
 - Keine Ausgabe, kein Verkauf, keine Handelbarkeit (kein DEX-Pool, keine Börsenlistung).
 
+## Beschlossene Verteilung
+Die Verteilung ist beschlossen (Buergermeister Skello, `docs/TOKENOMICS_BESCHLUSS.md`, `deploy/distribution.json`): Betreiber 1.200.000, Stadtkasse 2.000.000, Marketing 500.000, Weiterentwicklung 1.500.000, KI-Agenten/Praemien 800.000, Reserve 2.000.000, Community/Inselwirtschaft 760.000, Liquiditaetsreserve 1.240.000 (zurueckgehalten, kein Pool) (Summe exakt 10.000.000). Sieben Kategorien sind je in einer OperatorVesting-Instanz gesperrt vorgesehen, die Liquiditaetsreserve ist im Vertrag ungesperrt.
+
 ## Geplant / Offen (nicht umgesetzt)
-Diese vier Punkte sind offene Entscheidungen des Betreibers:
-1. **Verteilungsadressen** (7 Konten) sind nicht festgelegt. Für die Stadtkasse ist eine Multisig vorgesehen.
-2. **Vesting** des Betreiberanteils (5 Mio. SKELO) ist im Token-Vertrag nicht abgebildet; es wäre ein separater Vesting-Vertrag nötig.
+Diese Punkte sind offene Entscheidungen des Betreibers:
+1. **Verteilungsadressen** (8 Halter/Beguenstigte) sind nicht festgelegt. Fuer alle ist eine Multisig vorgesehen; sie werden nicht erfunden.
+2. **Vesting:** Betreiberanteil 1.200.000 SKELO (12 %, Cliff 12 Monate, linear ueber 48 Monate) und sechs weitere Kategorien liegen gemaess Beschluss in `OperatorVesting`-Instanzen; Vertrag und Parameter sind getestet, aber nicht deployed und nicht auditiert.
 3. **EIP-2612 (permit)** ist nicht enthalten; die Entscheidung ist offen.
 4. **Chain-Parameter** Base Mainnet (8453) sind nur dokumentiert; nichts wurde deployed.
 

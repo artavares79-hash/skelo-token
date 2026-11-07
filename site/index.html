@@ -4,7 +4,7 @@
 <h2>Was belegt ist</h2>
 <ul>
 <li>Token-Entwurf: ERC-20, OpenZeppelin 5.1.0, Solidity 0.8.28.</li>
-<li>Feste Gesamtmenge: 100.000.000 SKELO, einmalig im Konstruktor verteilt; die Summe wird geprüft.</li>
+<li>Feste Gesamtmenge: 10.000.000 SKELO (Beschluss des Buergermeisters), einmalig im Konstruktor verteilt; die Summe wird geprüft.</li>
 <li>Keine Mint-Funktion, kein Owner, keine Pausierung, keine Sperrliste, keine Gebühr, kein Upgrade (laut Architekturprüfung des ABI).</li>
 <li>Tests: 25 von 25 EVM-Schritten bestanden. Offene Befunde: 0.</li>
 </ul>
@@ -14,10 +14,12 @@
 <li>Kein Testnet-Deployment und kein Mainnet-Deployment.</li>
 <li>Keine Ausgabe, kein Verkauf, keine Handelbarkeit (kein DEX-Pool, keine Börsenlistung).</li>
 </ul>
+<h2>Beschlossene Verteilung</h2>
+<p>Die Verteilung ist beschlossen (Buergermeister Skello, <code>docs/TOKENOMICS_BESCHLUSS.md</code>, <code>deploy/distribution.json</code>): Betreiber 1.200.000, Stadtkasse 2.000.000, Marketing 500.000, Weiterentwicklung 1.500.000, KI-Agenten/Praemien 800.000, Reserve 2.000.000, Community/Inselwirtschaft 760.000, Liquiditaetsreserve 1.240.000 (zurueckgehalten, kein Pool) (Summe exakt 10.000.000). Sieben Kategorien sind je in einer OperatorVesting-Instanz gesperrt vorgesehen, die Liquiditaetsreserve ist im Vertrag ungesperrt.</p>
 <h2>Geplant / Offen (nicht umgesetzt)</h2>
-<p>Diese vier Punkte sind offene Entscheidungen des Betreibers:</p>
-<p>1. <b>Verteilungsadressen</b> (7 Konten) sind nicht festgelegt. Für die Stadtkasse ist eine Multisig vorgesehen.</p>
-<p>2. <b>Vesting</b> des Betreiberanteils (5 Mio. SKELO) ist im Token-Vertrag nicht abgebildet; es wäre ein separater Vesting-Vertrag nötig.</p>
+<p>Diese Punkte sind offene Entscheidungen des Betreibers:</p>
+<p>1. <b>Verteilungsadressen</b> (8 Halter/Beguenstigte) sind nicht festgelegt. Fuer alle ist eine Multisig vorgesehen; sie werden nicht erfunden.</p>
+<p>2. <b>Vesting:</b> Betreiberanteil 1.200.000 SKELO (12 %, Cliff 12 Monate, linear ueber 48 Monate) und sechs weitere Kategorien liegen gemaess Beschluss in <code>OperatorVesting</code>-Instanzen; Vertrag und Parameter sind getestet, aber nicht deployed und nicht auditiert.</p>
 <p>3. <b>EIP-2612 (permit)</b> ist nicht enthalten; die Entscheidung ist offen.</p>
 <p>4. <b>Chain-Parameter</b> Base Mainnet (8453) sind nur dokumentiert; nichts wurde deployed.</p>
 <p>Zusätzlich vor einem öffentlichen Angebot offen: rechtliche Klärung (MiCA, Steuer).</p>
@@ -51,8 +53,8 @@
 </ul>
 <h2>Offene Punkte</h2>
 <ul>
-<li>Die Verteilungsadressen der 7 Konten sind NICHT festgelegt. Fuer die Stadtkasse ist eine Multisig vorgesehen, aber nicht entschieden.</li>
-<li>Der Betreiberanteil (5 Mio. SKELO) ist im Token-Vertrag nicht gesperrt. Ein separater Vesting-Vertrag ist geplant, nicht umgesetzt.</li>
+<li>Die Adressen der acht Halter/Beguenstigten sind NICHT festgelegt (Multisig vorgesehen, nicht entschieden, nicht erfunden).</li>
+<li>Der Betreiberanteil (1.200.000 SKELO, 12 %) soll gemaess Beschluss in einer OperatorVesting-Instanz liegen (Cliff 12 Monate, 48 Monate linear). Der Vertrag ist getestet, aber nicht deployed und nicht auditiert.</li>
 <li>Die rechtliche Klaerung (u. a. MiCA, Steuer) steht vor jedem oeffentlichen Angebot aus.</li>
 <li>Die Gebuehrensaetze sind Startwerte und koennen vor dem Live-Betrieb geaendert werden.</li>
 </ul>
@@ -71,7 +73,7 @@
 <h2>Technische Architektur</h2>
 <ul>
 <li>Token-Entwurf: ERC-20 auf Basis von OpenZeppelin Contracts 5.1.0, Solidity 0.8.28.</li>
-<li>Feste Gesamtmenge 100.000.000 SKELO, 18 Dezimalstellen. Die Verteilung erfolgt einmalig im Konstruktor; die Summe wird geprueft.</li>
+<li>Feste Gesamtmenge 10.000.000 SKELO, 18 Dezimalstellen. Die Verteilung erfolgt einmalig im Konstruktor; die Summe wird geprueft.</li>
 <li>Nicht enthalten: Mint-Funktion, Owner, Pausierung, Sperrliste, Gebuehren, Upgrade-Mechanik.</li>
 </ul>
 <h2>Interner Pruefstand</h2>
@@ -93,10 +95,10 @@
 </ul>
 <h2>Offene Punkte</h2>
 <ul>
-<li>Verteilungsadressen der 7 Konten sind nicht festgelegt. Eine Multisig fuer die Stadtkasse ist empfohlen.</li>
-<li>Der Betreiberanteil (5 Mio. SKELO) ist im Token nicht gesperrt. Ein Vesting-Vertrag ist geplant; ein Entwurf existiert, ist nicht deployed und nicht auditiert.</li>
+<li>Adressen der acht Halter/Beguenstigten sind nicht festgelegt; Multisig empfohlen, Adressen werden nicht erfunden.</li>
+<li>Sperren gemaess Beschluss: sieben Kategorien je in einer OperatorVesting-Instanz (Betreiber 1.200.000 SKELO: Cliff 12, linear 48 Monate). Die Vertraege sind getestet (40 EVM-Schritte, lokale Generalprobe), aber nicht deployed und nicht auditiert.</li>
 <li>EIP-2612 (permit) ist nicht enthalten; die Entscheidung ist offen. Da der Token unveraenderlich ist, kann es spaeter nicht nachgeruestet werden.</li>
 <li>Es gibt keine Rettungsfunktion fuer versehentlich gesendete Token. Verteilungsadressen werden daher vor dem Deployment mehrfach geprueft und in einem Testnet-Probelauf erprobt (geplant).</li>
 </ul>
 <h2>Ausblick DEX (nur geplant)</h2>
-<p>Eine spaetere Anbindung an eine dezentrale Boerse (DEX) ist geplant, nicht beschlossen und nicht umgesetzt. Voraussetzungen sind unter anderem eine Mainnet-Freigabe, ein externes Audit, die rechtliche Klaerung und eine Entscheidung ueber die Liquiditaetsreserve (10 Mio. SKELO, zurueckgehalten, kein Pool ohne Freigabe). Derzeit gibt es keinen Handelspool und keine Handelbarkeit.</p><h2>Entwicklungsstand (aus den Werkzeugberichten)</h2><table><tr><th>Pruefung</th><th>Ergebnis</th></tr><tr><td>Compiler</td><td>solc 0.8.28, reproduzierbarer Build</td></tr><tr><td>SkeloToken Bytecode SHA-256</td><td><code>9dfd125e10a0854622f2da5bb628b1e2501a0a487e38220a542111a198fe310d</code></td></tr><tr><td>OperatorVesting Bytecode SHA-256</td><td><code>93f57ec3c34713410ef2f32fcf44a3fbcdc2c25193ba52d5195288a08295fe1c</code></td></tr><tr><td>EVM-Tests SkeloToken</td><td>25 von 25 Schritten bestanden</td></tr><tr><td>EVM-Tests Vesting-Entwurf</td><td>40 von 40 Schritten bestanden</td></tr><tr><td>Statische Mustersuche</td><td>0 offene Befunde (kein Audit)</td></tr><tr><td>Unabhaengiges Audit</td><td>nicht durchgefuehrt</td></tr><tr><td>Mainnet</td><td>nicht erfolgt, gesperrt</td></tr></table><h2>Testnet-Adressen</h2><p>Noch kein Testnet-Deployment. Sobald eines erfolgt, stehen die Adressen hier und sind in einem Block-Explorer pruefbar.</p><h2>Quellcode</h2><p>Quelltext: <code>https://github.com/artavares79-hash/skelo-token</code></p><h2>Offen</h2><ul><li>Verteilungsadressen (Multisig), Vesting-Parameter, Entscheidung zu EIP-2612 permit</li><li>Unabhaengiges Audit</li><li>Rechtliche Klaerung (MiCA, Steuer)</li><li>Spaetere DEX-Anbindung nur nach Freigabe und Pruefung</li></ul><p style="color:var(--mut)">Automatisch aus den Berichten von SKELO Blockchain Labs erzeugt.</p></main></body></html>
+<p>Eine spaetere Anbindung an eine dezentrale Boerse (DEX) ist geplant, nicht beschlossen und nicht umgesetzt. Voraussetzungen sind unter anderem eine Mainnet-Freigabe, ein externes Audit, die rechtliche Klaerung und eine Entscheidung ueber die Liquiditaetsreserve (1.240.000 SKELO, zurueckgehalten, kein Pool ohne Freigabe). Derzeit gibt es keinen Handelspool und keine Handelbarkeit.</p><h2>Entwicklungsstand (aus den Werkzeugberichten)</h2><table><tr><th>Pruefung</th><th>Ergebnis</th></tr><tr><td>Compiler</td><td>solc 0.8.28, reproduzierbarer Build</td></tr><tr><td>SkeloToken Bytecode SHA-256</td><td><code>be4134ecfa6dbe204a273d9745abc895183540cdf13a905ecbfd5cf038075047</code></td></tr><tr><td>OperatorVesting Bytecode SHA-256</td><td><code>93f57ec3c34713410ef2f32fcf44a3fbcdc2c25193ba52d5195288a08295fe1c</code></td></tr><tr><td>EVM-Tests SkeloToken</td><td>25 von 25 Schritten bestanden</td></tr><tr><td>EVM-Tests Vesting-Entwurf</td><td>40 von 40 Schritten bestanden</td></tr><tr><td>Statische Mustersuche</td><td>0 offene Befunde (kein Audit)</td></tr><tr><td>Unabhaengiges Audit</td><td>nicht durchgefuehrt</td></tr><tr><td>Mainnet</td><td>nicht erfolgt, gesperrt</td></tr></table><h2>Testnet-Adressen</h2><p>Noch kein Testnet-Deployment. Sobald eines erfolgt, stehen die Adressen hier und sind in einem Block-Explorer pruefbar.</p><h2>Quellcode</h2><p>Quelltext: <code>https://github.com/artavares79-hash/skelo-token</code></p><h2>Offen</h2><ul><li>Verteilungsadressen (Multisig), Vesting-Parameter, Entscheidung zu EIP-2612 permit</li><li>Unabhaengiges Audit</li><li>Rechtliche Klaerung (MiCA, Steuer)</li><li>Spaetere DEX-Anbindung nur nach Freigabe und Pruefung</li></ul><p style="color:var(--mut)">Automatisch aus den Berichten von SKELO Blockchain Labs erzeugt.</p></main></body></html>

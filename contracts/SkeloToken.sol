@@ -9,7 +9,7 @@ import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 ///         Inflation ist technisch ausgeschlossen. Die Verteilung (Stadtkasse, Reserven) entspricht docs/SKELO_TOKEN.md.
 ///         Mainnet-Deployment, Verteilung und Handel nur nach Tests, Pruefung, regulatorischer Klaerung (MiCA) und Betreiberfreigabe.
 contract SkeloToken is ERC20 {
-    uint256 public constant TOTAL_SUPPLY_WHOLE = 100_000_000;
+    uint256 public constant TOTAL_SUPPLY_WHOLE = 10_000_000;
 
     /// @param holders Verteilungsadressen (z. B. Stadtkasse, Entwicklungsreserve, Arbeitsreserve, ...)
     /// @param wholeAmounts Mengen in ganzen SKELO; Summe MUSS exakt TOTAL_SUPPLY_WHOLE sein

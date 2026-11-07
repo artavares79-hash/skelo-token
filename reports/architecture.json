@@ -1,6 +1,26 @@
 {
  "facts": [
   {
+   "file": "OperatorVesting.sol",
+   "kind": "contract",
+   "name": "OperatorVesting",
+   "inherits": [
+    "ReentrancyGuard"
+   ]
+  },
+  {
+   "file": "OperatorVesting.sol",
+   "pragma": "0.8.28",
+   "imports": [
+    "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+    "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+    "@openzeppelin/contracts/utils/ReentrancyGuard.sol"
+   ],
+   "external_calls": 0,
+   "assembly": false,
+   "constants": []
+  },
+  {
    "file": "SkeloToken.sol",
    "kind": "contract",
    "name": "SkeloToken",
@@ -33,14 +53,19 @@
    "note": "ABI enthaelt: keine der verbotenen Funktionen"
   },
   {
-   "check": "Feste Gesamtmenge 100.000.000 (Konstante)",
+   "check": "Feste Gesamtmenge 10.000.000 (Konstante)",
    "ok": true,
    "note": "Konstante TOTAL_SUPPLY_WHOLE im ABI"
   },
   {
+   "check": "Vertragskonstante entspricht dem Beschluss/der Spezifikation",
+   "ok": true,
+   "note": "Konstante = 10.000.000"
+  },
+  {
    "check": "Basis: OpenZeppelin ERC20 (gepinnt 5.1.0)",
    "ok": true,
-   "note": "Vererbung ERC20"
+   "note": "Vererbung ReentrancyGuard, ERC20"
   },
   {
    "check": "Keine externen Aufrufe/Assembly im Projektcode",
@@ -50,12 +75,12 @@
   {
    "check": "Verteilung laut Stadtregister summiert sich zur Gesamtmenge",
    "ok": true,
-   "note": "100.000.000 von 100.000.000"
+   "note": "10.000.000 von 10.000.000"
   }
  ],
  "open_decisions": [
   "Verteilungsadressen (7 Konten) sind NICHT festgelegt; die Stadtkasse sollte eine Multisig sein.",
-  "Vesting des Betreiberanteils (5 Mio.) ist im Vertrag nicht abgebildet (waere ein separater Lock-/Vesting-Vertrag).",
+  "Vesting: je gesperrter Kategorie eine OperatorVesting-Instanz (Beschluss); Begünstigte (Multisig) nicht festgelegt.",
   "Kein EIP-2612 (permit): Entscheidung offen, nicht Teil der Spezifikation.",
   "Basis-Chain-Parameter (Mainnet 8453) sind nur dokumentiert; es wurde nichts deployed."
  ]

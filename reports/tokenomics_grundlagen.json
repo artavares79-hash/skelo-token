@@ -1,0 +1,77 @@
+{
+ "elena": {
+  "erstellt_von": "Finanzabteilung (Elena) - durch Software aus echten Daten zusammengestellt, KEIN Modellaufruf",
+  "stand": "2026-11-07",
+  "stadtkasse": {
+   "verfuegbar_usdc_onchain": 0.0,
+   "historische_einzahlung_usdc": 11.99,
+   "zurueckgezahlt_usdc": 11.99,
+   "hinweis": "Die Stadtkasse hat heute kein verfuegbares USDC-Kapital."
+  },
+  "bewohner": {
+   "insgesamt": 20,
+   "gruender": 12,
+   "blockchain_labs_mitarbeiter": 8
+  },
+  "einnahmequellen_geplant_nicht_geoeffnet": {
+   "grundstuecke_frei": 26,
+   "grundstuecke_preis_usdc_min_max": [
+    12.17,
+    18.82
+   ],
+   "grundstuecke_summe_usdc": 374.8,
+   "verkauf_offen": false,
+   "werbeflaechen": [
+    {
+     "id": "ad_hafen",
+     "preis_usdc_pro_tag": 0.5
+    },
+    {
+     "id": "ad_dorfplatz",
+     "preis_usdc_pro_tag": 0.75
+    }
+   ],
+   "werbung_offen": false,
+   "stadtgebuehr_auf_dienste_prozent": 5.0,
+   "weiterverkauf_vermittlung_prozent": 3.0,
+   "hinweis": "Alle Einnahmen sind NOCH NICHT freigeschaltet; es gibt keine realisierten Einnahmen."
+  },
+  "kosten": {
+   "ki_nutzung": {
+    "modellaufrufe_auftraege": 12,
+    "eingabe_token": 52106,
+    "ausgabe_token": 12855,
+    "llm_test_usd_laut_cli": 0.206561
+   },
+   "abo": "Claude-Abo des Betreibers (keine Einzelabrechnung)",
+   "gas_hosting_audit": "nicht erfasst; ein unabhaengiges Audit und Gas fuer das Mainnet-Deployment sind noch nicht budgetiert"
+  },
+  "skello_testwirtschaft": {
+   "modus": "inaktiv",
+   "land_rate_test": 100,
+   "hinweis": "Die interne SKELO-Testbuchhaltung ist kein Token und kein Wertmassstab; ihre alte Genesis-Verteilung ist ein verworfener Entwurf."
+  },
+  "marktpreis": "Es existiert kein SKELO-Marktpreis, keine Liquiditaet und keine Handelbarkeit."
+ },
+ "david": {
+  "erstellt_von": "David (Blockchain-Leiter) - gemessene Fakten aus den festen Werkzeugen, KEIN Modellaufruf",
+  "messung": {
+   "deploy_gas_nach_haltern": {
+    "1": 451150,
+    "4": 462220,
+    "8": 476980,
+    "16": 506575
+   },
+   "gas_je_zusaetzlichem_halter": 3695,
+   "vesting_bytes": 1477
+  },
+  "vertrag": [
+   "Gesamtmenge ist eine Konstante im Vertrag und im Konstruktor wird die Summe geprueft; sie kann vor dem Deployment frei gewaehlt werden, danach nie mehr geaendert (keine Neupraegung, kein Burn-Recht, kein Owner).",
+   "Die Verteilung erfolgt einmalig im Konstruktor auf eine Liste von Adressen (je Halter ein Eintrag); Mengen in ganzen SKELO (18 Dezimalstellen).",
+   "Vesting: `OperatorVesting` (linear mit Cliff, fuer einen festen Beguenstigten, unveraenderlich, ohne Admin). Pro gesperrter Kategorie wird eine Instanz benoetigt; die Instanz-Adresse ist dann der Halter im Token-Konstruktor (Adresse wird vorab aus der Deployer-Nonce berechnet).",
+   "NICHT moeglich ohne neuen Vertrag: Meilenstein-/bedingungsabhaengiges Vesting, Widerruf, Umverteilung nach dem Deployment, Staffelung mit mehreren Stufen in einer Instanz (mehrere Instanzen sind moeglich).",
+   "Mainnet: Halter und Beguenstigte muessen Multisig-Adressen sein, die der Betreiber festlegt; sie duerfen nicht erfunden werden. Im Testnet werden gekennzeichnete Testadressen verwendet.",
+   "DEX-Liquiditaet: Es gibt keine Handelssperre im Token; ein Pool entsteht nur durch eine bewusste Betreiber-/Multisig-Handlung mit Freigabe. Vesting fuer diese Kategorie ist moeglich, aber nicht erforderlich."
+  ]
+ }
+}

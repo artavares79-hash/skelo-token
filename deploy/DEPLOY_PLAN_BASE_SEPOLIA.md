@@ -20,7 +20,7 @@ Erstellt von Felix Brandt (Infrastruktur). Es wurde **keine Transaktion gesendet
 3. Quelltext mit gleichem Compiler bauen (solc 0.8.28) und Bytecode-SHA-256 `9dfd125e10a08546...` vergleichen.
 4. Deployment ueber `script/DeploySkeloTestnet.s.sol` auf Base Sepolia (84532) - erst nach Betreiberfreigabe.
 5. Quelltext auf dem Testnet-Explorer verifizieren (Standard-JSON `deploy/standard-input.json`).
-6. Verteilung on-chain gegen `docs/TOKEN_PARAMETERS.md` abgleichen (Summe = 100.000.000).
+6. Verteilung on-chain gegen `docs/TOKEN_PARAMETERS.md` abgleichen (Summe = 10.000.000).
 
 ## BLOCKIERT bis Betreiberangaben
 - Verteilungsadressen, Testnet-Schluessel, Freigabe zum Testnet-Deployment. Mainnet ist ausgeschlossen.

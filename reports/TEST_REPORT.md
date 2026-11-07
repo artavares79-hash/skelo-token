@@ -2,15 +2,15 @@
 
 Ausgefuehrt in: ethereumjs/vm cancun (Cancun). Erzeugt von Ines Lindqvist (QA). Testspezifikation: `tests/skelo_erc20.json` (deklarativ; nur Bytecode wird in der EVM ausgefuehrt).
 
-**25 von 25 Schritten bestanden, 0 fehlgeschlagen.** Deploy-Gas: 502330.
+**25 von 25 Schritten bestanden, 0 fehlgeschlagen.** Deploy-Gas: 502130.
 
 | # | Schritt | Ergebnis | Gas | Hinweis |
 |---|---|---|---|---|
-| 1 | Deploy mit 3 Haltern (60/30/10 Mio.) | PASS | 502330 |  |
+| 1 | Deploy mit 3 Haltern (60/30/10 Prozent der Gesamtmenge) | PASS | 502130 |  |
 | 2 | name | PASS | 1086 |  |
 | 3 | symbol | PASS | 1129 |  |
 | 4 | decimals | PASS | 265 |  |
-| 5 | Gesamtmenge = 100 Mio. SKELO | PASS | 325 |  |
+| 5 | Gesamtmenge = 10.000.000 SKELO | PASS | 325 |  |
 | 6 | TOTAL_SUPPLY_WHOLE | PASS | 216 |  |
 | 7 | Anfangsbestand alice | PASS | 537 |  |
 | 8 | Anfangsbestand carol | PASS | 537 |  |
