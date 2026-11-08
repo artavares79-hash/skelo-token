@@ -4,7 +4,7 @@ Entwurf von **David** (Blockchain Labs), beschlossen von **Skello** (Buergermeis
 
 Grundstueck bzw. Haus (digitales Nutzungsrecht) und SKELO-Zuteilung sind zwei verschiedene Leistungen. Die Zuteilung ist kein garantierter Geldwert; der Referenzpreis ist ein Zuteilungsmassstab, kein Marktpreis und keine Zusicherung eines spaeteren Kurses.
 
-**Modell:** Bonus-Presale 4 Phasen, realistisch gedeckelt, Pool nur aus echten USDC
+**Modell:** Begrenzte Tranchen: 4 Phasen, 60.000 SKELO, Bonus fallend von 20 % auf 10 %
 
 ## Phasen
 
@@ -12,30 +12,30 @@ Preiseinheit: micro-USDC je 1 ganzem SKELO (1 USDC = 1.000.000); Zuteilung = Kau
 
 | Phase | Referenzpreis (USDC je SKELO) | Kontingent (SKELO) | Bonus (% des Kaufpreises) | Freigabe (Vesting ab Tokenstart) |
 |---|---:|---:|---:|---|
-| Phase 1 Fruehkaeufer | 0.020000 | 4.000 | 20.00 | 20 % bei Start, Rest Cliff 3 / Dauer 12 Monate |
-| Phase 2 | 0.030000 | 2.000 | 15.00 | 30 % bei Start, Rest Cliff 2 / Dauer 9 Monate |
-| Phase 3 | 0.045000 | 450 | 10.00 | 50 % bei Start, Rest Cliff 1 / Dauer 6 Monate |
-| Phase 4 Abschluss | 0.065000 | 100 | 5.00 | 100 % bei Start, Rest Cliff 0 / Dauer 1 Monate |
+| Phase 1 Fruehkaeufer (Bestandsgrundstuecke) | 0.020000 | 4.000 | 20.00 | 20 % bei Start, Rest Cliff 3 / Dauer 12 Monate |
+| Phase 2 Baugebiet-Tranche A | 0.030000 | 12.000 | 15.00 | 30 % bei Start, Rest Cliff 2 / Dauer 9 Monate |
+| Phase 3 Baugebiet-Tranche B | 0.045000 | 20.000 | 12.00 | 40 % bei Start, Rest Cliff 1 / Dauer 6 Monate |
+| Phase 4 Abschluss-Tranche | 0.065000 | 24.000 | 10.00 | 50 % bei Start, Rest Cliff 1 / Dauer 6 Monate |
 
-Grenze je Wallet: 1.000 SKELO. Ende: Presale endet, wenn alle Phasenkontingente vergeben sind oder keine verkaufbaren Grundstuecke/Haeuser mehr verfuegbar sind. Nicht vergebene Kontingente werden nicht neu verteilt, es gibt keine Neupraegung. Ein Pool entsteht nur nach Multisig-Freigabe und nur mit bestaetigten echten USDC-Erloesen, SKELO-Menge hoechstens lp_skelo_whole.
+Grenze je Wallet: 1.000 SKELO. Ende: Der Presale endet, wenn alle vier Tranchen ausverkauft sind oder der Betreiber/die Multisig ihn per Stichtag schliesst. Eine Tranche wird erst nach Ausverkauf oder Schliessung der Vorphase und mit Multisig-Freigabe geoeffnet. Nicht zugeteilte Mengen werden nie neu verteilt und bleiben gesperrt (keine Neupraegung, kein Burn). Ist eine Tranche ausverkauft, gibt es dafuer keinen Bonus mehr. Nur bestaetigte, echte USDC-Eingaenge zaehlen.
 
 ## Beispielrechnungen (exakt, Ganzzahlmathematik)
 
-| Kaufpreis (USDC) | Phase 1 Fruehkaeufer | Phase 2 | Phase 3 | Phase 4 Abschluss |
+| Kaufpreis (USDC) | Phase 1 Fruehkaeufer (Bestandsgrundstuecke) | Phase 2 Baugebiet-Tranche A | Phase 3 Baugebiet-Tranche B | Phase 4 Abschluss-Tranche |
 |---|---:|---:|---:|---:|
-| 12.17 | 121.70 SKELO (ausverkauft nach 33 Kaeufen) | 60.85 SKELO (ausverkauft nach 33 Kaeufen) | 27.04 SKELO (ausverkauft nach 17 Kaeufen) | 9.36 SKELO (ausverkauft nach 11 Kaeufen) |
-| 18.82 | 188.20 SKELO (ausverkauft nach 22 Kaeufen) | 94.10 SKELO (ausverkauft nach 22 Kaeufen) | 41.82 SKELO (ausverkauft nach 11 Kaeufen) | 14.48 SKELO (ausverkauft nach 7 Kaeufen) |
-| 50 | 500.00 SKELO (ausverkauft nach 8 Kaeufen) | 250.00 SKELO (ausverkauft nach 8 Kaeufen) | 111.11 SKELO (ausverkauft nach 5 Kaeufen) | 38.46 SKELO (ausverkauft nach 3 Kaeufen) |
-| 100 | 1000.00 SKELO (ausverkauft nach 4 Kaeufen) | 500.00 SKELO (ausverkauft nach 4 Kaeufen) | 222.22 SKELO (ausverkauft nach 3 Kaeufen) | 76.92 SKELO (ausverkauft nach 2 Kaeufen) |
-| 500 | 5000.00 SKELO (ausverkauft nach 1 Kaeufen) | 2500.00 SKELO (ausverkauft nach 1 Kaeufen) | 1111.11 SKELO (ausverkauft nach 1 Kaeufen) | 384.62 SKELO (ausverkauft nach 1 Kaeufen) |
+| 12.17 | 121.70 SKELO (ausverkauft nach 33 Kaeufen) | 60.85 SKELO (ausverkauft nach 198 Kaeufen) | 32.45 SKELO (ausverkauft nach 617 Kaeufen) | 18.72 SKELO (ausverkauft nach 1282 Kaeufen) |
+| 18.82 | 188.20 SKELO (ausverkauft nach 22 Kaeufen) | 94.10 SKELO (ausverkauft nach 128 Kaeufen) | 50.19 SKELO (ausverkauft nach 399 Kaeufen) | 28.95 SKELO (ausverkauft nach 829 Kaeufen) |
+| 50 | 500.00 SKELO (ausverkauft nach 8 Kaeufen) | 250.00 SKELO (ausverkauft nach 48 Kaeufen) | 133.33 SKELO (ausverkauft nach 151 Kaeufen) | 76.92 SKELO (ausverkauft nach 313 Kaeufen) |
+| 100 | 1000.00 SKELO (ausverkauft nach 4 Kaeufen) | 500.00 SKELO (ausverkauft nach 24 Kaeufen) | 266.67 SKELO (ausverkauft nach 76 Kaeufen) | 153.85 SKELO (ausverkauft nach 157 Kaeufen) |
+| 500 | 5000.00 SKELO (ausverkauft nach 1 Kaeufen) | 2500.00 SKELO (ausverkauft nach 5 Kaeufen) | 1333.33 SKELO (ausverkauft nach 16 Kaeufen) | 769.23 SKELO (ausverkauft nach 32 Kaeufen) |
 
 ## Reales Inventar vs. Kontingent
 Alle freien Grundstuecke zusammen (374.8 USDC Listenpreise) reichen fuer:
 
 - p1: noetig fuer Ausverkauf 400.00 USDC; ausgeschoepft 93.7 %
-- p2: noetig fuer Ausverkauf 400.00 USDC; ausgeschoepft 0.0 %
-- p3: noetig fuer Ausverkauf 202.50 USDC; ausgeschoepft 0.0 %
-- p4: noetig fuer Ausverkauf 130.00 USDC; ausgeschoepft 0.0 %
+- p2: noetig fuer Ausverkauf 2400.00 USDC; ausgeschoepft 0.0 %
+- p3: noetig fuer Ausverkauf 7500.00 USDC; ausgeschoepft 0.0 %
+- p4: noetig fuer Ausverkauf 15600.00 USDC; ausgeschoepft 0.0 %
 
 ## Verwendung der bestaetigten USDC-Einnahmen
 - Liquiditaetsreserve (rechnerisch vorgemerkt): 40.00 %; Betrieb: 40.00 %; Steuern/Gebuehren: 20.00 %.
@@ -51,54 +51,52 @@ Alle freien Grundstuecke zusammen (374.8 USDC Listenpreise) reichen fuer:
 | Marketing | 500.000 | 5.00 % |
 | Weiterentwicklung (Technik, Betrieb, Audit) | 1.500.000 | 15.00 % |
 | KI-Agenten und Leistungspraemien | 800.000 | 8.00 % |
-| Langfristige Reserve | 3.183.450 | 31.83 % |
+| Langfristige Reserve | 3.130.000 | 31.30 % |
 | Community und Inselwirtschaft | 760.000 | 7.60 % |
 | DEX-Liquiditaet | 50.000 | 0.50 % |
-| Presale-Zuteilung an Grundstuecks- und Hauskaeufer | 6.550 | 0.07 % |
+| Presale-Zuteilung an Grundstuecks- und Hauskaeufer | 60.000 | 0.60 % |
 
 Beschluss v1 (zum Vergleich): operator 1.200.000, stadtkasse 2.000.000, marketing 500.000, entwicklung 1.500.000, agenten_praemien 800.000, reserve 2.000.000, community_insel 760.000, dex_liquiditaet 1.240.000
 
 ## Skellos Beschluss
 Entscheidung: **aendern**
 
-Davids Grundstruktur uebernehme ich: Quoten an realer USDC-Kapazitaet gemessen, Referenzpreise strikt steigend, Bonus sinkend, keine Neupraegung, Pool nur nach Multisig-Freigabe und mit bestaetigten echten USDC. Die Rechnung stimmt (400/400/405/260 USDC, Summe Quoten 7.100, Verteilung = 10.000.000). Ich aendere aus fuenf Gruenden: (1) Gesichert sind nur 374,8 USDC aus Grundstuecken, Phase 1 wird damit nicht einmal voll. Phase 3 und 4 haengen komplett an unbestaetigten Hausverkaeufen. Nicht verkaufte Quote bliebe dauerhaft gesperrt, weil es kein Burn-Recht gibt, und wuerde die ausgewiesene Menge verzerren. Daher halbiere ich P3 und P4. (2) 300.000 SKELO ohne Vesting als DEX-Halter sind ein Ueberhang- und Manipulationsrisiko, der Pool braucht nur rund 10.000 SKELO. DEX sinkt auf 50.000, der Rest geht in die Reserve mit langem Vesting. (3) Max. 2.000 SKELO je Wallet entspricht der halben Phase-1-Quote in einer Hand. Ich senke auf 1.000, das schuetzt die Verteilung vor Einzelaufkaeufern. (4) Die Stadtkasse hat 0 USDC und der Betrieb muss laufen. Ich verschiebe die Erloesaufteilung zu 40/40/20, weil ein Pool mit unter 200 USDC ohnehin kaum Tiefe bietet. (5) Vesting je Kaeufer ist mit OperatorVesting nicht abbildbar und bleibt offen. Der Bonus ist kein Geldwert und keine Kurszusage.
+Davids Grundidee ist richtig: kein fester Bonus fuer alle, sondern ein fallender Bonus bei steigendem Referenzpreis und festen Deckeln. Das schuetzt vor offener Verwaesserung. Zwei Dinge uebernehme ich nicht. Erstens: reale Einnahmen sind nur ein Szenario. Die Stadtkasse hat 0 USDC, das Inventar bringt maximal 374,8 USDC. Phase 1 (400 USDC) ist damit gedeckt. Die Phasen 5 und 6 setzen 33.750 bzw. 57.600 USDC Kaufpreis voraus und haben keine Datenbasis. Ihre 54.000 SKELO blieben ohne Burn dauerhaft gesperrt und fehlten der Reserve. Zweitens: Phase 5 und 6 haben 70 % bzw. 100 % TGE, also fast sofort freie Token fuer die spaetesten Kaeufer. Das erhoeht den Verkaufsdruck, ohne Vertrauen zu schaffen. Ich beschliesse 4 Tranchen mit 60.000 SKELO (0,6 %). Das deckt rechnerisch 25.900 USDC Kaufpreis ab. Das Wallet-Limit sinkt auf 1000, weil Phase 1 sonst durch einen Kaeufer zu 50 % belegt werden koennte. Der Betreiber behaelt die Kontrolle ueber das Oeffnen jeder Tranche. Die Gesamtmenge bleibt 10.000.000. Es gibt keine Geldwert-, Kurs- oder Gewinnzusage. Bestaetigte USDC-Eingaenge werden strikt von der Tokenreserve getrennt.
 
 Aenderungen gegenueber David:
-- Quote P3 von 900 auf 450 SKELO (202,5 USDC), Quote P4 von 200 auf 100 SKELO (130 USDC)
-- presale_kaeufer von 7.100 auf 6.550 SKELO
-- max_skelo_per_wallet von 2.000 auf 1.000
-- dex_liquiditaet von 300.000 auf 50.000 SKELO, lp_skelo bleibt 10.000 als Obergrenze
-- reserve von 2.932.900 auf 3.183.450 SKELO
-- Erloesaufteilung von 50/30/20 auf 40/40/20 (reserve/ops/tax)
-- dex_liquiditaet erhaelt Vesting 6 Monate statt 1 Monat
-- Vesting je Kaeufer als eigener offener Punkt benannt, Steuerquote nur vorbehaltlich rechtlicher Pruefung
+- Phasen von 6 auf 4 reduziert: Phase 5 (90.000 micro-USDC) und Phase 6 (120.000 micro-USDC) entfallen
+- Gesamtkontingent von 120.000 auf 60.000 SKELO halbiert (0,6 % statt 1,2 %)
+- Phase 4 von 30.000 auf 24.000 SKELO verkleinert, Bonus 10 %, Vesting 50 % TGE, 1 Monat Cliff, 6 Monate Dauer
+- Wallet-Limit von 2000 auf 1000 SKELO gesenkt (Sybil- und Konzentrationsrisiko)
+- Reserve von 3.070.000 auf 3.130.000 SKELO erhoeht, weil presale_kaeufer von 120.000 auf 60.000 sinkt
+- Tranchen werden nur nach ausdruecklicher Multisig-Freigabe geoeffnet, jeweils erst nach Ausverkauf oder Schliessung der Vorphase
+- Preise, Boni und Vesting der Phasen 1 bis 3 sowie Liquiditaetsaufteilung 40/40/20 und LP 10.000 SKELO unveraendert uebernommen
 
 Aenderungen gegenueber Beschluss v1:
-- dex_liquiditaet von 1.240.000 auf 50.000 SKELO (-1.190.000)
-- reserve von 2.000.000 auf 3.183.450 SKELO (+1.183.450)
-- neue Kategorie presale_kaeufer mit 6.550 SKELO
-- operator, stadtkasse, marketing, entwicklung, agenten_praemien, community_insel unveraendert
-- Gesamtmenge unveraendert 10.000.000
-- Neu: Bonus-Presale in 4 Phasen, Pool nur aus bestaetigten echten USDC-Erloesen
-- Neu: Erloesaufteilung 40/40/20 in Reserve-Liquiditaet, Betrieb, Steuern
-- Neu: Wallet-Limit 1.000 SKELO
+- Presale-Kontingent von 6.550 auf 60.000 SKELO erhoeht (+53.450)
+- Reserve von 3.183.450 auf 3.130.000 SKELO gesenkt (-53.450)
+- Von einem kleinen Einzelkontingent auf 4 gestaffelte Tranchen mit fallendem Bonus (20/15/12/10 %) und steigendem Referenzpreis umgestellt
+- Das Kontingent ist nicht mehr nur auf die 26 Bestandsgrundstuecke (374,8 USDC) kalkuliert, sondern deckt Baugebiets-Erweiterungen mit festem Deckel
+- Wallet-Limit 1000 SKELO und gestaffeltes Vesting je Phase neu eingefuehrt
+- Alle anderen Kategorien (operator, stadtkasse, marketing, entwicklung, agenten_praemien, community_insel, dex_liquiditaet) und deren Vesting unveraendert
+- Gesamtmenge 10.000.000 unveraendert
 
 ## Gesamtbegruendung
-Die Stadtkasse hat 0 USDC, gesichert sind nur 374,8 USDC aus 26 Grundstuecken. Haeuser (4/8/15/20/40 USDC) sind Potenzial, aber unbestaetigt. Darum bleiben die Quoten klein und exakt an USDC-Kapazitaet gemessen: 400+400+202,5+130 = 1.132,5 USDC. Der Bonus ist ein SKELO-Anteil am Kaufpreis zum Referenzpreis, weder Geldwert noch Kurszusage. Erloese gehen zu 40 % in spaetere Liquiditaet, 40 % in den Betrieb, 20 % in Steuern. Pool nur nach Multisig-Freigabe und bestaetigten USDC, SKELO-Menge hoechstens 10.000. Die Gesamtmenge bleibt 10.000.000: 1.200.000+2.000.000+500.000+1.500.000+800.000+3.183.450+760.000+50.000+6.550 = 10.000.000. Wallet-Limit 1.000 SKELO verhindert Konzentration in einer Hand.
+Die reale Einnahmemoeglichkeit ist klein: 26 Grundstuecke bringen hoechstens 374,8 USDC, die Stadtkasse hat 0 USDC. Ein fester Bonus fuer alle waere gefaehrlich, weil die Menge bei grossem Wachstum nicht mehr reichen wuerde. Deshalb beschliesse ich begrenzte Tranchen mit fallendem Bonus (20/15/12/10 %) und steigendem Referenzpreis (0,02/0,03/0,045/0,065 USDC). Das Gesamtkontingent betraegt 60.000 SKELO (0,6 %) und deckt rechnerisch 25.900 USDC Kaufpreis ab. Gegenueber David entfallen zwei Tranchen, deren Vorbedingung (33.750 und 57.600 USDC) nicht belegt ist. Das spart 60.000 SKELO fuer die Reserve. Die USDC-Erloese werden 40/40/20 auf Reserve, Betrieb und Steuer verteilt und bleiben strikt von der Tokenreserve getrennt. Die Zuteilung ist kein Geldwertversprechen, es gibt keine Kurs- oder Gewinnzusage.
 
 ## Risiken
-- Reale USDC-Einnahmen koennen unter der Kapazitaet bleiben; nicht vergebene Quoten bleiben gesperrt und werden nicht neu verteilt
-- Ein Pool mit nur wenigen hundert USDC ist anfaellig fuer starke Preisschwankungen und Manipulation; kein Preis- oder Gewinnversprechen
-- Rechtliche Einstufung des Bonus als Wertpapier/Krypto-Asset und der Steuerquote ist ungeklaert
-- Vesting je Kaeufer ist ohne zusaetzlichen Vertrag nicht on-chain durchsetzbar; nach Deployment nicht aenderbar
-- Wallet-Limit ist durch mehrere Wallets umgehbar (Sybil); Hausverkaeufe und damit Phasen 2 bis 4 sind unbestaetigt
+- Alle Einnahmen sind nur ein Szenario: Stadtkasse 0 USDC, keine realisierten Verkaeufe. Tranchen koennen unverkauft bleiben, die Mengen bleiben ohne Burn dauerhaft gesperrt.
+- Wallet-Limit 1000 ist per Sybil-Aufteilung auf mehrere Adressen umgehbar. Gegenmittel sind Kaeuferbindung ueber den Grundstueckskauf und Pruefung.
+- Der Bonus koennte als Geldwert- oder Kurszusage missverstanden werden. Klare Hinweise sind noetig, dass nichts garantiert wird.
+- Kleine Phase-1-Quote (4000) kann rasch ausverkauft sein und spaetere Kaeufer benachteiligen.
+- Mehrere Vesting-Instanzen je Phase und Kategorie erhoehen Deploy-Gas und Komplexitaet. Meilenstein-Vesting und Widerruf sind ohne neuen Vertrag nicht moeglich.
 
 ## Offene Punkte / fehlende Freigaben
-- Multisig-Adressen fuer Halter und Beguenstigte vom Betreiber festlegen (nicht erfinden)
-- Zahl und Preise der verkaufbaren Haeuser/Erweiterungen bestaetigen
-- Rechtliche Pruefung von Bonus, Steuerquote und Kaeuferhinweisen
-- Mechanismus fuer Vesting je Kaeufer klaeren (Presale-/Claim-Vertrag oder Multisig-Auszahlung nach Zeitplan)
-- Freigabeprozess und Schwellen der Multisig fuer die Pool-Erstellung festlegen
+- Mainnet-Multisig-Adressen fuer alle Halter und Beguenstigten muss der Betreiber festlegen. Sie duerfen nicht erfunden werden.
+- Freigabe der Tranchengrenzen: Welche Baugebiete (Anzahl, Preise) gehoeren zu welcher Phase und wer bestaetigt das?
+- Preise der Haeuser und neuen Grundstuecke sind ungeprueft. Die Szenarien (10/25/60 USDC) sind Annahmen, keine Daten.
+- Rechtliche und steuerliche Pruefung der Bonus-Zuteilung (Tax-Anteil 20 % ist nur ein Planwert).
+- Entscheidung, ob unverkaufte Tranchen nach Presale-Ende bewusst gesperrt bleiben oder die Vertraege neu geplant werden.
 - Betreiberfreigabe fuer echten Presale (presale.open), Verkaufsfreigabe (land.sales_open + legal_confirmed), Mainnet-Deployment, Liquiditaetsbereitstellung.
 - Rechtliche Pruefung des Tokenbonus (MiCA, Verbraucherschutz, Steuer).
 - Technisch noch offen: on-chain Anspruchsvertrag (Claim/Vesting je Kaeufer); bis dahin sind Zuteilungen Buchungen im Backend.

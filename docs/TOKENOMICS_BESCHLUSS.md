@@ -6,52 +6,52 @@ Beschlossen von **Skello (Buergermeister) auf Grundlage des Vorschlags von David
 
 | Kategorie | Menge | Anteil | Sperre/Freigabe |
 |---|---:|---:|---|
-| Betreiberanteil | 1.200.000 | 12.00 % | linear, Cliff 12 Monate, Dauer 48 Monate |
-| Stadtkasse (SKELO STADTKASSE) | 2.000.000 | 20.00 % | linear, Cliff 6 Monate, Dauer 36 Monate |
-| Marketing | 500.000 | 5.00 % | linear, Cliff 3 Monate, Dauer 24 Monate |
-| Weiterentwicklung (Technik. Betrieb. Audit) | 1.500.000 | 15.00 % | linear, Cliff 6 Monate, Dauer 36 Monate |
+| Betreiberanteil | 1.200.000 | 12.00 % | linear, Cliff 6 Monate, Dauer 36 Monate |
+| Stadtkasse (SKELO STADTKASSE) | 2.000.000 | 20.00 % | linear, Cliff 3 Monate, Dauer 24 Monate |
+| Marketing | 500.000 | 5.00 % | linear, Cliff 0 Monate, Dauer 12 Monate |
+| Weiterentwicklung (Technik. Betrieb. Audit) | 1.500.000 | 15.00 % | linear, Cliff 6 Monate, Dauer 24 Monate |
 | KI-Agenten und Leistungspraemien | 800.000 | 8.00 % | linear, Cliff 0 Monate, Dauer 24 Monate |
-| Langfristige Reserve | 3.183.450 | 31.83 % | linear, Cliff 12 Monate, Dauer 48 Monate |
-| Community und Inselwirtschaft | 760.000 | 7.60 % | linear, Cliff 3 Monate, Dauer 24 Monate |
-| DEX-Liquiditaet | 50.000 | 0.50 % | linear, Cliff 0 Monate, Dauer 6 Monate |
-| Presale-Zuteilung an Grundstuecks- und Hauskaeufer | 6.550 | 0.07 % | linear, Cliff 0 Monate, Dauer 1 Monate |
+| Langfristige Reserve | 3.130.000 | 31.30 % | linear, Cliff 12 Monate, Dauer 36 Monate |
+| Community und Inselwirtschaft | 760.000 | 7.60 % | linear, Cliff 0 Monate, Dauer 12 Monate |
+| DEX-Liquiditaet | 50.000 | 0.50 % | linear, Cliff 0 Monate, Dauer 1 Monate |
+| Presale-Zuteilung an Grundstuecks- und Hauskaeufer | 60.000 | 0.60 % | linear, Cliff 0 Monate, Dauer 1 Monate |
 
 ## Begruendung je Kategorie
 ### Betreiberanteil
-Unveraendert zu v1. Der Betreiber traegt das Betreiberrisiko, 12 Monate Cliff und 48 Monate linear binden ihn an den langfristigen Erfolg der Stadt und verhindern frueheres Abstossen.
+Unveraendert aus v1. Der Betreiber traegt das Betriebsrisiko. 6 Monate Cliff und 36 Monate lineares Vesting binden ihn langfristig und verhindern kurzfristige Verkaeufe.
 ### Stadtkasse (SKELO STADTKASSE)
-Unveraendert zu v1. Langfristiger Haushalt der Stadt in SKELO. Die Kasse hat 0 USDC, deshalb sind die Token kein Bargeld. 6 Monate Cliff und 36 Monate linear vermeiden Marktdruck.
+Unveraendert aus v1. Die Stadtkasse sichert den laufenden Betrieb. Gestaffelte Freigabe ueber 24 Monate schuetzt die Bewohner vor einem Verkaufsdruck der Kasse.
 ### Marketing
-Unveraendert zu v1. Mittel fuer Bekanntheit und Aktionen, gestreckt ueber 24 Monate nach 3 Monaten Cliff, damit Ausgaben an echte Ergebnisse gekoppelt bleiben.
+Unveraendert aus v1. Marketing braucht frueh nutzbare Mittel. 12 Monate lineare Freigabe halten die Menge am Markt dosiert und planbar.
 ### Weiterentwicklung (Technik, Betrieb, Audit)
-Unveraendert zu v1. Finanziert die technische Weiterentwicklung der Insel ueber drei Jahre. Der Cliff von 6 Monaten sichert Kontinuitaet und verhindert, dass Entwicklungsanteile frueh verkauft werden.
+Unveraendert aus v1. Entwicklung wird ueber Cliff und Vesting an laufende Lieferung gebunden. Das schuetzt das Vertrauen der Bewohner in den Betrieb.
 ### KI-Agenten und Leistungspraemien
-Unveraendert zu v1. Praemien fuer die Agenten der Stadt fliessen sofort linear ueber 24 Monate, damit laufende Leistung belohnt wird, ohne dass auf einmal grosse Mengen frei werden.
+Unveraendert aus v1. Praemien fuer Agenten und Beitragende werden ueber 24 Monate gleichmaessig freigegeben. So bleibt der Anreiz dauerhaft und es entsteht kein Sofortverkauf.
 ### Langfristige Reserve
-Erhoeht von 2.000.000 auf 3.183.450, weil der DEX-Anteil sinkt und P3/P4 verkleinert wurden. Lange Sperre (12/48) puffert Liquiditaetsbedarf und schuetzt Bewohner vor Ueberhang. Ausgabe nur per Multisig.
+Reserve sinkt von 3.183.450 auf 3.130.000, weil 53.450 SKELO in die Presale-Tranchen gehen. 12 Monate Cliff und 36 Monate Vesting halten sie langfristig gebunden und begrenzen die Verwaesserung.
 ### Community und Inselwirtschaft
-Unveraendert zu v1. Anteil fuer die Bewohner und Community-Aktionen. 3 Monate Cliff und 24 Monate linear sorgen fuer faire, planbare Verteilung statt einmaliger Ausschuettung.
+Unveraendert aus v1. Die Community-Menge kommt den Bewohnern der Insel direkt zugute. Die Freigabe ueber 12 Monate vermeidet einen Schock und stuetzt das Vertrauen.
 ### DEX-Liquiditaet
-Von 1.240.000 auf 50.000 gesenkt. Ein Pool kann nur so gross werden wie die echten, bestaetigten USDC (wenige hundert). 10.000 SKELO fuer den Start, Rest als Nachschuss. Vesting 6 Monate gegen Ueberhang.
+Unveraendert aus v1. Davon sind hoechstens 10.000 SKELO fuer einen Pool vorgesehen. Ein Pool entsteht nur durch bewusste Multisig-Handlung. Es gibt keine Kurs- oder Preiszusage.
 ### Presale-Zuteilung an Grundstuecks- und Hauskaeufer
-Summe der Phasenkontingente 4000+2000+450+100. Das phasenspezifische Vesting je Kaeufer ist on-chain mit OperatorVesting nicht abbildbar und braucht einen Presale-/Claim-Mechanismus. Nicht vergebene Menge wird nicht neu verteilt.
+Summe der vier Phasenkontingente (4000+12000+20000+24000). Phasenvesting der Kaeufer wird bei der Zuteilung angewendet. Unverkaufte Mengen bleiben gesperrt und werden nie neu verteilt.
 
 ## Gesamtbegruendung
-Die Stadtkasse hat 0 USDC, gesichert sind nur 374,8 USDC aus 26 Grundstuecken. Haeuser (4/8/15/20/40 USDC) sind Potenzial, aber unbestaetigt. Darum bleiben die Quoten klein und exakt an USDC-Kapazitaet gemessen: 400+400+202,5+130 = 1.132,5 USDC. Der Bonus ist ein SKELO-Anteil am Kaufpreis zum Referenzpreis, weder Geldwert noch Kurszusage. Erloese gehen zu 40 % in spaetere Liquiditaet, 40 % in den Betrieb, 20 % in Steuern. Pool nur nach Multisig-Freigabe und bestaetigten USDC, SKELO-Menge hoechstens 10.000. Die Gesamtmenge bleibt 10.000.000: 1.200.000+2.000.000+500.000+1.500.000+800.000+3.183.450+760.000+50.000+6.550 = 10.000.000. Wallet-Limit 1.000 SKELO verhindert Konzentration in einer Hand.
+Die reale Einnahmemoeglichkeit ist klein: 26 Grundstuecke bringen hoechstens 374,8 USDC, die Stadtkasse hat 0 USDC. Ein fester Bonus fuer alle waere gefaehrlich, weil die Menge bei grossem Wachstum nicht mehr reichen wuerde. Deshalb beschliesse ich begrenzte Tranchen mit fallendem Bonus (20/15/12/10 %) und steigendem Referenzpreis (0,02/0,03/0,045/0,065 USDC). Das Gesamtkontingent betraegt 60.000 SKELO (0,6 %) und deckt rechnerisch 25.900 USDC Kaufpreis ab. Gegenueber David entfallen zwei Tranchen, deren Vorbedingung (33.750 und 57.600 USDC) nicht belegt ist. Das spart 60.000 SKELO fuer die Reserve. Die USDC-Erloese werden 40/40/20 auf Reserve, Betrieb und Steuer verteilt und bleiben strikt von der Tokenreserve getrennt. Die Zuteilung ist kein Geldwertversprechen, es gibt keine Kurs- oder Gewinnzusage.
 
 ## Risiken (laut Beschluss)
-- Reale USDC-Einnahmen koennen unter der Kapazitaet bleiben; nicht vergebene Quoten bleiben gesperrt und werden nicht neu verteilt
-- Ein Pool mit nur wenigen hundert USDC ist anfaellig fuer starke Preisschwankungen und Manipulation; kein Preis- oder Gewinnversprechen
-- Rechtliche Einstufung des Bonus als Wertpapier/Krypto-Asset und der Steuerquote ist ungeklaert
-- Vesting je Kaeufer ist ohne zusaetzlichen Vertrag nicht on-chain durchsetzbar; nach Deployment nicht aenderbar
-- Wallet-Limit ist durch mehrere Wallets umgehbar (Sybil); Hausverkaeufe und damit Phasen 2 bis 4 sind unbestaetigt
+- Alle Einnahmen sind nur ein Szenario: Stadtkasse 0 USDC, keine realisierten Verkaeufe. Tranchen koennen unverkauft bleiben, die Mengen bleiben ohne Burn dauerhaft gesperrt.
+- Wallet-Limit 1000 ist per Sybil-Aufteilung auf mehrere Adressen umgehbar. Gegenmittel sind Kaeuferbindung ueber den Grundstueckskauf und Pruefung.
+- Der Bonus koennte als Geldwert- oder Kurszusage missverstanden werden. Klare Hinweise sind noetig, dass nichts garantiert wird.
+- Kleine Phase-1-Quote (4000) kann rasch ausverkauft sein und spaetere Kaeufer benachteiligen.
+- Mehrere Vesting-Instanzen je Phase und Kategorie erhoehen Deploy-Gas und Komplexitaet. Meilenstein-Vesting und Widerruf sind ohne neuen Vertrag nicht moeglich.
 
 ## Offene Punkte fuer den Betreiber (laut Beschluss)
-- Multisig-Adressen fuer Halter und Beguenstigte vom Betreiber festlegen (nicht erfinden)
-- Zahl und Preise der verkaufbaren Haeuser/Erweiterungen bestaetigen
-- Rechtliche Pruefung von Bonus, Steuerquote und Kaeuferhinweisen
-- Mechanismus fuer Vesting je Kaeufer klaeren (Presale-/Claim-Vertrag oder Multisig-Auszahlung nach Zeitplan)
-- Freigabeprozess und Schwellen der Multisig fuer die Pool-Erstellung festlegen
+- Mainnet-Multisig-Adressen fuer alle Halter und Beguenstigten muss der Betreiber festlegen. Sie duerfen nicht erfunden werden.
+- Freigabe der Tranchengrenzen: Welche Baugebiete (Anzahl, Preise) gehoeren zu welcher Phase und wer bestaetigt das?
+- Preise der Haeuser und neuen Grundstuecke sind ungeprueft. Die Szenarien (10/25/60 USDC) sind Annahmen, keine Daten.
+- Rechtliche und steuerliche Pruefung der Bonus-Zuteilung (Tax-Anteil 20 % ist nur ein Planwert).
+- Entscheidung, ob unverkaufte Tranchen nach Presale-Ende bewusst gesperrt bleiben oder die Vertraege neu geplant werden.
 
 ## Grundlagen
 Finanzgrundlagen (Elena) und Umsetzbarkeit (David) liegen in `reports/tokenomics_grundlagen.json`. Es gibt keinen Marktpreis; keine Zahl in diesem Dokument ist eine Bewertung oder Renditeaussage.

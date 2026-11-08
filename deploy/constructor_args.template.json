@@ -2,23 +2,23 @@
  "_vesting": {
   "operator": {
    "type": "linear",
-   "cliff_months": 12,
-   "duration_months": 48
-  },
-  "stadtkasse": {
-   "type": "linear",
    "cliff_months": 6,
    "duration_months": 36
   },
-  "marketing": {
+  "stadtkasse": {
    "type": "linear",
    "cliff_months": 3,
    "duration_months": 24
   },
+  "marketing": {
+   "type": "linear",
+   "cliff_months": 0,
+   "duration_months": 12
+  },
   "entwicklung": {
    "type": "linear",
    "cliff_months": 6,
-   "duration_months": 36
+   "duration_months": 24
   },
   "agenten_praemien": {
    "type": "linear",
@@ -28,17 +28,17 @@
   "reserve": {
    "type": "linear",
    "cliff_months": 12,
-   "duration_months": 48
+   "duration_months": 36
   },
   "community_insel": {
    "type": "linear",
-   "cliff_months": 3,
-   "duration_months": 24
+   "cliff_months": 0,
+   "duration_months": 12
   },
   "dex_liquiditaet": {
    "type": "linear",
    "cliff_months": 0,
-   "duration_months": 6
+   "duration_months": 1
   },
   "presale_kaeufer": {
    "type": "linear",
@@ -64,10 +64,10 @@
   500000,
   1500000,
   800000,
-  3183450,
+  3130000,
   760000,
   50000,
-  6550
+  60000
  ],
  "sum": 10000000
 }

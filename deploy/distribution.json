@@ -1,6 +1,6 @@
 {
  "decided_by": "Skello (Buergermeister) auf Grundlage des Vorschlags von David, Modell claude-sonnet-5-5",
- "decided_at": 1794093264,
+ "decided_at": 1794122953,
  "total_supply_whole": 10000000,
  "allocations": [
   {
@@ -10,10 +10,10 @@
    "share_pct": 12.0,
    "vesting": {
     "type": "linear",
-    "cliff_months": 12,
-    "duration_months": 48
+    "cliff_months": 6,
+    "duration_months": 36
    },
-   "begruendung": "Unveraendert zu v1. Der Betreiber traegt das Betreiberrisiko, 12 Monate Cliff und 48 Monate linear binden ihn an den langfristigen Erfolg der Stadt und verhindern frueheres Abstossen."
+   "begruendung": "Unveraendert aus v1. Der Betreiber traegt das Betriebsrisiko. 6 Monate Cliff und 36 Monate lineares Vesting binden ihn langfristig und verhindern kurzfristige Verkaeufe."
   },
   {
    "id": "stadtkasse",
@@ -22,10 +22,10 @@
    "share_pct": 20.0,
    "vesting": {
     "type": "linear",
-    "cliff_months": 6,
-    "duration_months": 36
+    "cliff_months": 3,
+    "duration_months": 24
    },
-   "begruendung": "Unveraendert zu v1. Langfristiger Haushalt der Stadt in SKELO. Die Kasse hat 0 USDC, deshalb sind die Token kein Bargeld. 6 Monate Cliff und 36 Monate linear vermeiden Marktdruck."
+   "begruendung": "Unveraendert aus v1. Die Stadtkasse sichert den laufenden Betrieb. Gestaffelte Freigabe ueber 24 Monate schuetzt die Bewohner vor einem Verkaufsdruck der Kasse."
   },
   {
    "id": "marketing",
@@ -34,10 +34,10 @@
    "share_pct": 5.0,
    "vesting": {
     "type": "linear",
-    "cliff_months": 3,
-    "duration_months": 24
+    "cliff_months": 0,
+    "duration_months": 12
    },
-   "begruendung": "Unveraendert zu v1. Mittel fuer Bekanntheit und Aktionen, gestreckt ueber 24 Monate nach 3 Monaten Cliff, damit Ausgaben an echte Ergebnisse gekoppelt bleiben."
+   "begruendung": "Unveraendert aus v1. Marketing braucht frueh nutzbare Mittel. 12 Monate lineare Freigabe halten die Menge am Markt dosiert und planbar."
   },
   {
    "id": "entwicklung",
@@ -47,9 +47,9 @@
    "vesting": {
     "type": "linear",
     "cliff_months": 6,
-    "duration_months": 36
+    "duration_months": 24
    },
-   "begruendung": "Unveraendert zu v1. Finanziert die technische Weiterentwicklung der Insel ueber drei Jahre. Der Cliff von 6 Monaten sichert Kontinuitaet und verhindert, dass Entwicklungsanteile frueh verkauft werden."
+   "begruendung": "Unveraendert aus v1. Entwicklung wird ueber Cliff und Vesting an laufende Lieferung gebunden. Das schuetzt das Vertrauen der Bewohner in den Betrieb."
   },
   {
    "id": "agenten_praemien",
@@ -61,19 +61,19 @@
     "cliff_months": 0,
     "duration_months": 24
    },
-   "begruendung": "Unveraendert zu v1. Praemien fuer die Agenten der Stadt fliessen sofort linear ueber 24 Monate, damit laufende Leistung belohnt wird, ohne dass auf einmal grosse Mengen frei werden."
+   "begruendung": "Unveraendert aus v1. Praemien fuer Agenten und Beitragende werden ueber 24 Monate gleichmaessig freigegeben. So bleibt der Anreiz dauerhaft und es entsteht kein Sofortverkauf."
   },
   {
    "id": "reserve",
    "name": "Langfristige Reserve",
-   "amount_whole": 3183450,
-   "share_pct": 31.8345,
+   "amount_whole": 3130000,
+   "share_pct": 31.3,
    "vesting": {
     "type": "linear",
     "cliff_months": 12,
-    "duration_months": 48
+    "duration_months": 36
    },
-   "begruendung": "Erhoeht von 2.000.000 auf 3.183.450, weil der DEX-Anteil sinkt und P3/P4 verkleinert wurden. Lange Sperre (12/48) puffert Liquiditaetsbedarf und schuetzt Bewohner vor Ueberhang. Ausgabe nur per Multisig."
+   "begruendung": "Reserve sinkt von 3.183.450 auf 3.130.000, weil 53.450 SKELO in die Presale-Tranchen gehen. 12 Monate Cliff und 36 Monate Vesting halten sie langfristig gebunden und begrenzen die Verwaesserung."
   },
   {
    "id": "community_insel",
@@ -82,10 +82,10 @@
    "share_pct": 7.6,
    "vesting": {
     "type": "linear",
-    "cliff_months": 3,
-    "duration_months": 24
+    "cliff_months": 0,
+    "duration_months": 12
    },
-   "begruendung": "Unveraendert zu v1. Anteil fuer die Bewohner und Community-Aktionen. 3 Monate Cliff und 24 Monate linear sorgen fuer faire, planbare Verteilung statt einmaliger Ausschuettung."
+   "begruendung": "Unveraendert aus v1. Die Community-Menge kommt den Bewohnern der Insel direkt zugute. Die Freigabe ueber 12 Monate vermeidet einen Schock und stuetzt das Vertrauen."
   },
   {
    "id": "dex_liquiditaet",
@@ -95,21 +95,21 @@
    "vesting": {
     "type": "linear",
     "cliff_months": 0,
-    "duration_months": 6
+    "duration_months": 1
    },
-   "begruendung": "Von 1.240.000 auf 50.000 gesenkt. Ein Pool kann nur so gross werden wie die echten, bestaetigten USDC (wenige hundert). 10.000 SKELO fuer den Start, Rest als Nachschuss. Vesting 6 Monate gegen Ueberhang."
+   "begruendung": "Unveraendert aus v1. Davon sind hoechstens 10.000 SKELO fuer einen Pool vorgesehen. Ein Pool entsteht nur durch bewusste Multisig-Handlung. Es gibt keine Kurs- oder Preiszusage."
   },
   {
    "id": "presale_kaeufer",
    "name": "Presale-Zuteilung an Grundstuecks- und Hauskaeufer",
-   "amount_whole": 6550,
-   "share_pct": 0.0655,
+   "amount_whole": 60000,
+   "share_pct": 0.6,
    "vesting": {
     "type": "linear",
     "cliff_months": 0,
     "duration_months": 1
    },
-   "begruendung": "Summe der Phasenkontingente 4000+2000+450+100. Das phasenspezifische Vesting je Kaeufer ist on-chain mit OperatorVesting nicht abbildbar und braucht einen Presale-/Claim-Mechanismus. Nicht vergebene Menge wird nicht neu verteilt."
+   "begruendung": "Summe der vier Phasenkontingente (4000+12000+20000+24000). Phasenvesting der Kaeufer wird bei der Zuteilung angewendet. Unverkaufte Mengen bleiben gesperrt und werden nie neu verteilt."
   }
  ],
  "months_seconds": 2592000,

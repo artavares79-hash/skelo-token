@@ -21,17 +21,27 @@ Gesamtmenge **10.000.000 SKELO**, beschlossen vom Buergermeister der Insel (Begr
 
 | Kategorie | SKELO | Anteil | Sperre |
 |---|---:|---:|---|
-| Betreiberanteil | 1.200.000 | 12.0 % | linear, Cliff 12 Mon., Dauer 48 Mon. |
-| Stadtkasse | 2.000.000 | 20.0 % | linear, Cliff 6 Mon., Dauer 36 Mon. |
-| Marketing | 500.000 | 5.0 % | linear, Cliff 3 Mon., Dauer 24 Mon. |
-| Weiterentwicklung | 1.500.000 | 15.0 % | linear, Cliff 6 Mon., Dauer 36 Mon. |
+| Betreiberanteil | 1.200.000 | 12.0 % | linear, Cliff 6 Mon., Dauer 36 Mon. |
+| Stadtkasse | 2.000.000 | 20.0 % | linear, Cliff 3 Mon., Dauer 24 Mon. |
+| Marketing | 500.000 | 5.0 % | linear, Cliff 0 Mon., Dauer 12 Mon. |
+| Weiterentwicklung | 1.500.000 | 15.0 % | linear, Cliff 6 Mon., Dauer 24 Mon. |
 | KI-Agenten und Leistungspraemien | 800.000 | 8.0 % | linear, Cliff 0 Mon., Dauer 24 Mon. |
-| Langfristige Reserve | 3.183.450 | 31.8 % | linear, Cliff 12 Mon., Dauer 48 Mon. |
-| Community und Inselwirtschaft | 760.000 | 7.6 % | linear, Cliff 3 Mon., Dauer 24 Mon. |
-| DEX-Liquiditaet | 50.000 | 0.5 % | linear, Cliff 0 Mon., Dauer 6 Mon. |
-| Presale-Zuteilung an Kaeufer | 6.550 | 0.1 % | linear, Cliff 0 Mon., Dauer 1 Mon. |
+| Langfristige Reserve | 3.130.000 | 31.3 % | linear, Cliff 12 Mon., Dauer 36 Mon. |
+| Community und Inselwirtschaft | 760.000 | 7.6 % | linear, Cliff 0 Mon., Dauer 12 Mon. |
+| DEX-Liquiditaet | 50.000 | 0.5 % | linear, Cliff 0 Mon., Dauer 1 Mon. |
+| Presale-Zuteilung an Kaeufer | 60.000 | 0.6 % | linear, Cliff 0 Mon., Dauer 1 Mon. |
 
 Die Halter- und Beguenstigten-Adressen fuer ein spaeteres Mainnet sind **nicht festgelegt** und werden nicht erfunden (Multisig-Adressen des Betreibers noetig). Auf dem Testnet kommen gekennzeichnete Testadressen zum Einsatz.
+
+## Presale-/Zuteilungsmodell (VORGESCHLAGEN, kein Verkauf)
+Grundstuecks-/Hauskaeufer koennten gemaess Modell zusaetzlich SKELO zugeteilt bekommen (Details, Beispielrechnungen, Risiken: `docs/PRESALE_MODELL.md`, Zahlen: `deploy/presale_model.json`, `reports/presale_scenarios.json`). Das ist **kein Angebot**, keine Zuteilung hat stattgefunden, es gibt keinen Verkauf und keine Handelbarkeit; der Referenzpreis ist kein Marktpreis. Die Backend-Logik (Buch, Idempotenz, Erstattung) liegt im Insel-Backend und ist hier nicht enthalten.
+
+| Phase | Referenzpreis (USDC je SKELO) | Kontingent (SKELO) | Bonus |
+|---|---:|---:|---:|
+| Phase 1 Fruehkaeufer (Bestandsgrundstuecke) | 0.020 | 4.000 | 20 % |
+| Phase 2 Baugebiet-Tranche A | 0.030 | 12.000 | 15 % |
+| Phase 3 Baugebiet-Tranche B | 0.045 | 20.000 | 12 % |
+| Phase 4 Abschluss-Tranche | 0.065 | 24.000 | 10 % |
 
 ## Selbst nachbauen und testen
 ```
