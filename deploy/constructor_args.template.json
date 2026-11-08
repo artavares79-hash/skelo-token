@@ -2,11 +2,13 @@
  "_vesting": {
   "operator": {
    "type": "linear",
-   "cliff_months": 6,
-   "duration_months": 36
+   "cliff_months": 12,
+   "duration_months": 48
   },
   "stadtkasse": {
-   "type": "none"
+   "type": "linear",
+   "cliff_months": 6,
+   "duration_months": 36
   },
   "marketing": {
    "type": "linear",
@@ -20,7 +22,7 @@
   },
   "agenten_praemien": {
    "type": "linear",
-   "cliff_months": 3,
+   "cliff_months": 0,
    "duration_months": 24
   },
   "reserve": {
@@ -29,13 +31,19 @@
    "duration_months": 48
   },
   "community_insel": {
-   "type": "none"
+   "type": "linear",
+   "cliff_months": 0,
+   "duration_months": 36
   },
   "dex_liquiditaet": {
-   "type": "none"
+   "type": "linear",
+   "cliff_months": 0,
+   "duration_months": 1
   },
   "presale_kaeufer": {
-   "type": "none"
+   "type": "linear",
+   "cliff_months": 0,
+   "duration_months": 1
   }
  },
  "_hinweis": "VORLAGE: Adressen sind bewusst Platzhalter. Nicht deployen, bevor der Betreiber echte Adressen eintraegt.",
@@ -51,15 +59,15 @@
   "<ADRESSE presale_kaeufer>"
  ],
  "wholeAmounts": [
+  1000000,
+  1700000,
+  400000,
   1200000,
-  2000000,
-  500000,
-  1500000,
-  800000,
-  2760000,
+  745000,
+  1900000,
   760000,
   50000,
-  430000
+  2245000
  ],
  "sum": 10000000
 }

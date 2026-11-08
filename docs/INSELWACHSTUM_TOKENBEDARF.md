@@ -1,33 +1,33 @@
-# Inselwachstum und SKELO-Tokenbedarf (Szenarien)
+# Capacity coverage of the buyer allocation (worst case, 100 % sales)
 
-Alle Zahlen sind **Szenarien, keine Prognosen und keine erzielten Einnahmen**. Annahmen: Referenzpreis Phase 1 0.02 USDC, 30 % der Grundstueckskaeufer kaufen zusaetzlich ein Haus (15 USDC), Grundstueckspreis 25 USDC, Verkaufsquote 25 % bzw. 100 %.
+All figures are scenarios, not forecasts and not revenue. Method: capacity first, then maximum allocation per purchase, then the quota (quota = purchases x maximum allocation). A purchase never receives more than its phase maximum, whatever it costs.
 
-## Bedarf ohne Kontingentgrenzen (alle Kaeufer zum Phase-1-Preis)
+Declared capacity: **20.000 properties**, at most one eligible house per property. Per-wallet limit: 3 bonus-eligible purchases.
 
-| Grundstuecke | Quote | USDC (Szenario) | Bonus 20 % | Bonus 50 % | Bonus 100 % | Anteil Bonus 100 % an Gesamtmenge |
-|---:|---:|---:|---:|---:|---:|---:|
-| 1.000 | 25 % | 7.375 | 73.750 | 184.375 | 368.750 | 3.7 % |
-| 1.000 | 100 % | 29.500 | 295.000 | 737.500 | 1.475.000 | 14.8 % |
-| 5.000 | 25 % | 36.875 | 368.750 | 921.875 | 1.843.750 | 18.4 % |
-| 5.000 | 100 % | 147.500 | 1.475.000 | 3.687.500 | 7.375.000 | 73.8 % |
-| 10.000 | 25 % | 73.750 | 737.500 | 1.843.750 | 3.687.500 | 36.9 % |
-| 10.000 | 100 % | 295.000 | 2.950.000 | 7.375.000 | 14.750.000 | 147.5 % |
-| 20.000 | 25 % | 147.500 | 1.475.000 | 3.687.500 | 7.375.000 | 73.8 % |
-| 20.000 | 100 % | 590.000 | 5.900.000 | 14.750.000 | 29.500.000 | 295.0 % |
+| Phase | Properties | House purchases | Max SKELO per property | Max SKELO per house | Quota (SKELO) | Reference price (USDC) | Bonus % |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Phase 1 - Early Founders | 1.000 | 300 | 200 | 300 | 290.000 | 0.020 | 20.0 |
+| Phase 2 - Island Expansion | 4.000 | 1.500 | 125 | 200 | 800.000 | 0.030 | 15.0 |
+| Phase 3 - Community Growth | 5.000 | 2.000 | 67 | 100 | 535.000 | 0.045 | 12.0 |
+| Phase 4 - Final Phase | 10.000 | 4.000 | 38 | 60 | 620.000 | 0.065 | 10.0 |
 
-Wo der Bedarf 10.000.000 SKELO (die gesamte Menge) erreicht oder uebersteigt, ist das Modell bei grosser Insel nicht tragfaehig.
+## Coverage at 100 % sales (each property plus one house)
 
-## Beschlossenes Modell: wie viele Kaeufer werden bedient? (Grundstueck 25 USDC, Kontingent gesamt 430.000 SKELO)
+| Properties sold | SKELO needed (worst case) | Unserved properties | All covered |
+|---:|---:|---:|---|
+| 1.000 | 290.000 | 0 | yes |
+| 5.000 | 1.090.000 | 0 | yes |
+| 10.000 | 1.625.000 | 0 | yes |
+| 20.000 | 2.245.000 | 0 | yes |
 
-| Grundstuecke | Quote | Kaeufer | mit Zuteilung | ohne Zuteilung | SKELO verbraucht |
-|---:|---:|---:|---:|---:|---:|
-| 1.000 | 25 % | 250 | 250 | 0 | 39.540 |
-| 1.000 | 100 % | 1.000 | 1.000 | 0 | 112.288 |
-| 5.000 | 25 % | 1.250 | 1.250 | 0 | 131.955 |
-| 5.000 | 100 % | 5.000 | 5.000 | 0 | 346.039 |
-| 10.000 | 25 % | 2.500 | 2.500 | 0 | 230.288 |
-| 10.000 | 100 % | 10.000 | 6.849 | 3.150 | 430.000 |
-| 20.000 | 25 % | 5.000 | 5.000 | 0 | 346.039 |
-| 20.000 | 100 % | 20.000 | 6.849 | 13.150 | 430.000 |
+## Allocation per purchase at different prices (formula vs. cap), SKELO
 
-Kaeufer ohne Zuteilung erhalten ihr Grundstueck trotzdem; die Zuteilung ist ein begrenzter Bonus, kein Anspruch auf unbegrenzte Tokens. Rohdaten: `reports/growth_scenarios.json`.
+| Price (USDC) | Phase 1 - Early Founders | Phase 2 - Island Expansion | Phase 3 - Community Growth | Phase 4 - Final Phase |
+|---:|---:|---:|---:|---:|
+| 10 | 100.00 | 50.00 | 26.67 | 15.38 |
+| 25 | 200.00 | 125.00 | 66.67 | 38.00 |
+| 60 | 200.00 | 125.00 | 67.00 | 38.00 |
+| 150 | 200.00 | 125.00 | 67.00 | 38.00 |
+| 500 | 200.00 | 125.00 | 67.00 | 38.00 |
+
+Unallocated SKELO of a permanently closed phase return to the City Treasury (backend ledger until the on-chain mechanism exists). Raw data: `reports/growth_scenarios.json`.

@@ -1,57 +1,57 @@
-# Tokenomics-Beschluss (Buergermeister Skello)
+# Tokenomics-Beschluss (Buergermeister Skelo)
 
-Beschlossen von **Skello (Buergermeister) auf Grundlage des Vorschlags von David, Modell claude-sonnet-5-5** am 2026-11-08. Der Beschluss ist ein Entwurf fuer die technische Umsetzung; er ist kein Angebot, kein Verkauf und keine Anlageempfehlung. SKELO ist nicht ausgegeben und nicht handelbar.
+Beschlossen von **Skelo (Buergermeister) auf Grundlage des Vorschlags von David, Modell claude-sonnet-5-5** am 2026-11-08. Der Beschluss ist ein Entwurf fuer die technische Umsetzung; er ist kein Angebot, kein Verkauf und keine Anlageempfehlung. SKELO ist nicht ausgegeben und nicht handelbar.
 
 **Gesamtmenge: 10.000.000 SKELO** (fest. keine Neupraegung)
 
 | Kategorie | Menge | Anteil | Sperre/Freigabe |
 |---|---:|---:|---|
-| Betreiberanteil | 1.200.000 | 12.00 % | linear, Cliff 6 Monate, Dauer 36 Monate |
-| Stadtkasse (SKELO STADTKASSE) | 2.000.000 | 20.00 % | keine Sperre im Vertrag |
-| Marketing | 500.000 | 5.00 % | linear, Cliff 3 Monate, Dauer 24 Monate |
-| Weiterentwicklung (Technik. Betrieb. Audit) | 1.500.000 | 15.00 % | linear, Cliff 6 Monate, Dauer 36 Monate |
-| KI-Agenten und Leistungspraemien | 800.000 | 8.00 % | linear, Cliff 3 Monate, Dauer 24 Monate |
-| Langfristige Reserve | 2.760.000 | 27.60 % | linear, Cliff 12 Monate, Dauer 48 Monate |
-| Community und Inselwirtschaft | 760.000 | 7.60 % | keine Sperre im Vertrag |
-| DEX-Liquiditaet | 50.000 | 0.50 % | keine Sperre im Vertrag |
-| Presale-Zuteilung an Grundstuecks- und Hauskaeufer | 430.000 | 4.30 % | keine Sperre im Vertrag |
+| Betreiberanteil | 1.000.000 | 10.00 % | linear, Cliff 12 Monate, Dauer 48 Monate |
+| Stadtkasse (SKELO STADTKASSE) | 1.700.000 | 17.00 % | linear, Cliff 6 Monate, Dauer 36 Monate |
+| Marketing | 400.000 | 4.00 % | linear, Cliff 3 Monate, Dauer 24 Monate |
+| Weiterentwicklung (Technik. Betrieb. Audit) | 1.200.000 | 12.00 % | linear, Cliff 6 Monate, Dauer 36 Monate |
+| KI-Agenten und Leistungspraemien | 745.000 | 7.45 % | linear, Cliff 0 Monate, Dauer 24 Monate |
+| Langfristige Reserve | 1.900.000 | 19.00 % | linear, Cliff 12 Monate, Dauer 48 Monate |
+| Community und Inselwirtschaft | 760.000 | 7.60 % | linear, Cliff 0 Monate, Dauer 36 Monate |
+| DEX-Liquiditaet | 50.000 | 0.50 % | linear, Cliff 0 Monate, Dauer 1 Monate |
+| Presale-Zuteilung an Grundstuecks- und Hauskaeufer | 2.245.000 | 22.45 % | linear, Cliff 0 Monate, Dauer 1 Monate |
 
 ## Begruendung je Kategorie
 ### Betreiberanteil
-Unveraendert zu v1. Betreiberanteil linear gesperrt (Cliff 6 Monate, 36 Monate Laufzeit), damit Betreiber und Kaeufer gleichgerichtete Interessen haben. Mainnet-Halter ist eine vom Betreiber festgelegte Multisig.
+Operator-Anteil gegenueber v1 um 200.000 gekuerzt, um das Presale-Kontingent zu finanzieren. Cliff 12 und 48 Monate Vesting binden den Betreiber langfristig an die Insel und begrenzen das Betreiberrisiko.
 ### Stadtkasse (SKELO STADTKASSE)
-Unveraendert. Die Stadtkasse bleibt Auffangbecken fuer unverteilte Presale-Kontingente und finanziert den Betrieb der Insel. Sie wird per Multisig verwaltet, Buchung nicht verteilter Mengen durch die Software.
+Stadtkasse ueber dem Schutzminimum von 1,5 Mio. Nicht verteilte Phasenkontingente kommen bei Abschluss hinzu. Das Vesting sichert den Betrieb ueber drei Jahre, auch ohne realisierte USDC-Einnahmen.
 ### Marketing
-Unveraendert. Marketingmittel werden gestreckt freigegeben, damit keine Kampagnenmenge frueh in den Markt gelangt und die Ausgaben an den tatsaechlichen Fortschritt der Insel gebunden bleiben.
+Marketing-Budget gegenueber v1 reduziert, da der Absatz durch das reale Inventar begrenzt ist. Cliff 3 und 24 Monate Vesting verhindern fruehe Abfluesse und koppeln Ausgaben an den Inselausbau.
 ### Weiterentwicklung (Technik, Betrieb, Audit)
-Unveraendert. Entwicklung der Insel, Vertraege und Werkzeuge ist ein langfristiger Aufwand und wird deshalb ueber 36 Monate mit 6 Monaten Cliff freigegeben.
+Entwicklung bleibt der drittgroesste Block, um Ausbau, Werkzeuge und Sicherheit der Insel zu finanzieren. Cliff 6 und 36 Monate Vesting halten die Anreize ueber den Ausbau hinweg.
 ### KI-Agenten und Leistungspraemien
-Unveraendert. Praemien fuer KI-Agenten laufen linear ueber 24 Monate, damit Leistung langfristig belohnt wird und kein Einmalabfluss entsteht.
+Praemien fuer KI-Agenten bleiben deutlich ueber dem Minimum von 500.000. Lineare Freigabe ueber 24 Monate ohne Cliff ermoeglicht laufende Leistungen, ohne dass alles auf einmal verfuegbar wird.
 ### Langfristige Reserve
-Reduziert von 3.130.000 um 370.000, die in den Presale gehen. Die Reserve bleibt mit 27,6 % die zweitgroesste Kategorie, gesperrt mit 12 Monaten Cliff. Sie ist strikt getrennt von der USDC-Liquiditaet.
+Reserve bleibt ueber dem Minimum von 1 Mio. SKELO, trotz Kuerzung gegenueber v1. Cliff 12 und 48 Monate Vesting schuetzen das Vertrauen der Bewohner und sichern KI-Dienste und Liquiditaet langfristig.
 ### Community und Inselwirtschaft
-Unveraendert. Mittel fuer Community und Inselaktionen. Die Menge ist klar begrenzt und wird per Multisig nach offen dokumentierten Regeln ausgegeben.
+Anteil fuer Bewohner und Inselgemeinschaft bleibt gegenueber v1 unveraendert. Lineare Freigabe ueber 36 Monate ohne Cliff stellt sicher, dass Bewohner von Beginn an Zugang erhalten.
 ### DEX-Liquiditaet
-Unveraendert. 10.000 SKELO sind fuer einen moeglichen Pool vorgesehen, paarbar nur mit echten, bestaetigten USDC-Erloesen (reserve_bps). Ein Pool entsteht nur durch bewusste Multisig-Freigabe; es gibt keinen Kurs- oder Handelsanspruch.
+Minimale Liquiditaetsausstattung unveraendert, davon hoechstens 10.000 SKELO als erster Pool. Ein Pool entsteht nur durch bewusste Multisig-Handlung mit Freigabe. Keine Kurs- oder Boersenzusage.
 ### Presale-Zuteilung an Grundstuecks- und Hauskaeufer
-Summe der vier Phasenkontingente (6.500 + 62.500 + 166.700 + 194.300 = 430.000) statt 60.000. Die 60.000 reichten nur fuer das Kleinszenario. Die Vesting-Regeln je Phase setzt ein Claim-Mechanismus um, nicht der Token.
+Summe der vier Phasenkontingente. Ein zusaetzlicher Pool-Cliff wuerde die TGE-Auszahlungen der Kaeufer blockieren. Das Vesting regeln die Phasen. Pool-Adresse oeffentlich, Rest nach Abschluss an die Stadtkasse.
 
 ## Gesamtbegruendung
-Die v1-Reserve von 6.550 SKELO war nur fuer 26 Grundstuecke kalkuliert. Bonusvergleich: Bei 1.000 Grundstuecken, 25 % Absatz und 10 USDC Grundstueck ergeben sich 36.250 (20 %), 90.625 (50 %) und 181.250 SKELO (100 %). Bei 20.000 Grundstuecken und 60 USDC waeren 100 % rechnerisch ueber 600 % der Gesamtmenge. Ein 100-%-Bonus wuerde einen Geldwert nahelegen und ist nicht tragbar; auch 50 % sprengt grosse Kapazitaeten. Gewaehlt sind 20 % fallend auf 10 % mit festen Deckeln. Maximalexposure ist 430.000 SKELO (4,3 %). Verteilung: Reserve -370.000, alle anderen Kategorien unveraendert. Jede Phase ist per target_buyers belegt; spaetere Kaeufer ueber den Zielzahlen erhalten keinen Bonus. Die Kapazitaeten 1.000/5.000/10.000/20.000 sind bei Absatzquoten von rund 50/50/50/25 % gedeckt. Die USDC-Liquiditaet (reserve_bps) bleibt getrennt von der Token-Reserve. Kein Kursversprechen.
+Das v1-Kontingent von 430.000 SKELO war fuer 26 Grundstuecke kalkuliert und deckt keine Insel mit bis zu 20.000 Grundstuecken. David kalkuliert das Kontingent per Formel aus Zielmengen und Kappen, sodass es auch bei 100 % Verkauf gedeckt ist. Die Boni fallen von 20 % auf 10 %, fruehe Kaeufer erhalten mehr SKELO je USDC, und das Vesting wird mit spaeteren Phasen kuerzer. Die Gesamtmenge bleibt fix bei 10.000.000. Alle Schutzminima sind gewahrt, die Kuerzungen tragen Reserve, Stadtkasse, Entwicklung, Operator, Marketing und Agentenpraemien. Real sind nur 374,8 USDC Inventar und 0 USDC in der Stadtkasse vorhanden. Nicht ausgeschoepfte Kontingente kehren deshalb bei Abschluss an die Stadtkasse zurueck. Ich begrenze Wallet-Konzentration (3 Kaeufe), entferne den Pool-Cliff und binde die Oeffnung der Phasen an Bauamt-Freigaben. Ein Bonus ist kein Geldwert, es gibt keine Kurs- oder Gewinnzusage.
 
 ## Risiken (laut Beschluss)
-- Wird die Zielkaeuferzahl ueberschritten, erhalten weitere Kaeufer keinen Bonus; das kann Unmut erzeugen.
-- Mit nur 374,8 USDC Bestandsinventar und ohne reale Einnahmen ist die USDC-Liquiditaet moeglicherweise sehr klein.
-- Bonus-SKELO koennten als Wertversprechen missverstanden werden; klare Hinweise sind noetig.
-- Wallet-Grenze 250 gilt ueber alle Phasen; Sybil-Wallets sind nur mit Kauf- und Identitaetspruefung begrenzbar.
-- Der Token kann kein bedingtes Vesting; die Phasen-Vesting-Regeln haengen von einem separaten Claim-Vertrag ab.
+- Teure Kaeufe werden gekappt, die effektive Zuteilung je USDC liegt dann unter den Formelwerten.
+- Unverkaufte Kontingente bleiben bis zum Phasenabschluss gebunden und erhoehen erst danach die Stadtkasse.
+- Bei geringem Absatz entstehen kaum USDC-Einnahmen, die Stadtkasse hat aktuell 0 USDC.
+- Vesting-Instanzen sind unveraenderlich, Fehlparameter koennen nach dem Deployment nicht korrigiert werden.
+- Der Pool presale_kaeufer ist frei verfuegbar und haengt an der Sicherheit des Betreiber-Multisigs.
 
 ## Offene Punkte fuer den Betreiber (laut Beschluss)
-- Claim-/Vesting-Vertrag je Phase muss entworfen, getestet und auditiert werden.
-- Multisig-Adressen fuer alle Halter muss der Betreiber festlegen.
-- Referenzkaufpreis 25 USDC mit Bauamt/Finanzabteilung gegen reale Haus- und Grundstuecksmixe pruefen.
-- Rechtliche Pruefung der Bonus-Kommunikation (kein Geldwert, keine Kursaussage).
-- Freigabeprozess fuer neue Baugebiete und Oeffnung der Phasen festlegen.
+- Multisig-Adressen fuer Mainnet-Halter und Beguenstigte muss der Betreiber festlegen.
+- Das Bauamt muss die Ausbaumeilensteine je Phase schriftlich freigeben.
+- Kappen, das Limit von 3 bonusberechtigten Kaeufen je Wallet und die Pool-Adresse sind oeffentlich zu deklarieren.
+- Zeitpunkt und Umfang eines spaeteren USDC-Liquiditaetspools sind getrennt von der Tokenreserve zu entscheiden.
+- Der Zielwert von 20.000 Grundstuecken ist durch Bestand zu belegen (derzeit nur 26 verkaufbar).
 
 ## Grundlagen
 Finanzgrundlagen (Elena) und Umsetzbarkeit (David) liegen in `reports/tokenomics_grundlagen.json`. Es gibt keinen Marktpreis; keine Zahl in diesem Dokument ist eine Bewertung oder Renditeaussage.
