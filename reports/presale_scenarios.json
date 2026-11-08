@@ -6,8 +6,8 @@
     {
      "phase": "p1",
      "skelo_je_kauf": 121.7,
-     "kaeufe_bis_ausverkauft": 2383,
-     "usdc_bis_ausverkauft": 29001.11
+     "kaeufe_bis_ausverkauft": 3287,
+     "usdc_bis_ausverkauft": 40002.79
     },
     {
      "phase": "p2",
@@ -18,18 +18,18 @@
     {
      "phase": "p3",
      "skelo_je_kauf": 32.45333333333333,
-     "kaeufe_bis_ausverkauft": 16486,
-     "usdc_bis_ausverkauft": 200634.62
+     "kaeufe_bis_ausverkauft": 18489,
+     "usdc_bis_ausverkauft": 225011.13
     },
     {
      "phase": "p4",
      "skelo_je_kauf": 18.723076923076924,
-     "kaeufe_bis_ausverkauft": 33115,
-     "usdc_bis_ausverkauft": 403009.55
+     "kaeufe_bis_ausverkauft": 42729,
+     "usdc_bis_ausverkauft": 520011.93
     }
    ],
-   "kaeufe_gesamt": 65132,
-   "usdc_gesamt": 792656.44
+   "kaeufe_gesamt": 77653,
+   "usdc_gesamt": 945037.01
   },
   {
    "kaufpreis_usdc": 18.82,
@@ -37,8 +37,8 @@
     {
      "phase": "p1",
      "skelo_je_kauf": 188.2,
-     "kaeufe_bis_ausverkauft": 1541,
-     "usdc_bis_ausverkauft": 29001.62
+     "kaeufe_bis_ausverkauft": 2126,
+     "usdc_bis_ausverkauft": 40011.32
     },
     {
      "phase": "p2",
@@ -49,18 +49,18 @@
     {
      "phase": "p3",
      "skelo_je_kauf": 50.18666666666667,
-     "kaeufe_bis_ausverkauft": 10661,
-     "usdc_bis_ausverkauft": 200640.02
+     "kaeufe_bis_ausverkauft": 11956,
+     "usdc_bis_ausverkauft": 225011.92
     },
     {
      "phase": "p4",
      "skelo_je_kauf": 28.953846153846154,
-     "kaeufe_bis_ausverkauft": 21414,
-     "usdc_bis_ausverkauft": 403011.48
+     "kaeufe_bis_ausverkauft": 27631,
+     "usdc_bis_ausverkauft": 520015.42
     }
    ],
-   "kaeufe_gesamt": 42118,
-   "usdc_gesamt": 792660.76
+   "kaeufe_gesamt": 50215,
+   "usdc_gesamt": 945046.3
   },
   {
    "kaufpreis_usdc": 50,
@@ -68,8 +68,8 @@
     {
      "phase": "p1",
      "skelo_je_kauf": 500.0,
-     "kaeufe_bis_ausverkauft": 580,
-     "usdc_bis_ausverkauft": 29000.0
+     "kaeufe_bis_ausverkauft": 800,
+     "usdc_bis_ausverkauft": 40000.0
     },
     {
      "phase": "p2",
@@ -80,18 +80,18 @@
     {
      "phase": "p3",
      "skelo_je_kauf": 133.33333333333334,
-     "kaeufe_bis_ausverkauft": 4013,
-     "usdc_bis_ausverkauft": 200650.0
+     "kaeufe_bis_ausverkauft": 4501,
+     "usdc_bis_ausverkauft": 225050.0
     },
     {
      "phase": "p4",
      "skelo_je_kauf": 76.92307692307692,
-     "kaeufe_bis_ausverkauft": 8061,
-     "usdc_bis_ausverkauft": 403050.0
+     "kaeufe_bis_ausverkauft": 10401,
+     "usdc_bis_ausverkauft": 520050.0
     }
    ],
-   "kaeufe_gesamt": 15854,
-   "usdc_gesamt": 792700.0
+   "kaeufe_gesamt": 18902,
+   "usdc_gesamt": 945100.0
   },
   {
    "kaufpreis_usdc": 100,
@@ -99,8 +99,8 @@
     {
      "phase": "p1",
      "skelo_je_kauf": 1000.0,
-     "kaeufe_bis_ausverkauft": 290,
-     "usdc_bis_ausverkauft": 29000.0
+     "kaeufe_bis_ausverkauft": 400,
+     "usdc_bis_ausverkauft": 40000.0
     },
     {
      "phase": "p2",
@@ -111,18 +111,18 @@
     {
      "phase": "p3",
      "skelo_je_kauf": 266.6666666666667,
-     "kaeufe_bis_ausverkauft": 2007,
-     "usdc_bis_ausverkauft": 200700.0
+     "kaeufe_bis_ausverkauft": 2251,
+     "usdc_bis_ausverkauft": 225100.0
     },
     {
      "phase": "p4",
      "skelo_je_kauf": 153.84615384615384,
-     "kaeufe_bis_ausverkauft": 4031,
-     "usdc_bis_ausverkauft": 403100.0
+     "kaeufe_bis_ausverkauft": 5201,
+     "usdc_bis_ausverkauft": 520100.0
     }
    ],
-   "kaeufe_gesamt": 7928,
-   "usdc_gesamt": 792800.0
+   "kaeufe_gesamt": 9452,
+   "usdc_gesamt": 945200.0
   },
   {
    "kaufpreis_usdc": 500,
@@ -130,8 +130,8 @@
     {
      "phase": "p1",
      "skelo_je_kauf": 5000.0,
-     "kaeufe_bis_ausverkauft": 58,
-     "usdc_bis_ausverkauft": 29000.0
+     "kaeufe_bis_ausverkauft": 80,
+     "usdc_bis_ausverkauft": 40000.0
     },
     {
      "phase": "p2",
@@ -142,18 +142,18 @@
     {
      "phase": "p3",
      "skelo_je_kauf": 1333.3333333333333,
-     "kaeufe_bis_ausverkauft": 402,
-     "usdc_bis_ausverkauft": 201000.0
+     "kaeufe_bis_ausverkauft": 451,
+     "usdc_bis_ausverkauft": 225500.0
     },
     {
      "phase": "p4",
      "skelo_je_kauf": 769.2307692307693,
-     "kaeufe_bis_ausverkauft": 807,
-     "usdc_bis_ausverkauft": 403500.0
+     "kaeufe_bis_ausverkauft": 1041,
+     "usdc_bis_ausverkauft": 520500.0
     }
    ],
-   "kaeufe_gesamt": 1587,
-   "usdc_gesamt": 793500.0
+   "kaeufe_gesamt": 1892,
+   "usdc_gesamt": 946000.0
   }
  ],
  "reales_inventar": {
@@ -161,8 +161,8 @@
   "phasen_bei_vollstaendigem_verkauf_in_reihenfolge": [
    {
     "phase": "p1",
-    "usdc_noetig_fuer_ausverkauf": 29000.0,
-    "skelo_ausgeschoepft_prozent": 1.29
+    "usdc_noetig_fuer_ausverkauf": 40000.0,
+    "skelo_ausgeschoepft_prozent": 0.94
    },
    {
     "phase": "p2",
@@ -171,12 +171,12 @@
    },
    {
     "phase": "p3",
-    "usdc_noetig_fuer_ausverkauf": 200625.0,
+    "usdc_noetig_fuer_ausverkauf": 225000.0,
     "skelo_ausgeschoepft_prozent": 0.0
    },
    {
     "phase": "p4",
-    "usdc_noetig_fuer_ausverkauf": 403000.0,
+    "usdc_noetig_fuer_ausverkauf": 520000.0,
     "skelo_ausgeschoepft_prozent": 0.0
    }
   ],
@@ -822,17 +822,17 @@
    {
     "grundstuecke": 1000,
     "haeuser_worst_case": 1000,
-    "skelo_benoetigt_worst_case": 290000,
+    "skelo_benoetigt_worst_case": 400000,
     "unbediente_grundstuecke": 0,
-    "unbediente_haeuser": 700,
+    "unbediente_haeuser": 0,
     "alle_gedeckt": true,
     "phasen": [
      {
       "phase": "p1",
       "grundstuecke": 1000,
-      "haeuser": 300,
-      "skelo_worst_case": 290000,
-      "kontingent": 290000,
+      "haeuser": 1000,
+      "skelo_worst_case": 400000,
+      "kontingent": 400000,
       "gedeckt": true
      },
      {
@@ -848,7 +848,7 @@
       "grundstuecke": 0,
       "haeuser": 0,
       "skelo_worst_case": 0,
-      "kontingent": 535000,
+      "kontingent": 600000,
       "gedeckt": true
      },
      {
@@ -856,7 +856,7 @@
       "grundstuecke": 0,
       "haeuser": 0,
       "skelo_worst_case": 0,
-      "kontingent": 620000,
+      "kontingent": 800000,
       "gedeckt": true
      }
     ]
@@ -864,23 +864,23 @@
    {
     "grundstuecke": 5000,
     "haeuser_worst_case": 5000,
-    "skelo_benoetigt_worst_case": 1090000,
+    "skelo_benoetigt_worst_case": 1200000,
     "unbediente_grundstuecke": 0,
-    "unbediente_haeuser": 3200,
+    "unbediente_haeuser": 0,
     "alle_gedeckt": true,
     "phasen": [
      {
       "phase": "p1",
       "grundstuecke": 1000,
-      "haeuser": 300,
-      "skelo_worst_case": 290000,
-      "kontingent": 290000,
+      "haeuser": 1000,
+      "skelo_worst_case": 400000,
+      "kontingent": 400000,
       "gedeckt": true
      },
      {
       "phase": "p2",
       "grundstuecke": 4000,
-      "haeuser": 1500,
+      "haeuser": 4000,
       "skelo_worst_case": 800000,
       "kontingent": 800000,
       "gedeckt": true
@@ -890,7 +890,7 @@
       "grundstuecke": 0,
       "haeuser": 0,
       "skelo_worst_case": 0,
-      "kontingent": 535000,
+      "kontingent": 600000,
       "gedeckt": true
      },
      {
@@ -898,7 +898,7 @@
       "grundstuecke": 0,
       "haeuser": 0,
       "skelo_worst_case": 0,
-      "kontingent": 620000,
+      "kontingent": 800000,
       "gedeckt": true
      }
     ]
@@ -906,23 +906,23 @@
    {
     "grundstuecke": 10000,
     "haeuser_worst_case": 10000,
-    "skelo_benoetigt_worst_case": 1625000,
+    "skelo_benoetigt_worst_case": 1800000,
     "unbediente_grundstuecke": 0,
-    "unbediente_haeuser": 6200,
+    "unbediente_haeuser": 0,
     "alle_gedeckt": true,
     "phasen": [
      {
       "phase": "p1",
       "grundstuecke": 1000,
-      "haeuser": 300,
-      "skelo_worst_case": 290000,
-      "kontingent": 290000,
+      "haeuser": 1000,
+      "skelo_worst_case": 400000,
+      "kontingent": 400000,
       "gedeckt": true
      },
      {
       "phase": "p2",
       "grundstuecke": 4000,
-      "haeuser": 1500,
+      "haeuser": 4000,
       "skelo_worst_case": 800000,
       "kontingent": 800000,
       "gedeckt": true
@@ -930,9 +930,9 @@
      {
       "phase": "p3",
       "grundstuecke": 5000,
-      "haeuser": 2000,
-      "skelo_worst_case": 535000,
-      "kontingent": 535000,
+      "haeuser": 5000,
+      "skelo_worst_case": 600000,
+      "kontingent": 600000,
       "gedeckt": true
      },
      {
@@ -940,7 +940,7 @@
       "grundstuecke": 0,
       "haeuser": 0,
       "skelo_worst_case": 0,
-      "kontingent": 620000,
+      "kontingent": 800000,
       "gedeckt": true
      }
     ]
@@ -948,23 +948,23 @@
    {
     "grundstuecke": 20000,
     "haeuser_worst_case": 20000,
-    "skelo_benoetigt_worst_case": 2245000,
+    "skelo_benoetigt_worst_case": 2600000,
     "unbediente_grundstuecke": 0,
-    "unbediente_haeuser": 12200,
+    "unbediente_haeuser": 0,
     "alle_gedeckt": true,
     "phasen": [
      {
       "phase": "p1",
       "grundstuecke": 1000,
-      "haeuser": 300,
-      "skelo_worst_case": 290000,
-      "kontingent": 290000,
+      "haeuser": 1000,
+      "skelo_worst_case": 400000,
+      "kontingent": 400000,
       "gedeckt": true
      },
      {
       "phase": "p2",
       "grundstuecke": 4000,
-      "haeuser": 1500,
+      "haeuser": 4000,
       "skelo_worst_case": 800000,
       "kontingent": 800000,
       "gedeckt": true
@@ -972,17 +972,17 @@
      {
       "phase": "p3",
       "grundstuecke": 5000,
-      "haeuser": 2000,
-      "skelo_worst_case": 535000,
-      "kontingent": 535000,
+      "haeuser": 5000,
+      "skelo_worst_case": 600000,
+      "kontingent": 600000,
       "gedeckt": true
      },
      {
       "phase": "p4",
       "grundstuecke": 10000,
-      "haeuser": 4000,
-      "skelo_worst_case": 620000,
-      "kontingent": 620000,
+      "haeuser": 10000,
+      "skelo_worst_case": 800000,
+      "kontingent": 800000,
       "gedeckt": true
      }
     ]
@@ -1017,21 +1017,21 @@
     "p1": {
      "formel": 250.0,
      "grundstueck": 200,
-     "haus": 250.0
+     "haus": 200
     },
     "p2": {
      "formel": 125.0,
-     "grundstueck": 125.0,
-     "haus": 125.0
+     "grundstueck": 100,
+     "haus": 100
     },
     "p3": {
      "formel": 66.6667,
-     "grundstueck": 66.6667,
-     "haus": 66.6667
+     "grundstueck": 60,
+     "haus": 60
     },
     "p4": {
      "formel": 38.4615,
-     "grundstueck": 38,
+     "grundstueck": 38.4615,
      "haus": 38.4615
     }
    },
@@ -1040,22 +1040,22 @@
     "p1": {
      "formel": 600.0,
      "grundstueck": 200,
-     "haus": 300
+     "haus": 200
     },
     "p2": {
      "formel": 300.0,
-     "grundstueck": 125,
-     "haus": 200
+     "grundstueck": 100,
+     "haus": 100
     },
     "p3": {
      "formel": 160.0,
-     "grundstueck": 67,
-     "haus": 100
+     "grundstueck": 60,
+     "haus": 60
     },
     "p4": {
      "formel": 92.3077,
-     "grundstueck": 38,
-     "haus": 60
+     "grundstueck": 40,
+     "haus": 40
     }
    },
    {
@@ -1063,22 +1063,22 @@
     "p1": {
      "formel": 1500.0,
      "grundstueck": 200,
-     "haus": 300
+     "haus": 200
     },
     "p2": {
      "formel": 750.0,
-     "grundstueck": 125,
-     "haus": 200
+     "grundstueck": 100,
+     "haus": 100
     },
     "p3": {
      "formel": 400.0,
-     "grundstueck": 67,
-     "haus": 100
+     "grundstueck": 60,
+     "haus": 60
     },
     "p4": {
      "formel": 230.7692,
-     "grundstueck": 38,
-     "haus": 60
+     "grundstueck": 40,
+     "haus": 40
     }
    },
    {
@@ -1086,22 +1086,22 @@
     "p1": {
      "formel": 5000.0,
      "grundstueck": 200,
-     "haus": 300
+     "haus": 200
     },
     "p2": {
      "formel": 2500.0,
-     "grundstueck": 125,
-     "haus": 200
+     "grundstueck": 100,
+     "haus": 100
     },
     "p3": {
      "formel": 1333.3333,
-     "grundstueck": 67,
-     "haus": 100
+     "grundstueck": 60,
+     "haus": 60
     },
     "p4": {
      "formel": 769.2308,
-     "grundstueck": 38,
-     "haus": 60
+     "grundstueck": 40,
+     "haus": 40
     }
    }
   ]

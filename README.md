@@ -21,15 +21,15 @@ Gesamtmenge **10.000.000 SKELO**, beschlossen vom Buergermeister der Insel (Begr
 
 | Kategorie | SKELO | Anteil | Sperre |
 |---|---:|---:|---|
-| Betreiberanteil | 1.000.000 | 10.0 % | linear, Cliff 12 Mon., Dauer 48 Mon. |
-| Stadtkasse | 1.700.000 | 17.0 % | linear, Cliff 6 Mon., Dauer 36 Mon. |
+| Betreiberanteil | 1.000.000 | 10.0 % | linear, Cliff 12 Mon., Dauer 36 Mon. |
+| Stadtkasse | 1.800.000 | 18.0 % | keine im Vertrag |
 | Marketing | 400.000 | 4.0 % | linear, Cliff 3 Mon., Dauer 24 Mon. |
-| Weiterentwicklung | 1.200.000 | 12.0 % | linear, Cliff 6 Mon., Dauer 36 Mon. |
-| KI-Agenten und Leistungspraemien | 745.000 | 7.5 % | linear, Cliff 0 Mon., Dauer 24 Mon. |
-| Langfristige Reserve | 1.900.000 | 19.0 % | linear, Cliff 12 Mon., Dauer 48 Mon. |
-| Community und Inselwirtschaft | 760.000 | 7.6 % | linear, Cliff 0 Mon., Dauer 36 Mon. |
-| DEX-Liquiditaet | 50.000 | 0.5 % | linear, Cliff 0 Mon., Dauer 1 Mon. |
-| Presale-Zuteilung an Kaeufer | 2.245.000 | 22.4 % | linear, Cliff 0 Mon., Dauer 1 Mon. |
+| Weiterentwicklung | 1.100.000 | 11.0 % | linear, Cliff 6 Mon., Dauer 36 Mon. |
+| KI-Agenten und Leistungspraemien | 700.000 | 7.0 % | linear, Cliff 0 Mon., Dauer 24 Mon. |
+| Langfristige Reserve | 1.500.000 | 15.0 % | linear, Cliff 12 Mon., Dauer 36 Mon. |
+| Community und Inselwirtschaft | 800.000 | 8.0 % | linear, Cliff 0 Mon., Dauer 24 Mon. |
+| DEX-Liquiditaet | 100.000 | 1.0 % | keine im Vertrag |
+| Presale-Zuteilung an Kaeufer | 2.600.000 | 26.0 % | linear, Cliff 1 Mon., Dauer 12 Mon. |
 
 Die Halter- und Beguenstigten-Adressen fuer ein spaeteres Mainnet sind **nicht festgelegt** und werden nicht erfunden (Multisig-Adressen des Betreibers noetig). Auf dem Testnet kommen gekennzeichnete Testadressen zum Einsatz.
 
@@ -38,10 +38,10 @@ Grundstuecks-/Hauskaeufer koennten gemaess Modell zusaetzlich SKELO zugeteilt be
 
 | Phase | Referenzpreis (USDC je SKELO) | Kontingent (SKELO) | Bonus |
 |---|---:|---:|---:|
-| Phase 1 - Early Founders | 0.020 | 290.000 | 20 % |
+| Phase 1 - Early Founders | 0.020 | 400.000 | 20 % |
 | Phase 2 - Island Expansion | 0.030 | 800.000 | 15 % |
-| Phase 3 - Community Growth | 0.045 | 535.000 | 12 % |
-| Phase 4 - Final Phase | 0.065 | 620.000 | 10 % |
+| Phase 3 - Community Growth | 0.045 | 600.000 | 12 % |
+| Phase 4 - Final Phase | 0.065 | 800.000 | 10 % |
 
 ## Selbst nachbauen und testen
 ```

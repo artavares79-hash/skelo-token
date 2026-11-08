@@ -1,6 +1,6 @@
 {
  "decided_by": "Skelo (Buergermeister) auf Grundlage des Vorschlags von David, Modell claude-sonnet-5-5",
- "decided_at": 1794132663,
+ "decided_at": 1794145635,
  "total_supply_whole": 10000000,
  "allocations": [
   {
@@ -11,21 +11,19 @@
    "vesting": {
     "type": "linear",
     "cliff_months": 12,
-    "duration_months": 48
+    "duration_months": 36
    },
-   "begruendung": "Operator-Anteil gegenueber v1 um 200.000 gekuerzt, um das Presale-Kontingent zu finanzieren. Cliff 12 und 48 Monate Vesting binden den Betreiber langfristig an die Insel und begrenzen das Betreiberrisiko."
+   "begruendung": "Betreiberanteil unveraendert bei 1.000.000 SKELO. Langes Vesting mit Cliff bindet den Betreiber an den Inselerfolg und verhindert fruehe Verkaeufe. Empfaenger ist eine vom Betreiber benannte Multisig-Adresse."
   },
   {
    "id": "stadtkasse",
    "name": "Stadtkasse (SKELO STADTKASSE)",
-   "amount_whole": 1700000,
-   "share_pct": 17.0,
+   "amount_whole": 1800000,
+   "share_pct": 18.0,
    "vesting": {
-    "type": "linear",
-    "cliff_months": 6,
-    "duration_months": 36
+    "type": "none"
    },
-   "begruendung": "Stadtkasse ueber dem Schutzminimum von 1,5 Mio. Nicht verteilte Phasenkontingente kommen bei Abschluss hinzu. Das Vesting sichert den Betrieb ueber drei Jahre, auch ohne realisierte USDC-Einnahmen."
+   "begruendung": "Erhoeht von 1,7 auf 1,8 Mio., Schutzminimum 1,5 Mio. Die Stadtkasse braucht sofort verfuegbare SKELO fuer Betrieb und KI-Dienste und erhaelt zusaetzlich alle nicht zugeteilten Phasenkontingente."
   },
   {
    "id": "marketing",
@@ -37,79 +35,77 @@
     "cliff_months": 3,
     "duration_months": 24
    },
-   "begruendung": "Marketing-Budget gegenueber v1 reduziert, da der Absatz durch das reale Inventar begrenzt ist. Cliff 3 und 24 Monate Vesting verhindern fruehe Abfluesse und koppeln Ausgaben an den Inselausbau."
+   "begruendung": "Marketing bleibt bei 400.000 SKELO. Lineare Freigabe ueber 24 Monate nach 3 Monaten Cliff koppelt Ausgaben an den Ausbaufortschritt der Insel und verhindert einmalige Grossausgaben."
   },
   {
    "id": "entwicklung",
    "name": "Weiterentwicklung (Technik, Betrieb, Audit)",
-   "amount_whole": 1200000,
-   "share_pct": 12.0,
+   "amount_whole": 1100000,
+   "share_pct": 11.0,
    "vesting": {
     "type": "linear",
     "cliff_months": 6,
     "duration_months": 36
    },
-   "begruendung": "Entwicklung bleibt der drittgroesste Block, um Ausbau, Werkzeuge und Sicherheit der Insel zu finanzieren. Cliff 6 und 36 Monate Vesting halten die Anreize ueber den Ausbau hinweg."
+   "begruendung": "Von 1,2 auf 1,1 Mio. gesenkt, um den Presale-Deckel zu finanzieren. Die Entwicklung der Insel laeuft ueber Jahre, daher 36 Monate Vesting mit 6 Monaten Cliff. Betrag bleibt fuer Vertraege, Sicherheit und Tests ausreichend."
   },
   {
    "id": "agenten_praemien",
    "name": "KI-Agenten und Leistungspraemien",
-   "amount_whole": 745000,
-   "share_pct": 7.45,
+   "amount_whole": 700000,
+   "share_pct": 7.0,
    "vesting": {
     "type": "linear",
     "cliff_months": 0,
     "duration_months": 24
    },
-   "begruendung": "Praemien fuer KI-Agenten bleiben deutlich ueber dem Minimum von 500.000. Lineare Freigabe ueber 24 Monate ohne Cliff ermoeglicht laufende Leistungen, ohne dass alles auf einmal verfuegbar wird."
+   "begruendung": "Von 745.000 auf 700.000 gesenkt, Schutzminimum 500.000 bleibt deutlich gewahrt. Praemien fuer KI-Agenten werden linear ueber 24 Monate verfuegbar und stuetzen den laufenden Inselbetrieb."
   },
   {
    "id": "reserve",
    "name": "Langfristige Reserve",
-   "amount_whole": 1900000,
-   "share_pct": 19.0,
+   "amount_whole": 1500000,
+   "share_pct": 15.0,
    "vesting": {
     "type": "linear",
     "cliff_months": 12,
-    "duration_months": 48
+    "duration_months": 36
    },
-   "begruendung": "Reserve bleibt ueber dem Minimum von 1 Mio. SKELO, trotz Kuerzung gegenueber v1. Cliff 12 und 48 Monate Vesting schuetzen das Vertrauen der Bewohner und sichern KI-Dienste und Liquiditaet langfristig."
+   "begruendung": "Von 1,9 auf 1,5 Mio. gesenkt (Minimum 1,0 Mio.). Die Token-Reserve bleibt strikt getrennt von der USDC-Liquiditaet und wird nur durch Multisig-Beschluss genutzt; Vesting verhindert fruehe Entnahme."
   },
   {
    "id": "community_insel",
    "name": "Community und Inselwirtschaft",
-   "amount_whole": 760000,
-   "share_pct": 7.6,
+   "amount_whole": 800000,
+   "share_pct": 8.0,
    "vesting": {
     "type": "linear",
     "cliff_months": 0,
-    "duration_months": 36
+    "duration_months": 24
    },
-   "begruendung": "Anteil fuer Bewohner und Inselgemeinschaft bleibt gegenueber v1 unveraendert. Lineare Freigabe ueber 36 Monate ohne Cliff stellt sicher, dass Bewohner von Beginn an Zugang erhalten."
+   "begruendung": "Leicht erhoeht von 760.000 auf 800.000 (Minimum 500.000) fuer Bewohner und Inselaktivitaeten. Lineare Freigabe ueber 24 Monate sichert dauerhafte Verfuegbarkeit bei wachsender Bevoelkerung."
   },
   {
    "id": "dex_liquiditaet",
    "name": "DEX-Liquiditaet",
-   "amount_whole": 50000,
-   "share_pct": 0.5,
+   "amount_whole": 100000,
+   "share_pct": 1.0,
    "vesting": {
-    "type": "linear",
-    "cliff_months": 0,
-    "duration_months": 1
+    "type": "none"
    },
-   "begruendung": "Minimale Liquiditaetsausstattung unveraendert, davon hoechstens 10.000 SKELO als erster Pool. Ein Pool entsteht nur durch bewusste Multisig-Handlung mit Freigabe. Keine Kurs- oder Boersenzusage."
+   "begruendung": "Von 50.000 auf 100.000 verdoppelt (Minimum 50.000). Ein Pool entsteht nur durch bewusste Multisig-Handlung mit Freigabe und nur gemeinsam mit echtem USDC aus dem Liquiditaetsanteil. Kein Kurs wird zugesagt."
   },
   {
    "id": "presale_kaeufer",
    "name": "Presale-Zuteilung an Grundstuecks- und Hauskaeufer",
-   "amount_whole": 2245000,
-   "share_pct": 22.45,
+   "amount_whole": 2600000,
+   "share_pct": 26.0,
    "vesting": {
     "type": "linear",
-    "cliff_months": 0,
-    "duration_months": 1
+    "cliff_months": 1,
+    "duration_months": 12
    },
-   "begruendung": "Summe der vier Phasenkontingente. Ein zusaetzlicher Pool-Cliff wuerde die TGE-Auszahlungen der Kaeufer blockieren. Das Vesting regeln die Phasen. Pool-Adresse oeffentlich, Rest nach Abschluss an die Stadtkasse."
+   "begruendung": "Summe der Phasenkontingente 400.000 + 800.000 + 600.000 + 800.000 = 2.600.000. Das ist unter der Obergrenze von 4,0 Mio. und deckt 20.000 Grundstuecke plus 20.000 Haeuser bei 100 % Verkauf. Vesting je Phase wird ueber die Phasenparameter gesteuert."
   }
  ],
  "months_seconds": 2592000,
@@ -123,7 +119,7 @@
   {
    "id": "stadtkasse",
    "name": "Stadtkasse (SKELO STADTKASSE)",
-   "braucht": "Vesting-Instanz mit Multisig als Beguenstigtem (vom Betreiber festzulegen, NICHT erfunden)"
+   "braucht": "Multisig-Adresse als Halter (vom Betreiber festzulegen, NICHT erfunden)"
   },
   {
    "id": "marketing",
@@ -153,7 +149,7 @@
   {
    "id": "dex_liquiditaet",
    "name": "DEX-Liquiditaet",
-   "braucht": "Vesting-Instanz mit Multisig als Beguenstigtem (vom Betreiber festzulegen, NICHT erfunden)"
+   "braucht": "Multisig-Adresse als Halter (vom Betreiber festzulegen, NICHT erfunden)"
   },
   {
    "id": "presale_kaeufer",

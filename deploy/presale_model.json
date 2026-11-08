@@ -1,33 +1,33 @@
 {
- "modell": "Vier gedeckelte Phasen, 20.000 Grundstuecke, 2.245.000 SKELO Kontingent, Bauamt-Freigabe je Phase, 3 bonusberechtigte Kaeufe je Wallet",
+ "modell": "Vier feste Phasen, harte Kontingentdeckel, 20/15/12/10 % Bonus, 1:1 Haus je Grundstueck",
  "phases": [
   {
    "target_properties": 1000,
-   "target_houses": 300,
+   "target_houses": 1000,
    "max_alloc_parcel_whole": 200,
-   "max_alloc_house_whole": 300,
-   "unlock_milestone": "Bestehende Insel (26 verkaufbare Grundstuecke) plus erste Erweiterung; Kapazitaet bis kumuliert 1.000 Grundstuecke, Oeffnung nach Bauamt-Freigabe",
+   "max_alloc_house_whole": 200,
+   "unlock_milestone": "Bestehende Insel (26 verkaufbare Grundstuecke) plus erste Erweiterung; kumuliert bis 1.000 Grundstuecke, Oeffnung nach Bauamt-Freigabe",
    "id": "p1",
-   "target_buyers": 1300,
+   "target_buyers": 2000,
    "name": "Phase 1 - Early Founders",
    "price_micro_usdc": 20000,
-   "quota_skelo_whole": 290000,
+   "quota_skelo_whole": 400000,
    "bonus_bps": 2000,
    "vesting": {
     "tge_bps": 2000,
     "cliff_months": 3,
     "duration_months": 12
    },
-   "begruendung": "Ref. 0,02 USDC, 20 % Bonus = 10 SKELO je USDC. Kontingent 1.000x200 + 300x300 = 290.000. Hoechste Zuteilung je USDC, laengstes Vesting. Teure Kaeufe werden gekappt. Kein Geldwert, kein Kursversprechen."
+   "begruendung": "Ref. 0,02 USDC, 20 % Bonus = 10 SKELO je USDC (hoechste Rate). Kontingent 1.000x200 + 1.000x200 = 400.000, bei 2.000 Kaeufen (target_buyers) voll gedeckt. Deckel greift ab 20 USDC je Kauf. Laengstes Vesting. Kein Geldwert, kein Kursversprechen."
   },
   {
    "target_properties": 4000,
-   "target_houses": 1500,
-   "max_alloc_parcel_whole": 125,
-   "max_alloc_house_whole": 200,
-   "unlock_milestone": "Freigabe der ersten grossen Baugebiete durch das Bauamt und Abschluss von Phase 1; kumuliert bis 5.000 Grundstuecke",
+   "target_houses": 4000,
+   "max_alloc_parcel_whole": 100,
+   "max_alloc_house_whole": 100,
+   "unlock_milestone": "Freigabe der ersten grossen Baugebiete durch das Bauamt nach Abschluss von Phase 1; kumuliert bis 5.000 Grundstuecke",
    "id": "p2",
-   "target_buyers": 5500,
+   "target_buyers": 8000,
    "name": "Phase 2 - Island Expansion",
    "price_micro_usdc": 30000,
    "quota_skelo_whole": 800000,
@@ -37,59 +37,59 @@
     "cliff_months": 2,
     "duration_months": 9
    },
-   "begruendung": "Ref. 0,03 USDC, 15 % Bonus = 5 SKELO je USDC. Kontingent 4.000x125 + 1.500x200 = 800.000. Fester Deckel, keine Nachzuteilung, nur fuer freigegebene Gebiete."
+   "begruendung": "Ref. 0,03 USDC, 15 % Bonus = 5 SKELO je USDC. Kontingent 4.000x100 + 4.000x100 = 800.000, bei 8.000 Kaeufen gedeckt. Fester Deckel, keine Nachzuteilung, nur fuer freigegebene Gebiete. Kein Geldwert, kein Kursversprechen."
   },
   {
    "target_properties": 5000,
-   "target_houses": 2000,
-   "max_alloc_parcel_whole": 67,
-   "max_alloc_house_whole": 100,
+   "target_houses": 5000,
+   "max_alloc_parcel_whole": 60,
+   "max_alloc_house_whole": 60,
    "unlock_milestone": "Ausbau weiterer Stadtviertel mit Bauamt-Freigabe nach Abschluss von Phase 2; kumuliert bis 10.000 Grundstuecke",
    "id": "p3",
-   "target_buyers": 7000,
+   "target_buyers": 10000,
    "name": "Phase 3 - Community Growth",
    "price_micro_usdc": 45000,
-   "quota_skelo_whole": 535000,
+   "quota_skelo_whole": 600000,
    "bonus_bps": 1200,
    "vesting": {
     "tge_bps": 4000,
     "cliff_months": 1,
     "duration_months": 6
    },
-   "begruendung": "Ref. 0,045 USDC, 12 % Bonus = ca. 2,67 SKELO je USDC. Kontingent 5.000x67 + 2.000x100 = 535.000. Fester Deckel ohne Nachschlag."
+   "begruendung": "Ref. 0,045 USDC, 12 % Bonus = ca. 2,67 SKELO je USDC. Kontingent 5.000x60 + 5.000x60 = 600.000, bei 10.000 Kaeufen gedeckt. Deckel greift ab ca. 22,50 USDC je Kauf. Fester Deckel ohne Nachschlag. Kein Geldwert."
   },
   {
    "target_properties": 10000,
-   "target_houses": 4000,
-   "max_alloc_parcel_whole": 38,
-   "max_alloc_house_whole": 60,
+   "target_houses": 10000,
+   "max_alloc_parcel_whole": 40,
+   "max_alloc_house_whole": 40,
    "unlock_milestone": "Vollausbau der Insel bis kumuliert 20.000 Grundstuecke mit Bauamt-Freigabe nach Abschluss von Phase 3; letzte Tranche",
    "id": "p4",
-   "target_buyers": 14000,
+   "target_buyers": 20000,
    "name": "Phase 4 - Final Phase",
    "price_micro_usdc": 65000,
-   "quota_skelo_whole": 620000,
+   "quota_skelo_whole": 800000,
    "bonus_bps": 1000,
    "vesting": {
     "tge_bps": 5000,
     "cliff_months": 1,
     "duration_months": 6
    },
-   "begruendung": "Ref. 0,065 USDC, 10 % Bonus = ca. 1,54 SKELO je USDC. Kontingent 10.000x38 + 4.000x60 = 620.000. Danach keine Zuteilung, nicht verteilte SKELO gehen an die Stadtkasse."
+   "begruendung": "Ref. 0,065 USDC, 10 % Bonus = ca. 1,54 SKELO je USDC. Kontingent 10.000x40 + 10.000x40 = 800.000, bei 20.000 Kaeufen gedeckt. Danach keine Zuteilung; nicht verteilte SKELO gehen an die Stadtkasse. Kein Geldwert."
   }
  ],
- "max_skelo_per_wallet_whole": 900,
+ "max_skelo_per_wallet_whole": 2000,
  "liquidity": {
   "reserve_bps": 4000,
   "ops_bps": 4000,
   "tax_bps": 2000,
-  "lp_skelo_whole": 10000
+  "lp_skelo_whole": 100000
  },
- "end_bedingung": "Jede Phase endet bei Ausschoepfung ihres Kontingents oder durch Abschlussbeschluss, spaetestens mit Abschluss von Phase 4. Phasen 2 bis 4 oeffnen erst nach dokumentierter Bauamt-Freigabe und Abschluss der Vorphase. Nicht verteilte SKELO einer abgeschlossenen Phase bucht die Software auf die Stadtkasse. Keine Nachpraegung, keine Nachzuteilung.",
+ "end_bedingung": "Nach endgueltigem Abschluss der Phase 4 (oder Beschluss, dass keine weitere Phase geoeffnet wird) bucht die Software alle nicht zugeteilten Phasenkontingente an die Stadtkasse. Keine Nachpraegung, keine Nachzuteilung. Neue Gebiete erhalten nur Kontingent innerhalb der Phasendeckel.",
  "decided_by": "Skelo (Buergermeister) auf Grundlage des Vorschlags von David, Modell claude-sonnet-5-5",
  "mode": "capped",
  "capacity_properties": 20000,
- "max_eligible_purchases_per_wallet": 3,
+ "max_eligible_purchases_per_wallet": 10,
  "einheit_preis": "micro-USDC je 1 ganzem SKELO (1 USDC = 1000000)",
  "status": "VORGESCHLAGENES MODELL - kein Verkauf, keine Zuteilung, keine rechtliche Freigabe"
 }

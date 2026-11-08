@@ -14,14 +14,14 @@
 | Konto | SKELO | Anteil | Adresse |
 |---|---|---|---|
 | operator | 1.000.000 | 10.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| stadtkasse | 1.700.000 | 17.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| stadtkasse | 1.800.000 | 18.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 | marketing | 400.000 | 4.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| entwicklung | 1.200.000 | 12.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| agenten_praemien | 745.000 | 7.5 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| reserve | 1.900.000 | 19.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| community_insel | 760.000 | 7.6 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| dex_liquiditaet | 50.000 | 0.5 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| presale_kaeufer | 2.245.000 | 22.4 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| entwicklung | 1.100.000 | 11.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| agenten_praemien | 700.000 | 7.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| reserve | 1.500.000 | 15.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| community_insel | 800.000 | 8.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| dex_liquiditaet | 100.000 | 1.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| presale_kaeufer | 2.600.000 | 26.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 
 ## Fehlende Parameter und Rechte (blockieren ein echtes Deployment)
 - Adressen aller 9 Verteilungskonten (Betreiber; alle als Multisig)

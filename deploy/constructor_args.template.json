@@ -3,12 +3,10 @@
   "operator": {
    "type": "linear",
    "cliff_months": 12,
-   "duration_months": 48
+   "duration_months": 36
   },
   "stadtkasse": {
-   "type": "linear",
-   "cliff_months": 6,
-   "duration_months": 36
+   "type": "none"
   },
   "marketing": {
    "type": "linear",
@@ -28,22 +26,20 @@
   "reserve": {
    "type": "linear",
    "cliff_months": 12,
-   "duration_months": 48
+   "duration_months": 36
   },
   "community_insel": {
    "type": "linear",
    "cliff_months": 0,
-   "duration_months": 36
+   "duration_months": 24
   },
   "dex_liquiditaet": {
-   "type": "linear",
-   "cliff_months": 0,
-   "duration_months": 1
+   "type": "none"
   },
   "presale_kaeufer": {
    "type": "linear",
-   "cliff_months": 0,
-   "duration_months": 1
+   "cliff_months": 1,
+   "duration_months": 12
   }
  },
  "_hinweis": "VORLAGE: Adressen sind bewusst Platzhalter. Nicht deployen, bevor der Betreiber echte Adressen eintraegt.",
@@ -60,14 +56,14 @@
  ],
  "wholeAmounts": [
   1000000,
-  1700000,
+  1800000,
   400000,
-  1200000,
-  745000,
-  1900000,
-  760000,
-  50000,
-  2245000
+  1100000,
+  700000,
+  1500000,
+  800000,
+  100000,
+  2600000
  ],
  "sum": 10000000
 }
