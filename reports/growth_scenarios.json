@@ -9,48 +9,9 @@
   },
   "zeilen": [
    {
-    "grundstuecke": 100,
+    "grundstuecke": 1000,
     "preis_usdc": 10,
     "verkaufsquote": 0.1,
-    "kaeufer": 10.0,
-    "usdc_einnahmen_szenario": 145.0,
-    "bedarf_skelo_bonus_20": 1450,
-    "anteil_gesamtmenge_pct_bonus_20": 0.01,
-    "bedarf_skelo_bonus_50": 3625,
-    "anteil_gesamtmenge_pct_bonus_50": 0.04,
-    "bedarf_skelo_bonus_100": 7250,
-    "anteil_gesamtmenge_pct_bonus_100": 0.07
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 10,
-    "verkaufsquote": 0.25,
-    "kaeufer": 25.0,
-    "usdc_einnahmen_szenario": 362.5,
-    "bedarf_skelo_bonus_20": 3625,
-    "anteil_gesamtmenge_pct_bonus_20": 0.04,
-    "bedarf_skelo_bonus_50": 9062,
-    "anteil_gesamtmenge_pct_bonus_50": 0.09,
-    "bedarf_skelo_bonus_100": 18125,
-    "anteil_gesamtmenge_pct_bonus_100": 0.18
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 10,
-    "verkaufsquote": 0.5,
-    "kaeufer": 50.0,
-    "usdc_einnahmen_szenario": 725.0,
-    "bedarf_skelo_bonus_20": 7250,
-    "anteil_gesamtmenge_pct_bonus_20": 0.07,
-    "bedarf_skelo_bonus_50": 18125,
-    "anteil_gesamtmenge_pct_bonus_50": 0.18,
-    "bedarf_skelo_bonus_100": 36250,
-    "anteil_gesamtmenge_pct_bonus_100": 0.36
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 10,
-    "verkaufsquote": 1.0,
     "kaeufer": 100.0,
     "usdc_einnahmen_szenario": 1450.0,
     "bedarf_skelo_bonus_20": 14500,
@@ -61,139 +22,9 @@
     "anteil_gesamtmenge_pct_bonus_100": 0.72
    },
    {
-    "grundstuecke": 100,
-    "preis_usdc": 25,
-    "verkaufsquote": 0.1,
-    "kaeufer": 10.0,
-    "usdc_einnahmen_szenario": 295.0,
-    "bedarf_skelo_bonus_20": 2950,
-    "anteil_gesamtmenge_pct_bonus_20": 0.03,
-    "bedarf_skelo_bonus_50": 7375,
-    "anteil_gesamtmenge_pct_bonus_50": 0.07,
-    "bedarf_skelo_bonus_100": 14750,
-    "anteil_gesamtmenge_pct_bonus_100": 0.15
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 25,
-    "verkaufsquote": 0.25,
-    "kaeufer": 25.0,
-    "usdc_einnahmen_szenario": 737.5,
-    "bedarf_skelo_bonus_20": 7375,
-    "anteil_gesamtmenge_pct_bonus_20": 0.07,
-    "bedarf_skelo_bonus_50": 18438,
-    "anteil_gesamtmenge_pct_bonus_50": 0.18,
-    "bedarf_skelo_bonus_100": 36875,
-    "anteil_gesamtmenge_pct_bonus_100": 0.37
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 25,
-    "verkaufsquote": 0.5,
-    "kaeufer": 50.0,
-    "usdc_einnahmen_szenario": 1475.0,
-    "bedarf_skelo_bonus_20": 14750,
-    "anteil_gesamtmenge_pct_bonus_20": 0.15,
-    "bedarf_skelo_bonus_50": 36875,
-    "anteil_gesamtmenge_pct_bonus_50": 0.37,
-    "bedarf_skelo_bonus_100": 73750,
-    "anteil_gesamtmenge_pct_bonus_100": 0.74
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 25,
-    "verkaufsquote": 1.0,
-    "kaeufer": 100.0,
-    "usdc_einnahmen_szenario": 2950.0,
-    "bedarf_skelo_bonus_20": 29500,
-    "anteil_gesamtmenge_pct_bonus_20": 0.29,
-    "bedarf_skelo_bonus_50": 73750,
-    "anteil_gesamtmenge_pct_bonus_50": 0.74,
-    "bedarf_skelo_bonus_100": 147500,
-    "anteil_gesamtmenge_pct_bonus_100": 1.48
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 60,
-    "verkaufsquote": 0.1,
-    "kaeufer": 10.0,
-    "usdc_einnahmen_szenario": 645.0,
-    "bedarf_skelo_bonus_20": 6450,
-    "anteil_gesamtmenge_pct_bonus_20": 0.06,
-    "bedarf_skelo_bonus_50": 16125,
-    "anteil_gesamtmenge_pct_bonus_50": 0.16,
-    "bedarf_skelo_bonus_100": 32250,
-    "anteil_gesamtmenge_pct_bonus_100": 0.32
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 60,
-    "verkaufsquote": 0.25,
-    "kaeufer": 25.0,
-    "usdc_einnahmen_szenario": 1612.5,
-    "bedarf_skelo_bonus_20": 16125,
-    "anteil_gesamtmenge_pct_bonus_20": 0.16,
-    "bedarf_skelo_bonus_50": 40312,
-    "anteil_gesamtmenge_pct_bonus_50": 0.4,
-    "bedarf_skelo_bonus_100": 80625,
-    "anteil_gesamtmenge_pct_bonus_100": 0.81
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 60,
-    "verkaufsquote": 0.5,
-    "kaeufer": 50.0,
-    "usdc_einnahmen_szenario": 3225.0,
-    "bedarf_skelo_bonus_20": 32250,
-    "anteil_gesamtmenge_pct_bonus_20": 0.32,
-    "bedarf_skelo_bonus_50": 80625,
-    "anteil_gesamtmenge_pct_bonus_50": 0.81,
-    "bedarf_skelo_bonus_100": 161250,
-    "anteil_gesamtmenge_pct_bonus_100": 1.61
-   },
-   {
-    "grundstuecke": 100,
-    "preis_usdc": 60,
-    "verkaufsquote": 1.0,
-    "kaeufer": 100.0,
-    "usdc_einnahmen_szenario": 6450.0,
-    "bedarf_skelo_bonus_20": 64500,
-    "anteil_gesamtmenge_pct_bonus_20": 0.65,
-    "bedarf_skelo_bonus_50": 161250,
-    "anteil_gesamtmenge_pct_bonus_50": 1.61,
-    "bedarf_skelo_bonus_100": 322500,
-    "anteil_gesamtmenge_pct_bonus_100": 3.23
-   },
-   {
-    "grundstuecke": 500,
-    "preis_usdc": 10,
-    "verkaufsquote": 0.1,
-    "kaeufer": 50.0,
-    "usdc_einnahmen_szenario": 725.0,
-    "bedarf_skelo_bonus_20": 7250,
-    "anteil_gesamtmenge_pct_bonus_20": 0.07,
-    "bedarf_skelo_bonus_50": 18125,
-    "anteil_gesamtmenge_pct_bonus_50": 0.18,
-    "bedarf_skelo_bonus_100": 36250,
-    "anteil_gesamtmenge_pct_bonus_100": 0.36
-   },
-   {
-    "grundstuecke": 500,
+    "grundstuecke": 1000,
     "preis_usdc": 10,
     "verkaufsquote": 0.25,
-    "kaeufer": 125.0,
-    "usdc_einnahmen_szenario": 1812.5,
-    "bedarf_skelo_bonus_20": 18125,
-    "anteil_gesamtmenge_pct_bonus_20": 0.18,
-    "bedarf_skelo_bonus_50": 45312,
-    "anteil_gesamtmenge_pct_bonus_50": 0.45,
-    "bedarf_skelo_bonus_100": 90625,
-    "anteil_gesamtmenge_pct_bonus_100": 0.91
-   },
-   {
-    "grundstuecke": 500,
-    "preis_usdc": 10,
-    "verkaufsquote": 0.5,
     "kaeufer": 250.0,
     "usdc_einnahmen_szenario": 3625.0,
     "bedarf_skelo_bonus_20": 36250,
@@ -204,9 +35,9 @@
     "anteil_gesamtmenge_pct_bonus_100": 1.81
    },
    {
-    "grundstuecke": 500,
+    "grundstuecke": 1000,
     "preis_usdc": 10,
-    "verkaufsquote": 1.0,
+    "verkaufsquote": 0.5,
     "kaeufer": 500.0,
     "usdc_einnahmen_szenario": 7250.0,
     "bedarf_skelo_bonus_20": 72500,
@@ -217,139 +48,9 @@
     "anteil_gesamtmenge_pct_bonus_100": 3.62
    },
    {
-    "grundstuecke": 500,
-    "preis_usdc": 25,
-    "verkaufsquote": 0.1,
-    "kaeufer": 50.0,
-    "usdc_einnahmen_szenario": 1475.0,
-    "bedarf_skelo_bonus_20": 14750,
-    "anteil_gesamtmenge_pct_bonus_20": 0.15,
-    "bedarf_skelo_bonus_50": 36875,
-    "anteil_gesamtmenge_pct_bonus_50": 0.37,
-    "bedarf_skelo_bonus_100": 73750,
-    "anteil_gesamtmenge_pct_bonus_100": 0.74
-   },
-   {
-    "grundstuecke": 500,
-    "preis_usdc": 25,
-    "verkaufsquote": 0.25,
-    "kaeufer": 125.0,
-    "usdc_einnahmen_szenario": 3687.5,
-    "bedarf_skelo_bonus_20": 36875,
-    "anteil_gesamtmenge_pct_bonus_20": 0.37,
-    "bedarf_skelo_bonus_50": 92188,
-    "anteil_gesamtmenge_pct_bonus_50": 0.92,
-    "bedarf_skelo_bonus_100": 184375,
-    "anteil_gesamtmenge_pct_bonus_100": 1.84
-   },
-   {
-    "grundstuecke": 500,
-    "preis_usdc": 25,
-    "verkaufsquote": 0.5,
-    "kaeufer": 250.0,
-    "usdc_einnahmen_szenario": 7375.0,
-    "bedarf_skelo_bonus_20": 73750,
-    "anteil_gesamtmenge_pct_bonus_20": 0.74,
-    "bedarf_skelo_bonus_50": 184375,
-    "anteil_gesamtmenge_pct_bonus_50": 1.84,
-    "bedarf_skelo_bonus_100": 368750,
-    "anteil_gesamtmenge_pct_bonus_100": 3.69
-   },
-   {
-    "grundstuecke": 500,
-    "preis_usdc": 25,
+    "grundstuecke": 1000,
+    "preis_usdc": 10,
     "verkaufsquote": 1.0,
-    "kaeufer": 500.0,
-    "usdc_einnahmen_szenario": 14750.0,
-    "bedarf_skelo_bonus_20": 147500,
-    "anteil_gesamtmenge_pct_bonus_20": 1.48,
-    "bedarf_skelo_bonus_50": 368750,
-    "anteil_gesamtmenge_pct_bonus_50": 3.69,
-    "bedarf_skelo_bonus_100": 737500,
-    "anteil_gesamtmenge_pct_bonus_100": 7.38
-   },
-   {
-    "grundstuecke": 500,
-    "preis_usdc": 60,
-    "verkaufsquote": 0.1,
-    "kaeufer": 50.0,
-    "usdc_einnahmen_szenario": 3225.0,
-    "bedarf_skelo_bonus_20": 32250,
-    "anteil_gesamtmenge_pct_bonus_20": 0.32,
-    "bedarf_skelo_bonus_50": 80625,
-    "anteil_gesamtmenge_pct_bonus_50": 0.81,
-    "bedarf_skelo_bonus_100": 161250,
-    "anteil_gesamtmenge_pct_bonus_100": 1.61
-   },
-   {
-    "grundstuecke": 500,
-    "preis_usdc": 60,
-    "verkaufsquote": 0.25,
-    "kaeufer": 125.0,
-    "usdc_einnahmen_szenario": 8062.5,
-    "bedarf_skelo_bonus_20": 80625,
-    "anteil_gesamtmenge_pct_bonus_20": 0.81,
-    "bedarf_skelo_bonus_50": 201562,
-    "anteil_gesamtmenge_pct_bonus_50": 2.02,
-    "bedarf_skelo_bonus_100": 403125,
-    "anteil_gesamtmenge_pct_bonus_100": 4.03
-   },
-   {
-    "grundstuecke": 500,
-    "preis_usdc": 60,
-    "verkaufsquote": 0.5,
-    "kaeufer": 250.0,
-    "usdc_einnahmen_szenario": 16125.0,
-    "bedarf_skelo_bonus_20": 161250,
-    "anteil_gesamtmenge_pct_bonus_20": 1.61,
-    "bedarf_skelo_bonus_50": 403125,
-    "anteil_gesamtmenge_pct_bonus_50": 4.03,
-    "bedarf_skelo_bonus_100": 806250,
-    "anteil_gesamtmenge_pct_bonus_100": 8.06
-   },
-   {
-    "grundstuecke": 500,
-    "preis_usdc": 60,
-    "verkaufsquote": 1.0,
-    "kaeufer": 500.0,
-    "usdc_einnahmen_szenario": 32250.0,
-    "bedarf_skelo_bonus_20": 322500,
-    "anteil_gesamtmenge_pct_bonus_20": 3.23,
-    "bedarf_skelo_bonus_50": 806250,
-    "anteil_gesamtmenge_pct_bonus_50": 8.06,
-    "bedarf_skelo_bonus_100": 1612500,
-    "anteil_gesamtmenge_pct_bonus_100": 16.12
-   },
-   {
-    "grundstuecke": 2000,
-    "preis_usdc": 10,
-    "verkaufsquote": 0.1,
-    "kaeufer": 200.0,
-    "usdc_einnahmen_szenario": 2900.0,
-    "bedarf_skelo_bonus_20": 29000,
-    "anteil_gesamtmenge_pct_bonus_20": 0.29,
-    "bedarf_skelo_bonus_50": 72500,
-    "anteil_gesamtmenge_pct_bonus_50": 0.72,
-    "bedarf_skelo_bonus_100": 145000,
-    "anteil_gesamtmenge_pct_bonus_100": 1.45
-   },
-   {
-    "grundstuecke": 2000,
-    "preis_usdc": 10,
-    "verkaufsquote": 0.25,
-    "kaeufer": 500.0,
-    "usdc_einnahmen_szenario": 7250.0,
-    "bedarf_skelo_bonus_20": 72500,
-    "anteil_gesamtmenge_pct_bonus_20": 0.72,
-    "bedarf_skelo_bonus_50": 181250,
-    "anteil_gesamtmenge_pct_bonus_50": 1.81,
-    "bedarf_skelo_bonus_100": 362500,
-    "anteil_gesamtmenge_pct_bonus_100": 3.62
-   },
-   {
-    "grundstuecke": 2000,
-    "preis_usdc": 10,
-    "verkaufsquote": 0.5,
     "kaeufer": 1000.0,
     "usdc_einnahmen_szenario": 14500.0,
     "bedarf_skelo_bonus_20": 145000,
@@ -360,35 +61,35 @@
     "anteil_gesamtmenge_pct_bonus_100": 7.25
    },
    {
-    "grundstuecke": 2000,
-    "preis_usdc": 10,
-    "verkaufsquote": 1.0,
-    "kaeufer": 2000.0,
-    "usdc_einnahmen_szenario": 29000.0,
-    "bedarf_skelo_bonus_20": 290000,
-    "anteil_gesamtmenge_pct_bonus_20": 2.9,
-    "bedarf_skelo_bonus_50": 725000,
-    "anteil_gesamtmenge_pct_bonus_50": 7.25,
-    "bedarf_skelo_bonus_100": 1450000,
-    "anteil_gesamtmenge_pct_bonus_100": 14.5
-   },
-   {
-    "grundstuecke": 2000,
+    "grundstuecke": 1000,
     "preis_usdc": 25,
     "verkaufsquote": 0.1,
-    "kaeufer": 200.0,
-    "usdc_einnahmen_szenario": 5900.0,
-    "bedarf_skelo_bonus_20": 59000,
-    "anteil_gesamtmenge_pct_bonus_20": 0.59,
-    "bedarf_skelo_bonus_50": 147500,
-    "anteil_gesamtmenge_pct_bonus_50": 1.48,
-    "bedarf_skelo_bonus_100": 295000,
-    "anteil_gesamtmenge_pct_bonus_100": 2.95
+    "kaeufer": 100.0,
+    "usdc_einnahmen_szenario": 2950.0,
+    "bedarf_skelo_bonus_20": 29500,
+    "anteil_gesamtmenge_pct_bonus_20": 0.29,
+    "bedarf_skelo_bonus_50": 73750,
+    "anteil_gesamtmenge_pct_bonus_50": 0.74,
+    "bedarf_skelo_bonus_100": 147500,
+    "anteil_gesamtmenge_pct_bonus_100": 1.48
    },
    {
-    "grundstuecke": 2000,
+    "grundstuecke": 1000,
     "preis_usdc": 25,
     "verkaufsquote": 0.25,
+    "kaeufer": 250.0,
+    "usdc_einnahmen_szenario": 7375.0,
+    "bedarf_skelo_bonus_20": 73750,
+    "anteil_gesamtmenge_pct_bonus_20": 0.74,
+    "bedarf_skelo_bonus_50": 184375,
+    "anteil_gesamtmenge_pct_bonus_50": 1.84,
+    "bedarf_skelo_bonus_100": 368750,
+    "anteil_gesamtmenge_pct_bonus_100": 3.69
+   },
+   {
+    "grundstuecke": 1000,
+    "preis_usdc": 25,
+    "verkaufsquote": 0.5,
     "kaeufer": 500.0,
     "usdc_einnahmen_szenario": 14750.0,
     "bedarf_skelo_bonus_20": 147500,
@@ -399,9 +100,9 @@
     "anteil_gesamtmenge_pct_bonus_100": 7.38
    },
    {
-    "grundstuecke": 2000,
+    "grundstuecke": 1000,
     "preis_usdc": 25,
-    "verkaufsquote": 0.5,
+    "verkaufsquote": 1.0,
     "kaeufer": 1000.0,
     "usdc_einnahmen_szenario": 29500.0,
     "bedarf_skelo_bonus_20": 295000,
@@ -412,35 +113,35 @@
     "anteil_gesamtmenge_pct_bonus_100": 14.75
    },
    {
-    "grundstuecke": 2000,
-    "preis_usdc": 25,
-    "verkaufsquote": 1.0,
-    "kaeufer": 2000.0,
-    "usdc_einnahmen_szenario": 59000.0,
-    "bedarf_skelo_bonus_20": 590000,
-    "anteil_gesamtmenge_pct_bonus_20": 5.9,
-    "bedarf_skelo_bonus_50": 1475000,
-    "anteil_gesamtmenge_pct_bonus_50": 14.75,
-    "bedarf_skelo_bonus_100": 2950000,
-    "anteil_gesamtmenge_pct_bonus_100": 29.5
-   },
-   {
-    "grundstuecke": 2000,
+    "grundstuecke": 1000,
     "preis_usdc": 60,
     "verkaufsquote": 0.1,
-    "kaeufer": 200.0,
-    "usdc_einnahmen_szenario": 12900.0,
-    "bedarf_skelo_bonus_20": 129000,
-    "anteil_gesamtmenge_pct_bonus_20": 1.29,
-    "bedarf_skelo_bonus_50": 322500,
-    "anteil_gesamtmenge_pct_bonus_50": 3.23,
-    "bedarf_skelo_bonus_100": 645000,
-    "anteil_gesamtmenge_pct_bonus_100": 6.45
+    "kaeufer": 100.0,
+    "usdc_einnahmen_szenario": 6450.0,
+    "bedarf_skelo_bonus_20": 64500,
+    "anteil_gesamtmenge_pct_bonus_20": 0.65,
+    "bedarf_skelo_bonus_50": 161250,
+    "anteil_gesamtmenge_pct_bonus_50": 1.61,
+    "bedarf_skelo_bonus_100": 322500,
+    "anteil_gesamtmenge_pct_bonus_100": 3.23
    },
    {
-    "grundstuecke": 2000,
+    "grundstuecke": 1000,
     "preis_usdc": 60,
     "verkaufsquote": 0.25,
+    "kaeufer": 250.0,
+    "usdc_einnahmen_szenario": 16125.0,
+    "bedarf_skelo_bonus_20": 161250,
+    "anteil_gesamtmenge_pct_bonus_20": 1.61,
+    "bedarf_skelo_bonus_50": 403125,
+    "anteil_gesamtmenge_pct_bonus_50": 4.03,
+    "bedarf_skelo_bonus_100": 806250,
+    "anteil_gesamtmenge_pct_bonus_100": 8.06
+   },
+   {
+    "grundstuecke": 1000,
+    "preis_usdc": 60,
+    "verkaufsquote": 0.5,
     "kaeufer": 500.0,
     "usdc_einnahmen_szenario": 32250.0,
     "bedarf_skelo_bonus_20": 322500,
@@ -451,9 +152,9 @@
     "anteil_gesamtmenge_pct_bonus_100": 16.12
    },
    {
-    "grundstuecke": 2000,
+    "grundstuecke": 1000,
     "preis_usdc": 60,
-    "verkaufsquote": 0.5,
+    "verkaufsquote": 1.0,
     "kaeufer": 1000.0,
     "usdc_einnahmen_szenario": 64500.0,
     "bedarf_skelo_bonus_20": 645000,
@@ -464,17 +165,160 @@
     "anteil_gesamtmenge_pct_bonus_100": 32.25
    },
    {
-    "grundstuecke": 2000,
+    "grundstuecke": 5000,
+    "preis_usdc": 10,
+    "verkaufsquote": 0.1,
+    "kaeufer": 500.0,
+    "usdc_einnahmen_szenario": 7250.0,
+    "bedarf_skelo_bonus_20": 72500,
+    "anteil_gesamtmenge_pct_bonus_20": 0.72,
+    "bedarf_skelo_bonus_50": 181250,
+    "anteil_gesamtmenge_pct_bonus_50": 1.81,
+    "bedarf_skelo_bonus_100": 362500,
+    "anteil_gesamtmenge_pct_bonus_100": 3.62
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 10,
+    "verkaufsquote": 0.25,
+    "kaeufer": 1250.0,
+    "usdc_einnahmen_szenario": 18125.0,
+    "bedarf_skelo_bonus_20": 181250,
+    "anteil_gesamtmenge_pct_bonus_20": 1.81,
+    "bedarf_skelo_bonus_50": 453125,
+    "anteil_gesamtmenge_pct_bonus_50": 4.53,
+    "bedarf_skelo_bonus_100": 906250,
+    "anteil_gesamtmenge_pct_bonus_100": 9.06
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 10,
+    "verkaufsquote": 0.5,
+    "kaeufer": 2500.0,
+    "usdc_einnahmen_szenario": 36250.0,
+    "bedarf_skelo_bonus_20": 362500,
+    "anteil_gesamtmenge_pct_bonus_20": 3.62,
+    "bedarf_skelo_bonus_50": 906250,
+    "anteil_gesamtmenge_pct_bonus_50": 9.06,
+    "bedarf_skelo_bonus_100": 1812500,
+    "anteil_gesamtmenge_pct_bonus_100": 18.12
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 10,
+    "verkaufsquote": 1.0,
+    "kaeufer": 5000.0,
+    "usdc_einnahmen_szenario": 72500.0,
+    "bedarf_skelo_bonus_20": 725000,
+    "anteil_gesamtmenge_pct_bonus_20": 7.25,
+    "bedarf_skelo_bonus_50": 1812500,
+    "anteil_gesamtmenge_pct_bonus_50": 18.12,
+    "bedarf_skelo_bonus_100": 3625000,
+    "anteil_gesamtmenge_pct_bonus_100": 36.25
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 25,
+    "verkaufsquote": 0.1,
+    "kaeufer": 500.0,
+    "usdc_einnahmen_szenario": 14750.0,
+    "bedarf_skelo_bonus_20": 147500,
+    "anteil_gesamtmenge_pct_bonus_20": 1.48,
+    "bedarf_skelo_bonus_50": 368750,
+    "anteil_gesamtmenge_pct_bonus_50": 3.69,
+    "bedarf_skelo_bonus_100": 737500,
+    "anteil_gesamtmenge_pct_bonus_100": 7.38
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 25,
+    "verkaufsquote": 0.25,
+    "kaeufer": 1250.0,
+    "usdc_einnahmen_szenario": 36875.0,
+    "bedarf_skelo_bonus_20": 368750,
+    "anteil_gesamtmenge_pct_bonus_20": 3.69,
+    "bedarf_skelo_bonus_50": 921875,
+    "anteil_gesamtmenge_pct_bonus_50": 9.22,
+    "bedarf_skelo_bonus_100": 1843750,
+    "anteil_gesamtmenge_pct_bonus_100": 18.44
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 25,
+    "verkaufsquote": 0.5,
+    "kaeufer": 2500.0,
+    "usdc_einnahmen_szenario": 73750.0,
+    "bedarf_skelo_bonus_20": 737500,
+    "anteil_gesamtmenge_pct_bonus_20": 7.38,
+    "bedarf_skelo_bonus_50": 1843750,
+    "anteil_gesamtmenge_pct_bonus_50": 18.44,
+    "bedarf_skelo_bonus_100": 3687500,
+    "anteil_gesamtmenge_pct_bonus_100": 36.88
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 25,
+    "verkaufsquote": 1.0,
+    "kaeufer": 5000.0,
+    "usdc_einnahmen_szenario": 147500.0,
+    "bedarf_skelo_bonus_20": 1475000,
+    "anteil_gesamtmenge_pct_bonus_20": 14.75,
+    "bedarf_skelo_bonus_50": 3687500,
+    "anteil_gesamtmenge_pct_bonus_50": 36.88,
+    "bedarf_skelo_bonus_100": 7375000,
+    "anteil_gesamtmenge_pct_bonus_100": 73.75
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 60,
+    "verkaufsquote": 0.1,
+    "kaeufer": 500.0,
+    "usdc_einnahmen_szenario": 32250.0,
+    "bedarf_skelo_bonus_20": 322500,
+    "anteil_gesamtmenge_pct_bonus_20": 3.23,
+    "bedarf_skelo_bonus_50": 806250,
+    "anteil_gesamtmenge_pct_bonus_50": 8.06,
+    "bedarf_skelo_bonus_100": 1612500,
+    "anteil_gesamtmenge_pct_bonus_100": 16.12
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 60,
+    "verkaufsquote": 0.25,
+    "kaeufer": 1250.0,
+    "usdc_einnahmen_szenario": 80625.0,
+    "bedarf_skelo_bonus_20": 806250,
+    "anteil_gesamtmenge_pct_bonus_20": 8.06,
+    "bedarf_skelo_bonus_50": 2015625,
+    "anteil_gesamtmenge_pct_bonus_50": 20.16,
+    "bedarf_skelo_bonus_100": 4031250,
+    "anteil_gesamtmenge_pct_bonus_100": 40.31
+   },
+   {
+    "grundstuecke": 5000,
+    "preis_usdc": 60,
+    "verkaufsquote": 0.5,
+    "kaeufer": 2500.0,
+    "usdc_einnahmen_szenario": 161250.0,
+    "bedarf_skelo_bonus_20": 1612500,
+    "anteil_gesamtmenge_pct_bonus_20": 16.12,
+    "bedarf_skelo_bonus_50": 4031250,
+    "anteil_gesamtmenge_pct_bonus_50": 40.31,
+    "bedarf_skelo_bonus_100": 8062500,
+    "anteil_gesamtmenge_pct_bonus_100": 80.62
+   },
+   {
+    "grundstuecke": 5000,
     "preis_usdc": 60,
     "verkaufsquote": 1.0,
-    "kaeufer": 2000.0,
-    "usdc_einnahmen_szenario": 129000.0,
-    "bedarf_skelo_bonus_20": 1290000,
-    "anteil_gesamtmenge_pct_bonus_20": 12.9,
-    "bedarf_skelo_bonus_50": 3225000,
-    "anteil_gesamtmenge_pct_bonus_50": 32.25,
-    "bedarf_skelo_bonus_100": 6450000,
-    "anteil_gesamtmenge_pct_bonus_100": 64.5
+    "kaeufer": 5000.0,
+    "usdc_einnahmen_szenario": 322500.0,
+    "bedarf_skelo_bonus_20": 3225000,
+    "anteil_gesamtmenge_pct_bonus_20": 32.25,
+    "bedarf_skelo_bonus_50": 8062500,
+    "anteil_gesamtmenge_pct_bonus_50": 80.62,
+    "bedarf_skelo_bonus_100": 16125000,
+    "anteil_gesamtmenge_pct_bonus_100": 161.25
    },
    {
     "grundstuecke": 10000,
@@ -631,1339 +475,1051 @@
     "anteil_gesamtmenge_pct_bonus_50": 161.25,
     "bedarf_skelo_bonus_100": 32250000,
     "anteil_gesamtmenge_pct_bonus_100": 322.5
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 10,
+    "verkaufsquote": 0.1,
+    "kaeufer": 2000.0,
+    "usdc_einnahmen_szenario": 29000.0,
+    "bedarf_skelo_bonus_20": 290000,
+    "anteil_gesamtmenge_pct_bonus_20": 2.9,
+    "bedarf_skelo_bonus_50": 725000,
+    "anteil_gesamtmenge_pct_bonus_50": 7.25,
+    "bedarf_skelo_bonus_100": 1450000,
+    "anteil_gesamtmenge_pct_bonus_100": 14.5
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 10,
+    "verkaufsquote": 0.25,
+    "kaeufer": 5000.0,
+    "usdc_einnahmen_szenario": 72500.0,
+    "bedarf_skelo_bonus_20": 725000,
+    "anteil_gesamtmenge_pct_bonus_20": 7.25,
+    "bedarf_skelo_bonus_50": 1812500,
+    "anteil_gesamtmenge_pct_bonus_50": 18.12,
+    "bedarf_skelo_bonus_100": 3625000,
+    "anteil_gesamtmenge_pct_bonus_100": 36.25
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 10,
+    "verkaufsquote": 0.5,
+    "kaeufer": 10000.0,
+    "usdc_einnahmen_szenario": 145000.0,
+    "bedarf_skelo_bonus_20": 1450000,
+    "anteil_gesamtmenge_pct_bonus_20": 14.5,
+    "bedarf_skelo_bonus_50": 3625000,
+    "anteil_gesamtmenge_pct_bonus_50": 36.25,
+    "bedarf_skelo_bonus_100": 7250000,
+    "anteil_gesamtmenge_pct_bonus_100": 72.5
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 10,
+    "verkaufsquote": 1.0,
+    "kaeufer": 20000.0,
+    "usdc_einnahmen_szenario": 290000.0,
+    "bedarf_skelo_bonus_20": 2900000,
+    "anteil_gesamtmenge_pct_bonus_20": 29.0,
+    "bedarf_skelo_bonus_50": 7250000,
+    "anteil_gesamtmenge_pct_bonus_50": 72.5,
+    "bedarf_skelo_bonus_100": 14500000,
+    "anteil_gesamtmenge_pct_bonus_100": 145.0
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 25,
+    "verkaufsquote": 0.1,
+    "kaeufer": 2000.0,
+    "usdc_einnahmen_szenario": 59000.0,
+    "bedarf_skelo_bonus_20": 590000,
+    "anteil_gesamtmenge_pct_bonus_20": 5.9,
+    "bedarf_skelo_bonus_50": 1475000,
+    "anteil_gesamtmenge_pct_bonus_50": 14.75,
+    "bedarf_skelo_bonus_100": 2950000,
+    "anteil_gesamtmenge_pct_bonus_100": 29.5
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 25,
+    "verkaufsquote": 0.25,
+    "kaeufer": 5000.0,
+    "usdc_einnahmen_szenario": 147500.0,
+    "bedarf_skelo_bonus_20": 1475000,
+    "anteil_gesamtmenge_pct_bonus_20": 14.75,
+    "bedarf_skelo_bonus_50": 3687500,
+    "anteil_gesamtmenge_pct_bonus_50": 36.88,
+    "bedarf_skelo_bonus_100": 7375000,
+    "anteil_gesamtmenge_pct_bonus_100": 73.75
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 25,
+    "verkaufsquote": 0.5,
+    "kaeufer": 10000.0,
+    "usdc_einnahmen_szenario": 295000.0,
+    "bedarf_skelo_bonus_20": 2950000,
+    "anteil_gesamtmenge_pct_bonus_20": 29.5,
+    "bedarf_skelo_bonus_50": 7375000,
+    "anteil_gesamtmenge_pct_bonus_50": 73.75,
+    "bedarf_skelo_bonus_100": 14750000,
+    "anteil_gesamtmenge_pct_bonus_100": 147.5
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 25,
+    "verkaufsquote": 1.0,
+    "kaeufer": 20000.0,
+    "usdc_einnahmen_szenario": 590000.0,
+    "bedarf_skelo_bonus_20": 5900000,
+    "anteil_gesamtmenge_pct_bonus_20": 59.0,
+    "bedarf_skelo_bonus_50": 14750000,
+    "anteil_gesamtmenge_pct_bonus_50": 147.5,
+    "bedarf_skelo_bonus_100": 29500000,
+    "anteil_gesamtmenge_pct_bonus_100": 295.0
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 60,
+    "verkaufsquote": 0.1,
+    "kaeufer": 2000.0,
+    "usdc_einnahmen_szenario": 129000.0,
+    "bedarf_skelo_bonus_20": 1290000,
+    "anteil_gesamtmenge_pct_bonus_20": 12.9,
+    "bedarf_skelo_bonus_50": 3225000,
+    "anteil_gesamtmenge_pct_bonus_50": 32.25,
+    "bedarf_skelo_bonus_100": 6450000,
+    "anteil_gesamtmenge_pct_bonus_100": 64.5
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 60,
+    "verkaufsquote": 0.25,
+    "kaeufer": 5000.0,
+    "usdc_einnahmen_szenario": 322500.0,
+    "bedarf_skelo_bonus_20": 3225000,
+    "anteil_gesamtmenge_pct_bonus_20": 32.25,
+    "bedarf_skelo_bonus_50": 8062500,
+    "anteil_gesamtmenge_pct_bonus_50": 80.62,
+    "bedarf_skelo_bonus_100": 16125000,
+    "anteil_gesamtmenge_pct_bonus_100": 161.25
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 60,
+    "verkaufsquote": 0.5,
+    "kaeufer": 10000.0,
+    "usdc_einnahmen_szenario": 645000.0,
+    "bedarf_skelo_bonus_20": 6450000,
+    "anteil_gesamtmenge_pct_bonus_20": 64.5,
+    "bedarf_skelo_bonus_50": 16125000,
+    "anteil_gesamtmenge_pct_bonus_50": 161.25,
+    "bedarf_skelo_bonus_100": 32250000,
+    "anteil_gesamtmenge_pct_bonus_100": 322.5
+   },
+   {
+    "grundstuecke": 20000,
+    "preis_usdc": 60,
+    "verkaufsquote": 1.0,
+    "kaeufer": 20000.0,
+    "usdc_einnahmen_szenario": 1290000.0,
+    "bedarf_skelo_bonus_20": 12900000,
+    "anteil_gesamtmenge_pct_bonus_20": 129.0,
+    "bedarf_skelo_bonus_50": 32250000,
+    "anteil_gesamtmenge_pct_bonus_50": 322.5,
+    "bedarf_skelo_bonus_100": 64500000,
+    "anteil_gesamtmenge_pct_bonus_100": 645.0
    }
   ]
  },
  "beschlossenes_modell": [
   {
-   "grundstuecke": 100,
+   "grundstuecke": 1000,
    "preis_usdc": 10,
    "verkaufsquote": 0.1,
-   "kaeufer": 10.0,
-   "usdc_einnahmen_szenario": 145.0,
-   "kaeufer_mit_zuteilung": 10,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 1450,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 10
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 10,
-   "verkaufsquote": 0.25,
-   "kaeufer": 25.0,
-   "usdc_einnahmen_szenario": 362.5,
-   "kaeufer_mit_zuteilung": 25,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 3625,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 25
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 10,
-   "verkaufsquote": 0.5,
-   "kaeufer": 50.0,
-   "usdc_einnahmen_szenario": 725.0,
-   "kaeufer_mit_zuteilung": 50,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 5625,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 22
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 10,
-   "verkaufsquote": 1.0,
    "kaeufer": 100.0,
    "usdc_einnahmen_szenario": 1450.0,
    "kaeufer_mit_zuteilung": 100,
    "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 9250,
-   "kontingent_gesamt": 60000,
+   "skelo_verbraucht": 10500,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
      "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 72
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 55
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
+     "kaeufer_max": 4311,
      "kaeufer_bedient": 0
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
+     "kaeufer_max": 8710,
      "kaeufer_bedient": 0
     }
    ]
   },
   {
-   "grundstuecke": 100,
-   "preis_usdc": 25,
-   "verkaufsquote": 0.1,
-   "kaeufer": 10.0,
-   "usdc_einnahmen_szenario": 295.0,
-   "kaeufer_mit_zuteilung": 10,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 2950,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 10
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 25,
-   "verkaufsquote": 0.25,
-   "kaeufer": 25.0,
-   "usdc_einnahmen_szenario": 737.5,
-   "kaeufer_mit_zuteilung": 25,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 5688,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 11
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 25,
-   "verkaufsquote": 0.5,
-   "kaeufer": 50.0,
-   "usdc_einnahmen_szenario": 1475.0,
-   "kaeufer_mit_zuteilung": 50,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 9375,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 36
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 25,
-   "verkaufsquote": 1.0,
-   "kaeufer": 100.0,
-   "usdc_einnahmen_szenario": 2950.0,
-   "kaeufer_mit_zuteilung": 100,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 16400,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 5
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 60,
-   "verkaufsquote": 0.1,
-   "kaeufer": 10.0,
-   "usdc_einnahmen_szenario": 645.0,
-   "kaeufer_mit_zuteilung": 10,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 5225,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 3
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 60,
-   "verkaufsquote": 0.25,
-   "kaeufer": 25.0,
-   "usdc_einnahmen_szenario": 1612.5,
-   "kaeufer_mit_zuteilung": 25,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 10063,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 18
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 60,
-   "verkaufsquote": 0.5,
-   "kaeufer": 50.0,
-   "usdc_einnahmen_szenario": 3225.0,
-   "kaeufer_mit_zuteilung": 50,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 17133,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 100,
-   "preis_usdc": 60,
-   "verkaufsquote": 1.0,
-   "kaeufer": 100.0,
-   "usdc_einnahmen_szenario": 6450.0,
-   "kaeufer_mit_zuteilung": 100,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 25733,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 56
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
-   "preis_usdc": 10,
-   "verkaufsquote": 0.1,
-   "kaeufer": 50.0,
-   "usdc_einnahmen_szenario": 725.0,
-   "kaeufer_mit_zuteilung": 50,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 5625,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 22
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
+   "grundstuecke": 1000,
    "preis_usdc": 10,
    "verkaufsquote": 0.25,
-   "kaeufer": 125.0,
-   "usdc_einnahmen_szenario": 1812.5,
-   "kaeufer_mit_zuteilung": 125,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 11062,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 97
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
-   "preis_usdc": 10,
-   "verkaufsquote": 0.5,
    "kaeufer": 250.0,
    "usdc_einnahmen_szenario": 3625.0,
    "kaeufer_mit_zuteilung": 250,
    "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 18200,
-   "kontingent_gesamt": 60000,
+   "skelo_verbraucht": 21375,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
      "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 205
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 56
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 0
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
+     "kaeufer_max": 8710,
      "kaeufer_bedient": 0
     }
    ]
   },
   {
-   "grundstuecke": 500,
+   "grundstuecke": 1000,
    "preis_usdc": 10,
-   "verkaufsquote": 1.0,
+   "verkaufsquote": 0.5,
    "kaeufer": 500.0,
    "usdc_einnahmen_szenario": 7250.0,
    "kaeufer_mit_zuteilung": 500,
    "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 27867,
-   "kontingent_gesamt": 60000,
+   "skelo_verbraucht": 39500,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
      "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 455
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 306
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 0
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
+     "kaeufer_max": 8710,
      "kaeufer_bedient": 0
     }
    ]
   },
   {
-   "grundstuecke": 500,
-   "preis_usdc": 25,
-   "verkaufsquote": 0.1,
-   "kaeufer": 50.0,
-   "usdc_einnahmen_szenario": 1475.0,
-   "kaeufer_mit_zuteilung": 50,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 9375,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 36
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 0
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
-   "preis_usdc": 25,
-   "verkaufsquote": 0.25,
-   "kaeufer": 125.0,
-   "usdc_einnahmen_szenario": 3687.5,
-   "kaeufer_mit_zuteilung": 125,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 18367,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 30
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
-   "preis_usdc": 25,
-   "verkaufsquote": 0.5,
-   "kaeufer": 250.0,
-   "usdc_einnahmen_szenario": 7375.0,
-   "kaeufer_mit_zuteilung": 250,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 28200,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 155
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
-   "preis_usdc": 25,
+   "grundstuecke": 1000,
+   "preis_usdc": 10,
    "verkaufsquote": 1.0,
-   "kaeufer": 500.0,
-   "usdc_einnahmen_szenario": 14750.0,
-   "kaeufer_mit_zuteilung": 500,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 42846,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 254
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 150
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
-   "preis_usdc": 60,
-   "verkaufsquote": 0.1,
-   "kaeufer": 50.0,
-   "usdc_einnahmen_szenario": 3225.0,
-   "kaeufer_mit_zuteilung": 50,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 17133,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
-   "preis_usdc": 60,
-   "verkaufsquote": 0.25,
-   "kaeufer": 125.0,
-   "usdc_einnahmen_szenario": 8062.5,
-   "kaeufer_mit_zuteilung": 125,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 30033,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 81
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
-   "preis_usdc": 60,
-   "verkaufsquote": 0.5,
-   "kaeufer": 250.0,
-   "usdc_einnahmen_szenario": 16125.0,
-   "kaeufer_mit_zuteilung": 250,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 44962,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 90
-    }
-   ]
-  },
-  {
-   "grundstuecke": 500,
-   "preis_usdc": 60,
-   "verkaufsquote": 1.0,
-   "kaeufer": 500.0,
-   "usdc_einnahmen_szenario": 32250.0,
-   "kaeufer_mit_zuteilung": 401,
-   "kaeufer_ohne_zuteilung": 98,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 241
-    }
-   ]
-  },
-  {
-   "grundstuecke": 2000,
-   "preis_usdc": 10,
-   "verkaufsquote": 0.1,
-   "kaeufer": 200.0,
-   "usdc_einnahmen_szenario": 2900.0,
-   "kaeufer_mit_zuteilung": 200,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 16267,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 6
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 2000,
-   "preis_usdc": 10,
-   "verkaufsquote": 0.25,
-   "kaeufer": 500.0,
-   "usdc_einnahmen_szenario": 7250.0,
-   "kaeufer_mit_zuteilung": 500,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 27867,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 306
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 0
-    }
-   ]
-  },
-  {
-   "grundstuecke": 2000,
-   "preis_usdc": 10,
-   "verkaufsquote": 0.5,
    "kaeufer": 1000.0,
    "usdc_einnahmen_szenario": 14500.0,
    "kaeufer_mit_zuteilung": 1000,
    "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 42462,
-   "kontingent_gesamt": 60000,
+   "skelo_verbraucht": 72600,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
      "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 517
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 93
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 289
-    }
-   ]
-  },
-  {
-   "grundstuecke": 2000,
-   "preis_usdc": 10,
-   "verkaufsquote": 1.0,
-   "kaeufer": 2000.0,
-   "usdc_einnahmen_szenario": 29000.0,
-   "kaeufer_mit_zuteilung": 1786,
-   "kaeufer_ohne_zuteilung": 213,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 517
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 1075
-    }
-   ]
-  },
-  {
-   "grundstuecke": 2000,
-   "preis_usdc": 25,
-   "verkaufsquote": 0.1,
-   "kaeufer": 200.0,
-   "usdc_einnahmen_szenario": 5900.0,
-   "kaeufer_mit_zuteilung": 200,
-   "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 24267,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 105
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
+     "kaeufer_max": 8710,
      "kaeufer_bedient": 0
     }
    ]
   },
   {
-   "grundstuecke": 2000,
+   "grundstuecke": 1000,
+   "preis_usdc": 25,
+   "verkaufsquote": 0.1,
+   "kaeufer": 100.0,
+   "usdc_einnahmen_szenario": 2950.0,
+   "kaeufer_mit_zuteilung": 100,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 17415,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 74
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 0
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 1000,
    "preis_usdc": 25,
    "verkaufsquote": 0.25,
+   "kaeufer": 250.0,
+   "usdc_einnahmen_szenario": 7375.0,
+   "kaeufer_mit_zuteilung": 250,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 39540,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 224
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 0
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 1000,
+   "preis_usdc": 25,
+   "verkaufsquote": 0.5,
    "kaeufer": 500.0,
    "usdc_einnahmen_szenario": 14750.0,
    "kaeufer_mit_zuteilung": 500,
    "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 42846,
-   "kontingent_gesamt": 60000,
+   "skelo_verbraucht": 72955,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 254
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 50
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 150
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
     }
    ]
   },
   {
-   "grundstuecke": 2000,
+   "grundstuecke": 1000,
    "preis_usdc": 25,
-   "verkaufsquote": 0.5,
+   "verkaufsquote": 1.0,
    "kaeufer": 1000.0,
    "usdc_einnahmen_szenario": 29500.0,
-   "kaeufer_mit_zuteilung": 877,
-   "kaeufer_ohne_zuteilung": 122,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 1000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 112288,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 254
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 550
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 528
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
     }
    ]
   },
   {
-   "grundstuecke": 2000,
-   "preis_usdc": 25,
-   "verkaufsquote": 1.0,
-   "kaeufer": 2000.0,
-   "usdc_einnahmen_szenario": 59000.0,
-   "kaeufer_mit_zuteilung": 877,
-   "kaeufer_ohne_zuteilung": 1122,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
-   "phasen": [
-    {
-     "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
-    },
-    {
-     "phase": "p2",
-     "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
-    },
-    {
-     "phase": "p3",
-     "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 254
-    },
-    {
-     "phase": "p4",
-     "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 528
-    }
-   ]
-  },
-  {
-   "grundstuecke": 2000,
+   "grundstuecke": 1000,
    "preis_usdc": 60,
    "verkaufsquote": 0.1,
-   "kaeufer": 200.0,
-   "usdc_einnahmen_szenario": 12900.0,
-   "kaeufer_mit_zuteilung": 200,
+   "kaeufer": 100.0,
+   "usdc_einnahmen_szenario": 6450.0,
+   "kaeufer_mit_zuteilung": 100,
    "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 40000,
-   "kontingent_gesamt": 60000,
+   "skelo_verbraucht": 25000,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 74
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 0
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 40
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 0
     }
    ]
   },
   {
-   "grundstuecke": 2000,
+   "grundstuecke": 1000,
    "preis_usdc": 60,
    "verkaufsquote": 0.25,
-   "kaeufer": 500.0,
-   "usdc_einnahmen_szenario": 32250.0,
-   "kaeufer_mit_zuteilung": 401,
-   "kaeufer_ohne_zuteilung": 98,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer": 250.0,
+   "usdc_einnahmen_szenario": 16125.0,
+   "kaeufer_mit_zuteilung": 250,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 62500,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 224
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 0
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 241
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 0
     }
    ]
   },
   {
-   "grundstuecke": 2000,
+   "grundstuecke": 1000,
    "preis_usdc": 60,
    "verkaufsquote": 0.5,
-   "kaeufer": 1000.0,
-   "usdc_einnahmen_szenario": 64500.0,
-   "kaeufer_mit_zuteilung": 401,
-   "kaeufer_ohne_zuteilung": 598,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer": 500.0,
+   "usdc_einnahmen_szenario": 32250.0,
+   "kaeufer_mit_zuteilung": 500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 107528,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 224
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 241
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 0
     }
    ]
   },
   {
-   "grundstuecke": 2000,
+   "grundstuecke": 1000,
    "preis_usdc": 60,
    "verkaufsquote": 1.0,
-   "kaeufer": 2000.0,
-   "usdc_einnahmen_szenario": 129000.0,
-   "kaeufer_mit_zuteilung": 401,
-   "kaeufer_ohne_zuteilung": 1598,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer": 1000.0,
+   "usdc_einnahmen_szenario": 64500.0,
+   "kaeufer_mit_zuteilung": 1000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 193528,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 724
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 241
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 10,
+   "verkaufsquote": 0.1,
+   "kaeufer": 500.0,
+   "usdc_einnahmen_szenario": 7250.0,
+   "kaeufer_mit_zuteilung": 500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 39500,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 145.0,
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 72.5,
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 455
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 38.67,
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 0
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 22.31,
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 10,
+   "verkaufsquote": 0.25,
+   "kaeufer": 1250.0,
+   "usdc_einnahmen_szenario": 18125.0,
+   "kaeufer_mit_zuteilung": 1250,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 82267,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 145.0,
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 72.5,
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 38.67,
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 343
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 22.31,
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 10,
+   "verkaufsquote": 0.5,
+   "kaeufer": 2500.0,
+   "usdc_einnahmen_szenario": 36250.0,
+   "kaeufer_mit_zuteilung": 2500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 130600,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 145.0,
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 72.5,
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 38.67,
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 1593
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 22.31,
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 10,
+   "verkaufsquote": 1.0,
+   "kaeufer": 5000.0,
+   "usdc_einnahmen_szenario": 72500.0,
+   "kaeufer_mit_zuteilung": 5000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 227267,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 145.0,
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 72.5,
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 38.67,
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 4093
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 22.31,
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 25,
+   "verkaufsquote": 0.1,
+   "kaeufer": 500.0,
+   "usdc_einnahmen_szenario": 14750.0,
+   "kaeufer_mit_zuteilung": 500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 72955,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 50
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 25,
+   "verkaufsquote": 0.25,
+   "kaeufer": 1250.0,
+   "usdc_einnahmen_szenario": 36875.0,
+   "kaeufer_mit_zuteilung": 1250,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 131955,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 800
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 25,
+   "verkaufsquote": 0.5,
+   "kaeufer": 2500.0,
+   "usdc_einnahmen_szenario": 73750.0,
+   "kaeufer_mit_zuteilung": 2500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 230288,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 2050
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 25,
+   "verkaufsquote": 1.0,
+   "kaeufer": 5000.0,
+   "usdc_einnahmen_szenario": 147500.0,
+   "kaeufer_mit_zuteilung": 5000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 346039,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 2119
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 2431
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 60,
+   "verkaufsquote": 0.1,
+   "kaeufer": 500.0,
+   "usdc_einnahmen_szenario": 32250.0,
+   "kaeufer_mit_zuteilung": 500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 107528,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 172.0,
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 224
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 99.23,
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 60,
+   "verkaufsquote": 0.25,
+   "kaeufer": 1250.0,
+   "usdc_einnahmen_szenario": 80625.0,
+   "kaeufer_mit_zuteilung": 1250,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 236178,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 172.0,
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 99.23,
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 4
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 60,
+   "verkaufsquote": 0.5,
+   "kaeufer": 2500.0,
+   "usdc_einnahmen_szenario": 161250.0,
+   "kaeufer_mit_zuteilung": 2500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 360216,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 172.0,
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 99.23,
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 1254
+    }
+   ]
+  },
+  {
+   "grundstuecke": 5000,
+   "preis_usdc": 60,
+   "verkaufsquote": 1.0,
+   "kaeufer": 5000.0,
+   "usdc_einnahmen_szenario": 322500.0,
+   "kaeufer_mit_zuteilung": 3203,
+   "kaeufer_ohne_zuteilung": 1796,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 172.0,
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 99.23,
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 1958
     }
    ]
   },
@@ -1975,32 +1531,32 @@
    "usdc_einnahmen_szenario": 14500.0,
    "kaeufer_mit_zuteilung": 1000,
    "kaeufer_ohne_zuteilung": 0,
-   "skelo_verbraucht": 42462,
-   "kontingent_gesamt": 60000,
+   "skelo_verbraucht": 72600,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
      "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 517
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 93
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 289
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 0
     }
    ]
   },
@@ -2010,34 +1566,34 @@
    "verkaufsquote": 0.25,
    "kaeufer": 2500.0,
    "usdc_einnahmen_szenario": 36250.0,
-   "kaeufer_mit_zuteilung": 1786,
-   "kaeufer_ohne_zuteilung": 713,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 2500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 130600,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
      "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 517
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 1593
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 1075
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 0
     }
    ]
   },
@@ -2047,34 +1603,34 @@
    "verkaufsquote": 0.5,
    "kaeufer": 5000.0,
    "usdc_einnahmen_szenario": 72500.0,
-   "kaeufer_mit_zuteilung": 1786,
-   "kaeufer_ohne_zuteilung": 3213,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 5000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 227267,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
      "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 517
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 4093
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 1075
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 0
     }
    ]
   },
@@ -2084,34 +1640,34 @@
    "verkaufsquote": 1.0,
    "kaeufer": 10000.0,
    "usdc_einnahmen_szenario": 145000.0,
-   "kaeufer_mit_zuteilung": 1786,
-   "kaeufer_ohne_zuteilung": 8213,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 10000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 342373,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
      "skelo_je_kaeufer": 145.0,
-     "kaeufer_max": 27,
-     "kaeufer_bedient": 27
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 72.5,
-     "kaeufer_max": 165,
-     "kaeufer_bedient": 165
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 38.67,
-     "kaeufer_max": 517,
-     "kaeufer_bedient": 517
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 4311
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 22.31,
-     "kaeufer_max": 1075,
-     "kaeufer_bedient": 1075
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 4781
     }
    ]
   },
@@ -2121,34 +1677,34 @@
    "verkaufsquote": 0.1,
    "kaeufer": 1000.0,
    "usdc_einnahmen_szenario": 29500.0,
-   "kaeufer_mit_zuteilung": 877,
-   "kaeufer_ohne_zuteilung": 122,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 1000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 112288,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 254
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 550
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 528
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
     }
    ]
   },
@@ -2158,34 +1714,34 @@
    "verkaufsquote": 0.25,
    "kaeufer": 2500.0,
    "usdc_einnahmen_szenario": 73750.0,
-   "kaeufer_mit_zuteilung": 877,
-   "kaeufer_ohne_zuteilung": 1622,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 2500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 230288,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 254
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 2050
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 528
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
     }
    ]
   },
@@ -2195,34 +1751,34 @@
    "verkaufsquote": 0.5,
    "kaeufer": 5000.0,
    "usdc_einnahmen_szenario": 147500.0,
-   "kaeufer_mit_zuteilung": 877,
-   "kaeufer_ohne_zuteilung": 4122,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 5000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 346039,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 254
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 2119
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 528
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 2431
     }
    ]
   },
@@ -2232,34 +1788,34 @@
    "verkaufsquote": 1.0,
    "kaeufer": 10000.0,
    "usdc_einnahmen_szenario": 295000.0,
-   "kaeufer_mit_zuteilung": 877,
-   "kaeufer_ohne_zuteilung": 9122,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 6849,
+   "kaeufer_ohne_zuteilung": 3150,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 295.0,
-     "kaeufer_max": 13,
-     "kaeufer_bedient": 13
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
      "skelo_je_kaeufer": 147.5,
-     "kaeufer_max": 81,
-     "kaeufer_bedient": 81
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 78.67,
-     "kaeufer_max": 254,
-     "kaeufer_bedient": 254
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 2119
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 45.38,
-     "kaeufer_max": 528,
-     "kaeufer_bedient": 528
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 4281
     }
    ]
   },
@@ -2269,34 +1825,34 @@
    "verkaufsquote": 0.1,
    "kaeufer": 1000.0,
    "usdc_einnahmen_szenario": 64500.0,
-   "kaeufer_mit_zuteilung": 401,
-   "kaeufer_ohne_zuteilung": 598,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 1000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 193528,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 724
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 241
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 0
     }
    ]
   },
@@ -2306,34 +1862,34 @@
    "verkaufsquote": 0.25,
    "kaeufer": 2500.0,
    "usdc_einnahmen_szenario": 161250.0,
-   "kaeufer_mit_zuteilung": 401,
-   "kaeufer_ohne_zuteilung": 2098,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 2500,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 360216,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 241
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 1254
     }
    ]
   },
@@ -2343,34 +1899,34 @@
    "verkaufsquote": 0.5,
    "kaeufer": 5000.0,
    "usdc_einnahmen_szenario": 322500.0,
-   "kaeufer_mit_zuteilung": 401,
-   "kaeufer_ohne_zuteilung": 4598,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 3203,
+   "kaeufer_ohne_zuteilung": 1796,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 241
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 1958
     }
    ]
   },
@@ -2380,34 +1936,478 @@
    "verkaufsquote": 1.0,
    "kaeufer": 10000.0,
    "usdc_einnahmen_szenario": 645000.0,
-   "kaeufer_mit_zuteilung": 401,
-   "kaeufer_ohne_zuteilung": 9598,
-   "skelo_verbraucht": 60000,
-   "kontingent_gesamt": 60000,
+   "kaeufer_mit_zuteilung": 3203,
+   "kaeufer_ohne_zuteilung": 6796,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
    "phasen": [
     {
      "phase": "p1",
-     "skelo_je_kaeufer": 645.0,
-     "kaeufer_max": 6,
-     "kaeufer_bedient": 6
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
     },
     {
      "phase": "p2",
-     "skelo_je_kaeufer": 322.5,
-     "kaeufer_max": 37,
-     "kaeufer_bedient": 37
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
     },
     {
      "phase": "p3",
      "skelo_je_kaeufer": 172.0,
-     "kaeufer_max": 116,
-     "kaeufer_bedient": 116
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
     },
     {
      "phase": "p4",
      "skelo_je_kaeufer": 99.23,
-     "kaeufer_max": 241,
-     "kaeufer_bedient": 241
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 1958
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 10,
+   "verkaufsquote": 0.1,
+   "kaeufer": 2000.0,
+   "usdc_einnahmen_szenario": 29000.0,
+   "kaeufer_mit_zuteilung": 2000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 111267,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 145.0,
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 72.5,
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 38.67,
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 1093
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 22.31,
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 10,
+   "verkaufsquote": 0.25,
+   "kaeufer": 5000.0,
+   "usdc_einnahmen_szenario": 72500.0,
+   "kaeufer_mit_zuteilung": 5000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 227267,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 145.0,
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 72.5,
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 38.67,
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 4093
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 22.31,
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 10,
+   "verkaufsquote": 0.5,
+   "kaeufer": 10000.0,
+   "usdc_einnahmen_szenario": 145000.0,
+   "kaeufer_mit_zuteilung": 10000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 342373,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 145.0,
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 72.5,
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 38.67,
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 4311
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 22.31,
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 4781
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 10,
+   "verkaufsquote": 1.0,
+   "kaeufer": 20000.0,
+   "usdc_einnahmen_szenario": 290000.0,
+   "kaeufer_mit_zuteilung": 13928,
+   "kaeufer_ohne_zuteilung": 6071,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 145.0,
+     "kaeufer_max": 44,
+     "kaeufer_bedient": 44
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 72.5,
+     "kaeufer_max": 862,
+     "kaeufer_bedient": 862
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 38.67,
+     "kaeufer_max": 4311,
+     "kaeufer_bedient": 4311
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 22.31,
+     "kaeufer_max": 8710,
+     "kaeufer_bedient": 8710
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 25,
+   "verkaufsquote": 0.1,
+   "kaeufer": 2000.0,
+   "usdc_einnahmen_szenario": 59000.0,
+   "kaeufer_mit_zuteilung": 2000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 190955,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 1550
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 0
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 25,
+   "verkaufsquote": 0.25,
+   "kaeufer": 5000.0,
+   "usdc_einnahmen_szenario": 147500.0,
+   "kaeufer_mit_zuteilung": 5000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 346039,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 2119
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 2431
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 25,
+   "verkaufsquote": 0.5,
+   "kaeufer": 10000.0,
+   "usdc_einnahmen_szenario": 295000.0,
+   "kaeufer_mit_zuteilung": 6849,
+   "kaeufer_ohne_zuteilung": 3150,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 2119
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 4281
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 25,
+   "verkaufsquote": 1.0,
+   "kaeufer": 20000.0,
+   "usdc_einnahmen_szenario": 590000.0,
+   "kaeufer_mit_zuteilung": 6849,
+   "kaeufer_ohne_zuteilung": 13150,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 147.5,
+     "kaeufer_max": 423,
+     "kaeufer_bedient": 423
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 78.67,
+     "kaeufer_max": 2119,
+     "kaeufer_bedient": 2119
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 45.38,
+     "kaeufer_max": 4281,
+     "kaeufer_bedient": 4281
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 60,
+   "verkaufsquote": 0.1,
+   "kaeufer": 2000.0,
+   "usdc_einnahmen_szenario": 129000.0,
+   "kaeufer_mit_zuteilung": 2000,
+   "kaeufer_ohne_zuteilung": 0,
+   "skelo_verbraucht": 310601,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 172.0,
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 99.23,
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 754
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 60,
+   "verkaufsquote": 0.25,
+   "kaeufer": 5000.0,
+   "usdc_einnahmen_szenario": 322500.0,
+   "kaeufer_mit_zuteilung": 3203,
+   "kaeufer_ohne_zuteilung": 1796,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 172.0,
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 99.23,
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 1958
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 60,
+   "verkaufsquote": 0.5,
+   "kaeufer": 10000.0,
+   "usdc_einnahmen_szenario": 645000.0,
+   "kaeufer_mit_zuteilung": 3203,
+   "kaeufer_ohne_zuteilung": 6796,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 172.0,
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 99.23,
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 1958
+    }
+   ]
+  },
+  {
+   "grundstuecke": 20000,
+   "preis_usdc": 60,
+   "verkaufsquote": 1.0,
+   "kaeufer": 20000.0,
+   "usdc_einnahmen_szenario": 1290000.0,
+   "kaeufer_mit_zuteilung": 3203,
+   "kaeufer_ohne_zuteilung": 16796,
+   "skelo_verbraucht": 430000,
+   "kontingent_gesamt": 430000,
+   "phasen": [
+    {
+     "phase": "p1",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 26,
+     "kaeufer_bedient": 26
+    },
+    {
+     "phase": "p2",
+     "skelo_je_kaeufer": 250,
+     "kaeufer_max": 250,
+     "kaeufer_bedient": 250
+    },
+    {
+     "phase": "p3",
+     "skelo_je_kaeufer": 172.0,
+     "kaeufer_max": 969,
+     "kaeufer_bedient": 969
+    },
+    {
+     "phase": "p4",
+     "skelo_je_kaeufer": 99.23,
+     "kaeufer_max": 1958,
+     "kaeufer_bedient": 1958
     }
    ]
   }

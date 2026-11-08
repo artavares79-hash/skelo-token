@@ -1,67 +1,71 @@
 {
- "modell": "Begrenzte Tranchen: 4 Phasen, 60.000 SKELO, Bonus fallend von 20 % auf 10 %",
+ "modell": "Vier feste Tranchen mit 20-%-Bonus-Start, degressiv bis 10 %, Gesamtdeckel 430.000 SKELO",
  "phases": [
   {
    "id": "p1",
-   "name": "Phase 1 Fruehkaeufer (Bestandsgrundstuecke)",
+   "target_buyers": 26,
+   "name": "Phase 1 - Early Founders",
    "price_micro_usdc": 20000,
-   "quota_skelo_whole": 4000,
+   "quota_skelo_whole": 6500,
    "bonus_bps": 2000,
    "vesting": {
     "tge_bps": 2000,
     "cliff_months": 3,
     "duration_months": 12
    },
-   "begruendung": "Referenzpreis 0,02 USDC. 4000 SKELO decken 400 USDC Kaufpreis, die 26 Bestandsgrundstuecke bringen maximal 374,8 USDC. Hoechster Bonus fuer fruehes Risiko, laengstes Vesting. Kein Geldwertversprechen."
+   "begruendung": "Ref. 0,02 USDC. Je Kaeufer 25 x 0,20 / 0,02 = 250 SKELO. 26 Kaeufer x 250 = 6.500 = Kontingent (Bestand: 26 Grundstuecke). Hoechster Bonus fuer das fruehe Risiko, laengstes Vesting. Kein Geldwert, kein Kursversprechen."
   },
   {
    "id": "p2",
-   "name": "Phase 2 Baugebiet-Tranche A",
+   "target_buyers": 500,
+   "name": "Phase 2 - Island Expansion",
    "price_micro_usdc": 30000,
-   "quota_skelo_whole": 12000,
+   "quota_skelo_whole": 62500,
    "bonus_bps": 1500,
    "vesting": {
     "tge_bps": 3000,
     "cliff_months": 2,
     "duration_months": 9
    },
-   "begruendung": "Referenzpreis 0,03 USDC. 12000 SKELO decken 2400 USDC Kaufpreis. Nur fuer freigegebene neue Baugebiete, fester Deckel. Bonus sinkt, Vesting wird kuerzer."
+   "begruendung": "Ref. 0,03 USDC. Je Kaeufer 25 x 0,15 / 0,03 = 125 SKELO. 500 x 125 = 62.500 = Kontingent. Deckt Baugebiete bis ca. 1.000 Grundstuecke bei rund 50 % Absatz. Nur fuer freigegebene Gebiete, fester Deckel, kein Nachschlag."
   },
   {
    "id": "p3",
-   "name": "Phase 3 Baugebiet-Tranche B",
+   "target_buyers": 2500,
+   "name": "Phase 3 - Community Growth",
    "price_micro_usdc": 45000,
-   "quota_skelo_whole": 20000,
+   "quota_skelo_whole": 166700,
    "bonus_bps": 1200,
    "vesting": {
     "tge_bps": 4000,
     "cliff_months": 1,
     "duration_months": 6
    },
-   "begruendung": "Referenzpreis 0,045 USDC. 20000 SKELO decken 7500 USDC Kaufpreis. Fester Deckel, kein Nachschlag bei Ausverkauf."
+   "begruendung": "Ref. 0,045 USDC. Je Kaeufer 25 x 0,12 / 0,045 = 66,67 SKELO. 2.500 x 66,67 = 166.666,7 <= 166.700. Entspricht 50 % Absatz bei 5.000 Grundstuecken. Fester Deckel; bei Ausverkauf gibt es keine Nachzuteilung."
   },
   {
    "id": "p4",
-   "name": "Phase 4 Abschluss-Tranche",
+   "target_buyers": 5000,
+   "name": "Phase 4 - Final Phase",
    "price_micro_usdc": 65000,
-   "quota_skelo_whole": 24000,
+   "quota_skelo_whole": 194300,
    "bonus_bps": 1000,
    "vesting": {
     "tge_bps": 5000,
     "cliff_months": 1,
     "duration_months": 6
    },
-   "begruendung": "Referenzpreis 0,065 USDC. 24000 SKELO decken 15600 USDC Kaufpreis. Letzte Tranche, danach keine Zuteilung mehr. Nur oeffnen, wenn echte Baugebiete freigegeben sind."
+   "begruendung": "Ref. 0,065 USDC. Je Kaeufer 25 x 0,10 / 0,065 = 38,46 SKELO. 5.000 x 38,46 = 192.307,7 <= 194.300. Entspricht 50 % Absatz bei 10.000 Grundstuecken. Letzte Tranche; danach keine Zuteilung, Rest geht an die Stadtkasse."
   }
  ],
- "max_skelo_per_wallet_whole": 1000,
+ "max_skelo_per_wallet_whole": 250,
  "liquidity": {
   "reserve_bps": 4000,
   "ops_bps": 4000,
   "tax_bps": 2000,
   "lp_skelo_whole": 10000
  },
- "end_bedingung": "Der Presale endet, wenn alle vier Tranchen ausverkauft sind oder der Betreiber/die Multisig ihn per Stichtag schliesst. Eine Tranche wird erst nach Ausverkauf oder Schliessung der Vorphase und mit Multisig-Freigabe geoeffnet. Nicht zugeteilte Mengen werden nie neu verteilt und bleiben gesperrt (keine Neupraegung, kein Burn). Ist eine Tranche ausverkauft, gibt es dafuer keinen Bonus mehr. Nur bestaetigte, echte USDC-Eingaenge zaehlen.",
+ "end_bedingung": "Jede Phase endet bei ausverkauftem Kontingent oder per Beschluss nach Ende der Baugebietsfreigabe. Nach endgueltigem Abschluss der Phase 4 gehen alle nicht zugeteilten SKELO der Phasen an die Stadtkasse. Es gibt keine Nachpraegung und keine Kontingenterhoehung.",
  "decided_by": "Skello (Buergermeister) auf Grundlage des Vorschlags von David, Modell claude-sonnet-5-5",
  "einheit_preis": "micro-USDC je 1 ganzem SKELO (1 USDC = 1000000)",
  "status": "VORGESCHLAGENES MODELL - kein Verkauf, keine Zuteilung, keine rechtliche Freigabe"

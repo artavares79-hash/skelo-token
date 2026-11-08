@@ -18,10 +18,10 @@
 | marketing | 500.000 | 5.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 | entwicklung | 1.500.000 | 15.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 | agenten_praemien | 800.000 | 8.0 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| reserve | 3.130.000 | 31.3 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| reserve | 2.760.000 | 27.6 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 | community_insel | 760.000 | 7.6 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 | dex_liquiditaet | 50.000 | 0.5 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
-| presale_kaeufer | 60.000 | 0.6 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
+| presale_kaeufer | 430.000 | 4.3 % | OFFEN: Adresse festlegen (Multisig empfohlen) |
 
 ## Fehlende Parameter und Rechte (blockieren ein echtes Deployment)
 - Adressen aller 9 Verteilungskonten (Betreiber; alle als Multisig)

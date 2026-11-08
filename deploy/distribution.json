@@ -1,6 +1,6 @@
 {
  "decided_by": "Skello (Buergermeister) auf Grundlage des Vorschlags von David, Modell claude-sonnet-5-5",
- "decided_at": 1794122953,
+ "decided_at": 1794125649,
  "total_supply_whole": 10000000,
  "allocations": [
   {
@@ -13,7 +13,7 @@
     "cliff_months": 6,
     "duration_months": 36
    },
-   "begruendung": "Unveraendert aus v1. Der Betreiber traegt das Betriebsrisiko. 6 Monate Cliff und 36 Monate lineares Vesting binden ihn langfristig und verhindern kurzfristige Verkaeufe."
+   "begruendung": "Unveraendert zu v1. Betreiberanteil linear gesperrt (Cliff 6 Monate, 36 Monate Laufzeit), damit Betreiber und Kaeufer gleichgerichtete Interessen haben. Mainnet-Halter ist eine vom Betreiber festgelegte Multisig."
   },
   {
    "id": "stadtkasse",
@@ -21,11 +21,9 @@
    "amount_whole": 2000000,
    "share_pct": 20.0,
    "vesting": {
-    "type": "linear",
-    "cliff_months": 3,
-    "duration_months": 24
+    "type": "none"
    },
-   "begruendung": "Unveraendert aus v1. Die Stadtkasse sichert den laufenden Betrieb. Gestaffelte Freigabe ueber 24 Monate schuetzt die Bewohner vor einem Verkaufsdruck der Kasse."
+   "begruendung": "Unveraendert. Die Stadtkasse bleibt Auffangbecken fuer unverteilte Presale-Kontingente und finanziert den Betrieb der Insel. Sie wird per Multisig verwaltet, Buchung nicht verteilter Mengen durch die Software."
   },
   {
    "id": "marketing",
@@ -34,10 +32,10 @@
    "share_pct": 5.0,
    "vesting": {
     "type": "linear",
-    "cliff_months": 0,
-    "duration_months": 12
+    "cliff_months": 3,
+    "duration_months": 24
    },
-   "begruendung": "Unveraendert aus v1. Marketing braucht frueh nutzbare Mittel. 12 Monate lineare Freigabe halten die Menge am Markt dosiert und planbar."
+   "begruendung": "Unveraendert. Marketingmittel werden gestreckt freigegeben, damit keine Kampagnenmenge frueh in den Markt gelangt und die Ausgaben an den tatsaechlichen Fortschritt der Insel gebunden bleiben."
   },
   {
    "id": "entwicklung",
@@ -47,9 +45,9 @@
    "vesting": {
     "type": "linear",
     "cliff_months": 6,
-    "duration_months": 24
+    "duration_months": 36
    },
-   "begruendung": "Unveraendert aus v1. Entwicklung wird ueber Cliff und Vesting an laufende Lieferung gebunden. Das schuetzt das Vertrauen der Bewohner in den Betrieb."
+   "begruendung": "Unveraendert. Entwicklung der Insel, Vertraege und Werkzeuge ist ein langfristiger Aufwand und wird deshalb ueber 36 Monate mit 6 Monaten Cliff freigegeben."
   },
   {
    "id": "agenten_praemien",
@@ -58,22 +56,22 @@
    "share_pct": 8.0,
    "vesting": {
     "type": "linear",
-    "cliff_months": 0,
+    "cliff_months": 3,
     "duration_months": 24
    },
-   "begruendung": "Unveraendert aus v1. Praemien fuer Agenten und Beitragende werden ueber 24 Monate gleichmaessig freigegeben. So bleibt der Anreiz dauerhaft und es entsteht kein Sofortverkauf."
+   "begruendung": "Unveraendert. Praemien fuer KI-Agenten laufen linear ueber 24 Monate, damit Leistung langfristig belohnt wird und kein Einmalabfluss entsteht."
   },
   {
    "id": "reserve",
    "name": "Langfristige Reserve",
-   "amount_whole": 3130000,
-   "share_pct": 31.3,
+   "amount_whole": 2760000,
+   "share_pct": 27.6,
    "vesting": {
     "type": "linear",
     "cliff_months": 12,
-    "duration_months": 36
+    "duration_months": 48
    },
-   "begruendung": "Reserve sinkt von 3.183.450 auf 3.130.000, weil 53.450 SKELO in die Presale-Tranchen gehen. 12 Monate Cliff und 36 Monate Vesting halten sie langfristig gebunden und begrenzen die Verwaesserung."
+   "begruendung": "Reduziert von 3.130.000 um 370.000, die in den Presale gehen. Die Reserve bleibt mit 27,6 % die zweitgroesste Kategorie, gesperrt mit 12 Monaten Cliff. Sie ist strikt getrennt von der USDC-Liquiditaet."
   },
   {
    "id": "community_insel",
@@ -81,11 +79,9 @@
    "amount_whole": 760000,
    "share_pct": 7.6,
    "vesting": {
-    "type": "linear",
-    "cliff_months": 0,
-    "duration_months": 12
+    "type": "none"
    },
-   "begruendung": "Unveraendert aus v1. Die Community-Menge kommt den Bewohnern der Insel direkt zugute. Die Freigabe ueber 12 Monate vermeidet einen Schock und stuetzt das Vertrauen."
+   "begruendung": "Unveraendert. Mittel fuer Community und Inselaktionen. Die Menge ist klar begrenzt und wird per Multisig nach offen dokumentierten Regeln ausgegeben."
   },
   {
    "id": "dex_liquiditaet",
@@ -93,23 +89,19 @@
    "amount_whole": 50000,
    "share_pct": 0.5,
    "vesting": {
-    "type": "linear",
-    "cliff_months": 0,
-    "duration_months": 1
+    "type": "none"
    },
-   "begruendung": "Unveraendert aus v1. Davon sind hoechstens 10.000 SKELO fuer einen Pool vorgesehen. Ein Pool entsteht nur durch bewusste Multisig-Handlung. Es gibt keine Kurs- oder Preiszusage."
+   "begruendung": "Unveraendert. 10.000 SKELO sind fuer einen moeglichen Pool vorgesehen, paarbar nur mit echten, bestaetigten USDC-Erloesen (reserve_bps). Ein Pool entsteht nur durch bewusste Multisig-Freigabe; es gibt keinen Kurs- oder Handelsanspruch."
   },
   {
    "id": "presale_kaeufer",
    "name": "Presale-Zuteilung an Grundstuecks- und Hauskaeufer",
-   "amount_whole": 60000,
-   "share_pct": 0.6,
+   "amount_whole": 430000,
+   "share_pct": 4.3,
    "vesting": {
-    "type": "linear",
-    "cliff_months": 0,
-    "duration_months": 1
+    "type": "none"
    },
-   "begruendung": "Summe der vier Phasenkontingente (4000+12000+20000+24000). Phasenvesting der Kaeufer wird bei der Zuteilung angewendet. Unverkaufte Mengen bleiben gesperrt und werden nie neu verteilt."
+   "begruendung": "Summe der vier Phasenkontingente (6.500 + 62.500 + 166.700 + 194.300 = 430.000) statt 60.000. Die 60.000 reichten nur fuer das Kleinszenario. Die Vesting-Regeln je Phase setzt ein Claim-Mechanismus um, nicht der Token."
   }
  ],
  "months_seconds": 2592000,
@@ -123,7 +115,7 @@
   {
    "id": "stadtkasse",
    "name": "Stadtkasse (SKELO STADTKASSE)",
-   "braucht": "Vesting-Instanz mit Multisig als Beguenstigtem (vom Betreiber festzulegen, NICHT erfunden)"
+   "braucht": "Multisig-Adresse als Halter (vom Betreiber festzulegen, NICHT erfunden)"
   },
   {
    "id": "marketing",
@@ -148,17 +140,17 @@
   {
    "id": "community_insel",
    "name": "Community und Inselwirtschaft",
-   "braucht": "Vesting-Instanz mit Multisig als Beguenstigtem (vom Betreiber festzulegen, NICHT erfunden)"
+   "braucht": "Multisig-Adresse als Halter (vom Betreiber festzulegen, NICHT erfunden)"
   },
   {
    "id": "dex_liquiditaet",
    "name": "DEX-Liquiditaet",
-   "braucht": "Vesting-Instanz mit Multisig als Beguenstigtem (vom Betreiber festzulegen, NICHT erfunden)"
+   "braucht": "Multisig-Adresse als Halter (vom Betreiber festzulegen, NICHT erfunden)"
   },
   {
    "id": "presale_kaeufer",
    "name": "Presale-Zuteilung an Grundstuecks- und Hauskaeufer",
-   "braucht": "Vesting-Instanz mit Multisig als Beguenstigtem (vom Betreiber festzulegen, NICHT erfunden)"
+   "braucht": "Multisig-Adresse als Halter (vom Betreiber festzulegen, NICHT erfunden)"
   }
  ]
 }
